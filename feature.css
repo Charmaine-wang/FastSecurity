@@ -30,6 +30,10 @@ body {
   font-size: 16px;
   }
 
+#mark {
+    color: #BEA683;
+  }
+
 .title {
   height: 200px;
   }
