@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 1000px;
+  width: 100%;
+  background-color: black;
+  margin: 0px;
+  }
+
+.big-image {
+  background-color: ghostwhite;
+  height: 350px;
+  width: 100%
+}
+
+.navigator {
+  height: 50px;
+  }
+
+.navigator li {
+  display: inline;
+  margin-left: 50px;
+  }
+
+.navigator a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  }
+
+.title {
+  height: 200px;
+  }
+
+.title h1 {
+  text-align: right;
+  font-weight: bold;
+  font-size: 48px;
+  color: #BEA683;
+  margin-top: 5px;
+}
+
+.follow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.follow button {
+  border: #BEA683 solid 1px;
+  height: 44px;
+  width: 168px;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  }
