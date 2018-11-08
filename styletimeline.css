@@ -62,60 +62,43 @@ p {
   display: flex;
 }
 
-.timeline ul li .right {
-  position: relative;
-  left: 50px;
-  /* width: 400px; */
-  padding: 15px;
-  display: flex;
-  flex-direction: column;
-  /* width: 120px; */
-  text-align: right;
-}
-
-.timeline ul li .right::before {
-  content: '';
-  position: absolute;
-  top: 20px;
-  width: 100px;
-  height: 1px;
-  background: #FFFFFF;
-  left: -50px;
-}
-
-.timeline ul li .left {
-  position: relative;
-  left: -200px;
-  /* width: 400px; */
-  padding: 15px;
-  display: flex;
-  flex-direction: column;
-  /* width: 120px; */
-  text-align: left;
-}
-
-.timeline ul li .left::before {
-  content: '';
-  position: absolute;
-  top: 20px;
-  width: 100px;
-  height: 1px;
-  background: #FFFFFF;
-  left: 100px;
-}
-
 .timeline ul li div {
   visibility: hidden;
   opacity: 0;
   transition: all .5s ease-in-out;
+  position: relative;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
 }
 
-.timeline ul li .left {
-  transform: translate3d(-200px,0,0);
+.timeline ul li div::before {
+  content: '';
+  position: absolute;
+  top: 20px;
+  width: 100px;
+  height: 1px;
+  background: #FFFFFF;
 }
 
 .timeline ul li .right {
+  left: 50px;
+  text-align: right;
   transform: translate3d(200px,0,0);
+}
+
+.timeline ul li .right::before {
+  left: -50px;
+}
+
+.timeline ul li .left {
+  left: -200px;
+  text-align: left;
+  transform: translate3d(-200px,0,0);
+}
+
+.timeline ul li .left::before {
+  left: 100px;
 }
 
 .timeline ul li.in-view div {
@@ -125,21 +108,21 @@ p {
 }
 
 @media screen and (max-width: 900px) {
-  .timeline ul li div {
+  /* .timeline ul li div {
     width: 250px;
   }
   .timeline ul li .left div {
     left: -289px;
-  }
+  } */
 }
 
 @media screen and (max-width: 600px) {
-  /* .timeline ul li {
-    margin-left: 20px;
-  } */
+  .timeline ul li .right {
+    left: 30px;
+  }
 
-  .timeline ul li div {
-    width: 120px;
+  .timeline ul li .right::before {
+    left: -30px;
   }
 
   .timeline ul li .left {
@@ -147,10 +130,6 @@ p {
   }
 
   .timeline ul li .left::before {
-    right: -60px;
-  }
-
-  .timeline ul li .left p {
-    transform: translate3d(0px,0,0);
+    left: 80px;
   }
 }
