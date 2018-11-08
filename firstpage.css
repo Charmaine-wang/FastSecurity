@@ -8,8 +8,10 @@ header {
   height: 180px;
 }
 
-.logo {
-  margin: 5px 0px 0px 5px;
+.saab {
+  width: 130px;
+  height: 30px;
+  margin: 20px;
 }
 
 body {
@@ -19,40 +21,46 @@ body {
   flex-direction: column;
   font-family: Helvetica;
   align-items: center;
-  background-image: url("https://images.pexels.com/photos/919073/pexels-photo-919073.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-  background-repeat: no-repeat;
-  background-position: right top;
-  background-attachment: fixed;
+  background-color: black;
+}
+
+.img-car {
+  width: 100%;
+  height: 300px;
+  background: url("https://images.pexels.com/photos/168938/pexels-photo-168938.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  -moz-box-shadow: inset 0 -20px 15px -5px #000000;
+  -webkit-box-shadow: inset 0 -20px 15px -5px #000000;
+  box-shadow: inset 0 -20px 15px -5px #000000;
 }
 
 .main-text {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-}
-
-img {
-  width: 130px;
-  height: 30px;
-  margin: 20px;
 }
 
 .text {
   display: flex;
   flex-direction: column;
-  height: 180px;
+  height: 160px;
   text-align: right;
-  margin: 20px;
+  margin-right: 20px;
+}
+
+.fade {
+  width: 100%;
+  height: 300px;
+  background-color: black;
+  z-index: 1;
 }
 
 h2 {
-  font-size: 32pt;
-  color: gray;
+  font-size: 42px;
+  color: #C3A57E;
 }
 
 h1 {
-  font-size: 40pt;
-  color: antiquewhite;
+  font-size: 58px;
+  color: white;
 }
 
 .content {
@@ -65,7 +73,7 @@ h1 {
 
 p {
   text-align: center;
-  color: antiquewhite
+  color: #C3A57E;
 }
 
 .button {
