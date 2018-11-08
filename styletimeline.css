@@ -6,22 +6,11 @@
   box-sizing: border-box;
 }
 
-@font-face {
-  font-family: "AktivGrotesk-Bold";
-  src: url(fonts/AktivGrotesk-Bold.otf);
-  font-family: "AktivGrotesk-Light";
-  src: url(fonts/AktivGrotesk-Light.otf);
-  font-family: "AktivGrotesk-Medium";
-  src: url(fonts/AktivGrotesk-Medium.otf);
-  font-family: "AktivGrotesk-Regular";
-  src: url(fonts/AktivGrotesk-Regular.otf);
-  font-family: 'IBM Plex Sans', sans-serif;
-}
+
 
 body {
-  /* font-family: "AktivGrotesk-Bold"; */
-  background: #000000;
-  color: #BEA683;
+  background: var(--bg-color);
+  color: var(--txt-color);
   overflow-x: hidden;
   padding-bottom: 50px;
   display: flex;
@@ -34,7 +23,7 @@ body {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .intro {
-  background: #000000;
+  background: var(--bg-color);
   padding: 100px 0;
   text-align: right;
 }
@@ -49,23 +38,35 @@ body {
 }
 
 h1 {
-  font-family: "AktivGrotesk-Bold";
+  font-family: "Bold";
   font-size: 44px;
+}
+
+button {
+  background-color: var(--bg-color);
+  color: var(--h1-color);
+  border: 1px solid var(--txt-color);
+  height: 44px;
+  width: 168px;
+  align-self: center;
+  margin-top: 100px;
+  font-family: "Regular";
+  font-size: 16px;
 }
 
 /* TIMELINE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 time {
-  color: #FFFFFF;
-  font-family: 'IBM Plex Sans';
+  color: var(--h1-color);
+  font-family: "IBM Plex Sans";
   font-size: 23px;
 }
 
 p {
-  color: #BEA683;
+  color: var(--txt-color);
   width: 120px;
-  font-family: "AktivGrotesk-Light";
+  font-family: "Light";
   font-size: 16px;
 }
 

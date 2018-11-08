@@ -1,0 +1,38 @@
+:root {
+   --bg-color: #000000;
+   --h1-color: #FFFFFF;
+   --txt-color: #BEA683;
+/* --padding: 2vh;
+  --text-header: 4vh;
+  --text-info: 2vh;
+  --text-box: 30vh;
+  --image-width: 100%; */
+}
+
+@font-face {
+  font-family: "Bold";
+  src: url(fonts/AktivGrotesk-Bold.otf);
+}
+
+@font-face {
+  font-family: "Light";
+  src: url(fonts/AktivGrotesk-Light.otf);
+}
+@font-face {
+  font-family: "Medium";
+  src: url(fonts/AktivGrotesk-Medium.otf);
+}
+
+@font-face {
+  font-family: "Regular";
+  src: url(fonts/AktivGrotesk-Regular.otf);
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+* {
+  margin:0;
+  padding:0;
+}
