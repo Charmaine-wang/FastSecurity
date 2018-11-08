@@ -6,8 +6,20 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "AktivGrotesk-Bold";
+  src: url(fonts/AktivGrotesk-Bold.otf);
+  font-family: "AktivGrotesk-Light";
+  src: url(fonts/AktivGrotesk-Light.otf);
+  font-family: "AktivGrotesk-Medium";
+  src: url(fonts/AktivGrotesk-Medium.otf);
+  font-family: "AktivGrotesk-Regular";
+  src: url(fonts/AktivGrotesk-Regular.otf);
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
 body {
-  font-family: "Helvetica", sans-serif;
+  /* font-family: "AktivGrotesk-Bold"; */
   background: #000000;
   color: #BEA683;
   overflow-x: hidden;
@@ -24,11 +36,12 @@ body {
 .intro {
   background: #000000;
   padding: 100px 0;
+  text-align: right;
 }
 
 .container {
   width: 90%;
-  max-width: 1200px;
+  /* max-width: 120px; */
   margin: 0 auto;
   text-align: right;
   justify-content: center;
@@ -36,7 +49,8 @@ body {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-family: "AktivGrotesk-Bold";
+  font-size: 44px;
 }
 
 /* TIMELINE
@@ -44,12 +58,15 @@ h1 {
 
 time {
   color: #FFFFFF;
-  font-weight: bold;
+  font-family: 'IBM Plex Sans';
+  font-size: 23px;
 }
 
 p {
   color: #BEA683;
   width: 120px;
+  font-family: "AktivGrotesk-Light";
+  font-size: 16px;
 }
 
 .timeline ul li {
@@ -75,7 +92,7 @@ p {
 .timeline ul li div::before {
   content: '';
   position: absolute;
-  top: 20px;
+  top: 30px;
   width: 100px;
   height: 1px;
   background: #FFFFFF;
