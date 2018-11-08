@@ -13,7 +13,8 @@ body {
 .big-image {
   background-color: ghostwhite;
   height: 300px;
-  /* width: 100% */
+  width: 100%
+  margin: 0px;
 }
 
 .navigator {
@@ -74,4 +75,10 @@ body {
   background-color: black;
   color: white;
   font-size: 16px;
+  }
+
+  @media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .big-image, .navigator, .title, .text {
+    width: 100%;
   }
