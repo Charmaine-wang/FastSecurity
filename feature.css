@@ -3,7 +3,7 @@
 }
 
 body {
-  height: 1000px;
+  height: 100vh;
   width: 100%;
   background-color: black;
   margin: 0px;
@@ -11,11 +11,12 @@ body {
 
 .big-image {
   background-color: ghostwhite;
-  height: 350px;
-  width: 100%
+  height: 300px;
+  /* width: 100% */
 }
 
 .navigator {
+  /* width: 90% */
   height: 50px;
   }
 
@@ -30,21 +31,33 @@ body {
   font-size: 16px;
   }
 
-#mark {
+  #mark {
     color: #BEA683;
   }
 
 .title {
-  height: 200px;
+  /* width: 90%; */
+  height: 180px;
   }
 
 .title h1 {
   text-align: right;
   font-weight: bold;
-  font-size: 48px;
+  font-size: 42px;
   color: #BEA683;
   margin-top: 5px;
 }
+
+.text {
+  color: #BEA683;
+  text-align: center;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 16px;
+  height: 200px;
+  line-height: 28px;
+
+  }
 
 .follow {
   display: flex;
