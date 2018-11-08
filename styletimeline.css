@@ -6,14 +6,23 @@
   box-sizing: border-box;
 }
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> c479c5ea166e51477e49e759899196505563d4cf
 body {
   font-family: "Helvetica", sans-serif;
   background: #000000;
   color: #BEA683;
   overflow-x: hidden;
   padding-bottom: 50px;
+<<<<<<< HEAD
+=======
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+>>>>>>> c479c5ea166e51477e49e759899196505563d4cf
 }
 
 
@@ -30,6 +39,10 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   text-align: right;
+<<<<<<< HEAD
+=======
+  justify-content: center;
+>>>>>>> c479c5ea166e51477e49e759899196505563d4cf
 
 }
 
@@ -47,6 +60,10 @@ time {
 
 p {
   color: #BEA683;
+<<<<<<< HEAD
+=======
+  width: 120px;
+>>>>>>> c479c5ea166e51477e49e759899196505563d4cf
 }
 
 .timeline ul li {
@@ -56,6 +73,7 @@ p {
   margin: 0 auto;
   padding-top: 50px;
   background: #FFFFFF;
+<<<<<<< HEAD
 }
 
 /* .timeline ul li::after {
@@ -76,6 +94,19 @@ p {
   width: 400px;
   padding: 15px;
   /* background: #F45B69; */
+=======
+  display: flex;
+}
+
+.timeline ul li div {
+  visibility: hidden;
+  opacity: 0;
+  transition: all .5s ease-in-out;
+  position: relative;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+>>>>>>> c479c5ea166e51477e49e759899196505563d4cf
 }
 
 .timeline ul li div::before {
@@ -87,6 +118,7 @@ p {
   background: #FFFFFF;
 }
 
+<<<<<<< HEAD
 
 .timeline ul li:nth-child(odd) div {
   left: 100px;
@@ -156,6 +188,26 @@ p {
   transform: translate3d(20px,0,0);
   /* width: 50px; */
   /* text-align: right; */
+=======
+.timeline ul li .right {
+  left: 50px;
+  text-align: right;
+  transform: translate3d(200px,0,0);
+}
+
+.timeline ul li .right::before {
+  left: -50px;
+}
+
+.timeline ul li .left {
+  left: -200px;
+  text-align: left;
+  transform: translate3d(-200px,0,0);
+}
+
+.timeline ul li .left::before {
+  left: 100px;
+>>>>>>> c479c5ea166e51477e49e759899196505563d4cf
 }
 
 .timeline ul li.in-view div {
@@ -165,6 +217,7 @@ p {
 }
 
 @media screen and (max-width: 900px) {
+<<<<<<< HEAD
   .timeline ul li div {
     width: 250px;
   }
@@ -200,4 +253,30 @@ p {
     border-width: 8px 16px 8px 0;
     border-color: transparent #F45B69 transparent transparent;
   } */
+=======
+  /* .timeline ul li div {
+    width: 250px;
+  }
+  .timeline ul li .left div {
+    left: -289px;
+  } */
+}
+
+@media screen and (max-width: 600px) {
+  .timeline ul li .right {
+    left: 30px;
+  }
+
+  .timeline ul li .right::before {
+    left: -30px;
+  }
+
+  .timeline ul li .left {
+    left: -180px;
+  }
+
+  .timeline ul li .left::before {
+    left: 80px;
+  }
+>>>>>>> c479c5ea166e51477e49e759899196505563d4cf
 }
