@@ -3,6 +3,18 @@
   margin: 0;
 }
 
+@font-face {
+  font-family: "AktivGrotesk-Bold";
+  src: url(fonts/AktivGrotesk-Bold.otf);
+  font-family: "AktivGrotesk-Light";
+  src: url(fonts/AktivGrotesk-Light.otf);
+  font-family: "AktivGrotesk-Medium";
+  src: url(fonts/AktivGrotesk-Medium.otf);
+  font-family: "AktivGrotesk-Regular";
+  src: url(fonts/AktivGrotesk-Regular.otf);
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
 header {
   width: 100%;
   height: 180px;
@@ -12,6 +24,7 @@ header {
   width: 130px;
   height: 30px;
   margin: 20px;
+  z-index: 1;
 }
 
 body {
@@ -19,18 +32,18 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
-  font-family: Helvetica;
   align-items: center;
   background-color: black;
 }
 
 .img-car {
   width: 100%;
-  height: 300px;
+  height: 380px;
   background: url("https://images.pexels.com/photos/168938/pexels-photo-168938.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-  -moz-box-shadow: inset 0 -20px 15px -5px #000000;
-  -webkit-box-shadow: inset 0 -20px 15px -5px #000000;
-  box-shadow: inset 0 -20px 15px -5px #000000;
+  opacity: 0.5;
+  -moz-box-shadow: inset 0 -30px 65px -5px #000000;
+  -webkit-box-shadow: inset 0 -30px 65px -5px #000000;
+  box-shadow: inset 0 -30px 65px -5px #000000;
 }
 
 .main-text {
@@ -41,24 +54,21 @@ body {
 .text {
   display: flex;
   flex-direction: column;
-  height: 160px;
+  height: 200px;
   text-align: right;
   margin-right: 20px;
 }
 
-.fade {
-  width: 100%;
-  height: 300px;
-  background-color: black;
-  z-index: 1;
-}
-
 h2 {
+  line-height: 0.8em;
+  font-family: "AktivGrotesk-Bold";
   font-size: 42px;
   color: #C3A57E;
 }
 
 h1 {
+  font-family: "AktivGrotesk-Bold";
+  line-height: 0.8em;
   font-size: 58px;
   color: white;
 }
@@ -72,7 +82,8 @@ h1 {
 }
 
 p {
-  text-align: center;
+  text-align: left;
+  font-size: 16px;
   color: #C3A57E;
 }
 
