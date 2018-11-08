@@ -18,7 +18,7 @@ body {
 
 .first {
   color: #BEA683;
-  line-height: 64px;
+  line-height: 40px;
   font-size: 35px;
   font-weight: bold;
   text-transform: uppercase;
@@ -29,8 +29,9 @@ body {
   color: #FFFFFF;
   font-size: 35px;
   font-weight: bold;
-  line-height: 60px;
+    line-height: 60px;
   }
+
 
 form {
   height: 300px;
