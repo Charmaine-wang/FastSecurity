@@ -6,8 +6,6 @@
   box-sizing: border-box;
 }
 
-
-
 body {
   font-family: "Helvetica", sans-serif;
   background: #000000;
@@ -72,10 +70,8 @@ p {
 
 .timeline ul li div {
   position: relative;
-  /* bottom: 0; */
   width: 400px;
   padding: 15px;
-  /* background: #F45B69; */
 }
 
 .timeline ul li div::before {
@@ -87,35 +83,22 @@ p {
   background: #FFFFFF;
 }
 
-
-.timeline ul li:nth-child(odd) div {
   left: 100px;
 }
 
-.timeline ul li:nth-child(odd) div::before {
   left: -100px;
-  /* border-width: 8px 16px 8px 0;
-  border-color: transparent #F45B69 transparent transparent; */
 }
 
-.timeline ul li:nth-child(even) div {
   left: -439px;
 }
 
-.timeline ul li:nth-child(even) div::before {
   right: -40px;
-  /* border-width: 8px 0 8px 16px;
-  border-color: transparent transparent transparent #F45B69; */
 }
 
 .timeline ul li::after {
   background: #fff;
   transition: background .5s ease-in-out;
 }
-
-/* .timeline ul li.in-view::after {
-  background: #F45B69;
-} */
 
 .timeline ul li div {
   visibility: hidden;
@@ -127,32 +110,26 @@ p {
   width: 90px;
 }
 
-.timeline ul li:nth-child(odd) div {
   transform: translate3d(200px,0,0);
 }
 
-.timeline ul li:nth-child(odd) div p {
   transform: translate3d(-80px,0,0);
   width: 120px;
   text-align: right;
 }
 
-.timeline ul li:nth-child(odd) div time {
   /* transform: translate3d(-100px,0,0); */
   /* width: 50px; */
   /* text-align: right; */
 }
 
-.timeline ul li:nth-child(even) div {
   transform: translate3d(-200px,0,0);
 }
 
-.timeline ul li:nth-child(even) div p {
   transform: translate3d(250px,0,0);
   width: 120px;
 }
 
-.timeline ul li:nth-child(even) div time {
   transform: translate3d(20px,0,0);
   /* width: 50px; */
   /* text-align: right; */
@@ -168,7 +145,6 @@ p {
   .timeline ul li div {
     width: 250px;
   }
-  .timeline ul li:nth-child(even) div {
     left: -289px;
   }
 }
@@ -182,22 +158,12 @@ p {
     width: 120px;
   }
 
-  .timeline ul li:nth-child(even) div {
     left: -180px;
   }
 
-  .timeline ul li:nth-child(even) div::before {
     right: -60px;
-    /* border-width: 8px 0 8px 16px;
-    border-color: transparent transparent transparent #F45B69; */
   }
 
-  .timeline ul li:nth-child(even) div p {
     transform: translate3d(0px,0,0);
   }
-  /* .timeline ul li:nth-child(even) div::after {
-    right: -15px;
-    border-width: 8px 16px 8px 0;
-    border-color: transparent #F45B69 transparent transparent;
-  } */
 }
