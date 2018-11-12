@@ -1,31 +1,31 @@
 * {
   box-sizing: border-box;
+  margin: 0px;
 }
 
 body {
-  height: 100vh;
   width: 100%;
+  height: 100%;
+  align-items: center;
   background-color: black;
-  margin: 0px;
-  font-family: Helvetica;
-  }
-
+}
 .big-image {
-  background-color: ghostwhite;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
   height: 300px;
   width: 100%
   margin: 0px;
-}
-
+  }
 .navigator {
   width: 100%
   height: 50px;
   }
 
 .navigator ul {
-  display: flex;
-  justify-content: space-around;
-}
+ display: flex;
+ justify-content: space-around;
+ }
 
 
 .navigator a {
@@ -34,13 +34,17 @@ body {
   font-size: 16px;
   }
 
-  #mark {
-    color: #BEA683;
+
+#mark {
+  color: #BEA683;
   }
 
 .title {
-  /* width: 90%; */
-  height: 180px;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   }
 
 .title h1 {
@@ -48,18 +52,17 @@ body {
   font-weight: bold;
   font-size: 42px;
   color: #BEA683;
-  margin-top: 5px;
-}
+  margin-top: 10px;
+ }
 
 .text {
   color: #BEA683;
   text-align: center;
-  margin-left: 15px;
-  margin-right: 15px;
+  /* margin-left: 15px;
+  margin-right: 15px; */
   font-size: 16px;
   height: 200px;
   line-height: 28px;
-
   }
 
 .follow {
@@ -77,8 +80,31 @@ body {
   font-size: 16px;
   }
 
-  @media only screen and (max-width:500px) {
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+ .big-image, .navigator, .text {
+  width: 100%;
+  }
+
+.title {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  }
+
+@media only screen and (max-width:500px) {
   /* For mobile phones: */
-  .big-image, .navigator, .title, .text {
-    width: 100%;
+  .big-image, .navigator, .text {
+  width: 100%;
+  }
+
+.title {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  align-items: flex-end;
   }
