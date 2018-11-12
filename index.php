@@ -1,36 +1,12 @@
 <?php
-<<<<<<< HEAD
 declare (strict_types = 1);
-
-// Setup variables
-$user_lang = $_GET['user_lang'];
-$lang_folder = 'languages';
-
-// Get language file contents
-$lang_file = file_get_contents($lang_folder . '/' . $user_lang.'.txt');
-
-// PARSE FILE CONTENT TO AN ARRAY
-$lang_row = explode(PHP_EOL, $lang_file);
-
-foreach ($lang_row as $value) {
-	$tmp_arr = explode('=', $value);
-	$current_lang[$tmp_arr[0]] = $tmp_arr[1];
-	unset($tmp_arr);
-}
-// END PARSE FILE CONTENT TO AN ARRAY
-
-
-echo $current_lang['firstPage'];
-?>
-<br><br><br>
-
-<a href="?user_lang=swedish">Svenska</a>
-<a href="?user_lang=english">Engelska</a>
-=======
-
 require __DIR__.'/header.php';
+require __DIR__.'/lang/lang.php';
+?>
 
- ?>
+<a class="lang-link" href="?user_lang=swe">Svenska</a>
+<a class="lang-link" href="?user_lang=eng">English</a>
+
  <header>
   <div class="img-car">
     <div>
@@ -50,12 +26,8 @@ require __DIR__.'/header.php';
   </div>
 
   <div class="content">
-    <p>We are on the go for the future as one of  the world’s most innovative companies.
-    </p>
-    <br>
-      <p>
-        Now we are proud to present our motorcycle for the future
-      </p>
+    <p><?php echo $languages[$lang]['content'];?> </p>
+
   </div>
 </section>
 
@@ -160,4 +132,3 @@ require __DIR__.'/header.php';
 
 require __DIR__.'/footer.php';
 ?>
->>>>>>> 5fcc95035f502bfe5fb559b6b3668b307d3580b4

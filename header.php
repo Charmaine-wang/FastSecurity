@@ -1,3 +1,9 @@
+<?php
+
+require __DIR__.'/lang/lang.php';
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 

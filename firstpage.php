@@ -1,14 +1,8 @@
 <?php
 declare(strict_types=1);
-require(__DIR__.'/lang/lang.php'); ?>
+require __DIR__.'/header.php';
+require __DIR__.'/lang/lang.php'; ?>
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="firstpage.css">
-  <title>Firstpage</title>
   <header>
     <div class="img-car">
       <div>
@@ -43,8 +37,6 @@ require(__DIR__.'/lang/lang.php'); ?>
     <button class="button" type="button" name="button">Follow fast security</button>
   </section>
 
-
-
-</body>
-
-</html>
+<?php
+  require __DIR__.'/footer.php';
+?>
