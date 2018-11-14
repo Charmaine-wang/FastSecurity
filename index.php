@@ -45,6 +45,10 @@ require __DIR__.'/lang/lang.php';
   </a>
 
 <section class="intro">
+  <div class="journey">
+    <p>Reserve My Fast Security</p>
+    <hr>
+  </div>
   <div class="container">
     <h2>Technological<br /> milestones</h2>
   </div>
@@ -109,7 +113,7 @@ require __DIR__.'/lang/lang.php';
     <li>
       <div class="left">
         <time>1985</time>
-        <p>In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.</p>
+        <p>Today we are starting a new chapter. <br>Fast Security is the future car.</p>
       </div>
     </li>
   </ul>

@@ -156,14 +156,43 @@ p {
   background: var(--bg-color);
   padding: 100px 0;
   text-align: right;
+  display: flex;
+  width: 120%;
+  justify-content: space-around;
+  flex-direction: row;
 }
 
-.container {
-  width: 90%;
-  /* max-width: 120px; */
-  margin: 0 auto;
+.container h2 {
   text-align: right;
-  justify-content: center;
+  font-family: "Bold";
+  font-size: 58px;
+  line-height: 48px;
+}
+
+.journey {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.journey p {
+  /* margin-bottom: 7px; */
+  font-family: "Light";
+  font-size: 14px;
+  line-height: 14px;
+  /* padding: 5px; */
+  color: var(--h1-color);
+}
+
+hr {
+  border: 0;
+  border-top: 7px solid var(--txt-color);
+  width: 40px;
+}
+
+p:hover + hr {
+  transition: .5s;
+  width: 150px;
 }
 
 button {
@@ -175,6 +204,7 @@ button {
   margin: 80px 0px 50px 0px;
   font-family: "Regular";
   font-size: 16px;
+  border-radius: 3px;
 }
 
 /* TIMELINE
@@ -184,13 +214,15 @@ time {
   color: var(--h1-color);
   font-family: "IBM Plex Sans";
   font-size: 23px;
+  position: absolute;
 }
 
 .timeline p {
   color: var(--txt-color);
-  width: 120px;
+  width: 30vw;
   font-family: "Light";
   font-size: 16px;
+  margin-top: 35px;
 }
 
 .timeline ul li {
@@ -232,6 +264,14 @@ time {
   left: -50px;
 }
 
+.timeline ul li .right time {
+  margin-left: 70px;
+}
+
+.timeline ul li .right p {
+  margin-left: -20px;
+}
+
 .timeline ul li .left {
   left: -200px;
   text-align: left;
@@ -240,6 +280,10 @@ time {
 
 .timeline ul li .left::before {
   left: 100px;
+}
+
+.timeline ul li .left p {
+  margin-left: -300px;
 }
 
 .timeline ul li.in-view div {
@@ -292,10 +336,6 @@ input {
   border: none;
 }
 
-/* .contact-button {
-  align-self: flex-start;
-  margin: 0px;
-} */
 
 @media screen and (max-width: 900px) {
   /* .timeline ul li div {
@@ -319,6 +359,11 @@ input {
 }
 
 @media screen and (max-width: 600px) {
+
+  .container h2 {
+    font-size: 44px;
+    line-height: 48px;
+  }
 
   .timeline ul li .right {
     left: 30px;
@@ -350,12 +395,7 @@ input {
     align-items: flex-end;
   }
 
-  body, .top-text, form, input {
-    align-items: flex-start;
-    /* width: 80%; */
-  }
-
-  /* button {
+   button {
     align-self: center;
-  } */
+  }
 }
