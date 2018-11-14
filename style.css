@@ -1,7 +1,7 @@
 body {
   background: var(--bg-color);
   color: var(--txt-color);
-  padding-bottom: 50px;
+  /* padding-bottom: 50px; */
   display: flex;
   height: 100%;
   width: 100%;
