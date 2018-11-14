@@ -1,3 +1,33 @@
+body {
+  background: var(--bg-color);
+  color: var(--txt-color);
+  padding-bottom: 50px;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* LANGUAGE BUTTONS */
+
+.language-links {
+  /* width: 100%; */
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: rgba(0, 0, 0, 0);
+}
+.language-links a {
+  color: var(--h1-color);
+  text-decoration: none;
+  font-family: "Medium";
+  margin: 0px 10px 0px 10px;
+}
+
+/*  FIRST PAGE STYLE */
+
 header {
   width: 100%;
   height: 180px;
@@ -6,23 +36,9 @@ header {
 .saab {
   width: 130px;
   height: 30px;
-  margin: 20px;
-  z-index: 1;
+  /* margin: 20px; */
+  /* z-index: 1; */
 }
-
-body {
-  background: var(--bg-color);
-  color: var(--txt-color);
-  overflow-x: hidden;
-  padding-bottom: 50px;
-  display: flex;
-  height: 100%;
-  width: 100vw;
-  flex-direction: column;
-  align-items: center;
-}
-
-/*  FIRST PAGE STYLE */
 
 .img-car {
   width: 100%;
@@ -34,9 +50,10 @@ body {
   box-shadow: inset 0 -30px 65px -5px #000000;
 }
 
-.main-text {
+section {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .text-header {
@@ -52,7 +69,7 @@ h1 {
   line-height: 0.8em;
   font-size: 58px;
   color: var(--h1-color);
-  /* text-align: right; */
+  text-align: right;
 }
 
 h2 {
@@ -60,22 +77,13 @@ h2 {
   font-family: "Bold";
   font-size: 44px;
   color: var(--txt-color);
-  /* text-align: right; */
+  text-align: right;
 }
 
-.content {
-  /* display: flex;
-  flex-direction: column;
-  align-items: center; */
-  margin: 20px;
-  height: 100px;
-}
-
-.content p {
-  color: var(--h1-color);
-  text-align: left;
+p {
+  color: var(--txt-color);
+  font-family: "Light";
   font-size: 16px;
-  width: 100%;
 }
 
 /* FEATURE PAGES STYLE */
@@ -115,7 +123,7 @@ h2 {
   width: 100%;
   height: 200px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
 }
 
@@ -140,14 +148,6 @@ h2 {
   width: 80%;
 }
 
-/* productfolder-page style */
-
-.folder {
-  width: 300px;
-  height: 300px;
-  background: white;
-  }
-
 /* INTRO SECTION TO TIMELINE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -163,7 +163,6 @@ h2 {
   margin: 0 auto;
   text-align: right;
   justify-content: center;
-
 }
 
 button {
@@ -172,7 +171,6 @@ button {
   border: 1px solid var(--txt-color);
   height: 44px;
   width: 168px;
-  align-self: center;
   margin: 80px 0px 50px 0px;
   font-family: "Regular";
   font-size: 16px;
@@ -187,7 +185,7 @@ time {
   font-size: 23px;
 }
 
-p {
+.timeline p {
   color: var(--txt-color);
   width: 120px;
   font-family: "Light";
@@ -293,10 +291,40 @@ input {
   border: none;
 }
 
-.contact-button {
+/* footer ----------------------------*/
+
+.footer {
+  height: 160px;
+  width: 100%;
+  background-color: #34322E;
+  }
+
+  hr {
+  color: gray;
+  border-style: inset;
+  border-width: 1px;
+  margin: 0.5em auto;
+  width: 80%;
+
+  }
+
+.footer ul {
+  display: flex;
+  justify-content: space-around;
+  heigt: auto;
+
+}
+
+.footer li {
+  list-style: none;
+  font: 24px;
+}
+
+
+/* .contact-button {
   align-self: flex-start;
   margin: 0px;
-}
+} */
 
 @media screen and (max-width: 900px) {
   /* .timeline ul li div {
