@@ -4,55 +4,45 @@ require __DIR__.'/header.php';
 require __DIR__.'/lang/lang.php';
 ?>
 
-<a class="lang-link" href="?user_lang=swe">Svenska</a>
-<a class="lang-link" href="?user_lang=eng">English</a>
-
  <header>
   <div class="img-car">
-    <div>
-      <a href="index.html">
-       <img class="saab" src="SAAB_fakelogo.png" alt="Logo">
-      </a>
+    <div class="language-links">
+      <img class="saab" src="SAAB_fakelogo.png" alt="Logo">
+      <a class="lang-link" href="?user_lang=swe">SWE</a>
+      <a class="lang-link" href="?user_lang=eng">EN</a>
     </div>
   </div>
  </header>
 
-<section class="main-text">
-
-  <div class="text-header">
+<section>
     <h2>1.0</h2>
-
     <h1>Fast<br>Security</h1>
-  </div>
-
-  <div class="content">
     <p><?php echo $languages[$lang]['content'];?> </p>
-
-  </div>
 </section>
 
-<a href="contact.php"><button type="button">Follow fast security</button></a>
+<a href="contact.php">
+  <button type="button">Follow fast security</button>
+</a>
 
 <section>
-
-<div class="big-image">
-  <img src="" alt="">
-</div>
-
-<div class="navigator">
-  <ul>
-    <li><a href="interior.php">Interior</a></li>
-    <li><a href="exterior.php">Exterior</a></li>
-    <li><a href="color.php">Color</a></li>
-  </ul>
-</div>
-
-<div class="citat">
-  <h1>Feeling special<br>with personalized<br>features</h1>
-</div>
-
+  <div class="big-image">
+    <img src="" alt="">
+  </div>
+  <div class="navigator">
+    <ul>
+      <li><a href="interior.php">Interior</a></li>
+      <li><a href="exterior.php">Exterior</a></li>
+      <li><a href="color.php">Color</a></li>
+    </ul>
+  </div>
+  <div class="citat">
+    <h1>Feeling special<br>with personalized<br>features</h1>
+  </div>
 </section>
-<a href="contact.php"><button type="button">Follow fast security</button></a>
+
+  <a href="contact.php">
+    <button type="button">Follow fast security</button>
+  </a>
 
 <section class="intro">
   <div class="container">
@@ -61,7 +51,6 @@ require __DIR__.'/lang/lang.php';
 </section>
 
 <section class="timeline">
-
   <ul>
     <li>
       <div class="right">
@@ -126,7 +115,9 @@ require __DIR__.'/lang/lang.php';
   </ul>
 </section>
 
-<a href="contact.php"><button type="button">Follow fast security</button></a>
+<a href="contact.php">
+  <button type="button">Follow fast security</button>
+</a>
 
 <?php
 
