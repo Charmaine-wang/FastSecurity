@@ -60,6 +60,11 @@ body {
   margin-right: 20px;
 }
 
+.lang-link {
+  text-decoration: none;
+  color: #C3A57E;
+}
+
 h2 {
   line-height: 0.8em;
   font-family: "AktivGrotesk-Bold";
