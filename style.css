@@ -219,7 +219,7 @@ button {
   border-radius: 3px;
 }
 
-/* TIMELINE
+/* TIMELINE STYLE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 time {
@@ -242,9 +242,8 @@ time {
   position: relative;
   width: 1px;
   margin: 0 auto;
-  padding-top: 50px;
   background: #FFFFFF;
-  display: flex;
+  /* display: flex; */
 }
 
 .timeline ul li div {
@@ -378,19 +377,32 @@ input {
   padding-top: 10px;
 }
 
-
-/* .contact-button {
-  align-self: flex-start;
-  margin: 0px;
-} */
-
 @media screen and (max-width: 900px) {
-  /* .timeline ul li div {
-    width: 250px;
+
+  .intro {
+    display: flex;
+    justify-content: flex-end;
   }
-  .timeline ul li .left div {
-    left: -289px;
-  } */
+
+  .container {
+    margin: 20px;
+  }
+
+  .journey {
+    display: none;
+  }
+
+  .timeline p {
+    width: 30vw;
+  }
+
+  .timeline ul li .left p {
+    margin-left: -50%;
+  }
+
+  .timeline ul li .right p {
+    margin-left: 0px;
+  }
 
   .big-image, .navigator, .text {
    width: 100%;
@@ -407,8 +419,8 @@ input {
 
 @media screen and (max-width: 600px) {
 
- .intro {
-   margin-right: 22%;
+ .journey {
+   display: none;
  }
 
   .container h2 {
@@ -428,16 +440,16 @@ input {
     left: -180px;
   }
 
+  .timeline ul li .left::before {
+    left: 80px;
+  }
+
   .timeline ul li .left p {
-    margin-left: 0px;
+    margin-left: 0%;
   }
 
   .timeline ul li .right p {
-    margin-left: 50px;
-  }
-
-  .timeline ul li .left::before {
-    left: 80px;
+    margin-left: 15px;
   }
 
   .big-image, .navigator, .text {

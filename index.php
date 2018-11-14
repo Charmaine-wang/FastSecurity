@@ -79,7 +79,6 @@ require __DIR__.'/header.php';
 </section>
 
 <section class="timeline">
-
   <ul>
     <li>
       <div class="right">
