@@ -1,53 +1,77 @@
 <?php
-declare (strict_types = 1);
-require __DIR__.'/header.php';
-require __DIR__.'/lang/lang.php';
-?>
 
+require __DIR__.'/header.php';
+
+ ?>
  <header>
   <div class="img-car">
-    <div class="language-links">
-      <img class="saab" src="SAAB_fakelogo.png" alt="Logo">
-      <a class="lang-link" href="?user_lang=swe">SWE</a>
-      <a class="lang-link" href="?user_lang=eng">EN</a>
+    <div>
+      <a href="index.html">
+       <img class="saab" src="SAAB_fakelogo.png" alt="Logo">
+      </a>
     </div>
   </div>
  </header>
 
-<section>
+<section class="main-text">
+
+  <div class="text-header">
     <h2>1.0</h2>
+
     <h1>Fast<br>Security</h1>
-    <p><?php echo $languages[$lang]['content'];?> </p>
+  </div>
+
+  <div class="content">
+    <p>We are on the go for the future as one of  the world’s most innovative companies.
+    </p>
+    <br>
+      <p>
+        Now we are proud to present our motorcycle for the future
+      </p>
+  </div>
 </section>
 
-<a href="contact.php">
-  <button type="button">Follow fast security</button>
-</a>
+<a href="contact.php"><button type="button">Follow fast security</button></a>
+
+
 
 <section>
-  <div class="big-image">
-    <img src="" alt="">
-  </div>
-  <div class="navigator">
-    <ul>
-      <li><a href="interior.php">Interior</a></li>
-      <li><a href="exterior.php">Exterior</a></li>
-      <li><a href="color.php">Color</a></li>
-    </ul>
-  </div>
-  <div class="citat">
-    <h1>Feeling special<br>with personalized<br>features</h1>
-  </div>
+
+<div class="big-image">
+  <img src="" alt="">
+</div>
+
+<div class="navigator">
+  <ul>
+    <li><a href="interior.php">Interior</a></li>
+    <li><a href="exterior.php">Exterior</a></li>
+    <li><a href="color.php">Color</a></li>
+  </ul>
+</div>
+
+<div class="citat">
+  <h1>Feeling special<br>with personalized<br>features</h1>
+</div>
+
 </section>
 
-  <a href="contact.php">
-    <button type="button">Follow fast security</button>
-  </a>
+<a href="contact.php"><button type="button">Follow fast security</button></a>
+<!-- productfolder -->
+<h1>Productfolder</h1>
+<div class="folder"> bild
+</div>
+<div>  <a href="/path/to/downloadfile.csv">
+<button class="download">
+<i class="fa fa-download"></i> Download
+</button>
+</a></div>
+<!-- end of productfolder -->
+
 
 <section class="intro">
   <div class="journey">
     <p>Reserve My Fast Security</p>
-    <hr>
+    <hr class="hr1">
   </div>
   <div class="container">
     <h2>Technological<br /> milestones</h2>
@@ -55,6 +79,7 @@ require __DIR__.'/lang/lang.php';
 </section>
 
 <section class="timeline">
+
   <ul>
     <li>
       <div class="right">
@@ -113,15 +138,13 @@ require __DIR__.'/lang/lang.php';
     <li>
       <div class="left">
         <time>1985</time>
-        <p>Today we are starting a new chapter. <br>Fast Security is the future car.</p>
+        <p>In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.</p>
       </div>
     </li>
   </ul>
 </section>
 
-<a href="contact.php">
-  <button type="button">Follow fast security</button>
-</a>
+<a href="contact.php"><button type="button">Follow fast security</button></a>
 
 <?php
 

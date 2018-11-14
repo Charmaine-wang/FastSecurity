@@ -1,8 +1,7 @@
-
 body {
   background: var(--bg-color);
   color: var(--txt-color);
-  padding-bottom: 50px;
+  /* padding-bottom: 50px; */
   display: flex;
   height: 100%;
   width: 100%;
@@ -186,22 +185,23 @@ p {
   color: var(--h1-color);
 }
 
-hr {
+.hr1 {
   border: 0;
   border-top: 7px solid var(--txt-color);
   width: 40px;
+  margin: 5px;
 }
 
 .journey:hover {
   cursor: pointer;
 }
 
-hr:hover {
+.hr1:hover {
   transition: .5s;
   width: 150px;
 }
 
-p:hover + hr {
+p:hover + .hr1 {
   cursor: pointer;
   transition: .5s;
   width: 150px;
@@ -348,6 +348,41 @@ input {
   border: none;
 }
 
+/* footer ----------------------------*/
+
+.footer {
+  height: 158px;
+  width: 100%;
+  background-color: #34322E;
+  }
+
+  hr {
+  color: #fffff;
+  border-style: inset;
+  border-width: 1px;
+  margin: 2em auto;
+  width: 85%;
+
+  }
+
+.footer ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer ul li {
+  list-style: none;
+  font-family: "Light";
+  font: 24px;
+  padding-top: 10px;
+}
+
+
+/* .contact-button {
+  align-self: flex-start;
+  margin: 0px;
+} */
 
 @media screen and (max-width: 900px) {
   /* .timeline ul li div {
