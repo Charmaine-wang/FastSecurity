@@ -157,7 +157,7 @@ p {
   padding: 100px 0;
   text-align: right;
   display: flex;
-  width: 120%;
+  width: 100%;
   justify-content: space-around;
   flex-direction: row;
 }
@@ -170,9 +170,11 @@ p {
 }
 
 .journey {
+  margin-right: 20%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 0px;
 }
 
 .journey p {
@@ -190,7 +192,17 @@ hr {
   width: 40px;
 }
 
+.journey:hover {
+  cursor: pointer;
+}
+
+hr:hover {
+  transition: .5s;
+  width: 150px;
+}
+
 p:hover + hr {
+  cursor: pointer;
   transition: .5s;
   width: 150px;
 }
@@ -219,7 +231,7 @@ time {
 
 .timeline p {
   color: var(--txt-color);
-  width: 30vw;
+  width: 20vw;
   font-family: "Light";
   font-size: 16px;
   margin-top: 35px;
@@ -283,7 +295,7 @@ time {
 }
 
 .timeline ul li .left p {
-  margin-left: -300px;
+  margin-left: -140px;
 }
 
 .timeline ul li.in-view div {
@@ -360,6 +372,10 @@ input {
 
 @media screen and (max-width: 600px) {
 
+ .intro {
+   margin-right: 22%;
+ }
+
   .container h2 {
     font-size: 44px;
     line-height: 48px;
@@ -375,6 +391,14 @@ input {
 
   .timeline ul li .left {
     left: -180px;
+  }
+
+  .timeline ul li .left p {
+    margin-left: 0px;
+  }
+
+  .timeline ul li .right p {
+    margin-left: 50px;
   }
 
   .timeline ul li .left::before {
