@@ -294,30 +294,31 @@ input {
 /* footer ----------------------------*/
 
 .footer {
-  height: 160px;
+  height: 158px;
   width: 100%;
   background-color: #34322E;
   }
 
   hr {
-  color: gray;
+  color: #fffff;
   border-style: inset;
   border-width: 1px;
-  margin: 0.5em auto;
-  width: 80%;
+  margin: 2em auto;
+  width: 85%;
 
   }
 
 .footer ul {
   display: flex;
   justify-content: space-around;
-  heigt: auto;
-
+  align-items: center;
 }
 
-.footer li {
+.footer ul li {
   list-style: none;
+  font-family: "Light";
   font: 24px;
+  padding-top: 10px;
 }
 
 
