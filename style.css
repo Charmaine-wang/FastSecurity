@@ -235,6 +235,7 @@ time {
   font-family: "Light";
   font-size: 16px;
   margin-top: 35px;
+  position: relative;
 }
 
 .timeline ul li {
@@ -266,35 +267,37 @@ time {
 }
 
 .timeline ul li .right {
-  left: 50px;
   text-align: right;
   transform: translate3d(200px,0,0);
 }
 
 .timeline ul li .right::before {
-  left: -50px;
+  left: 0px;
 }
 
 .timeline ul li .right time {
-  margin-left: 70px;
+  margin-left: 115px;
 }
 
-/* .timeline ul li .right p {
-  left: -20%;
-} */
+.timeline ul li .left time {
+  margin-left: -200px;
+}
 
 .timeline ul li .left {
-  left: -200px;
   text-align: left;
   transform: translate3d(-200px,0,0);
 }
 
 .timeline ul li .left::before {
-  left: 100px;
+  left: -100px;
 }
 
 .timeline ul li .left p {
-  margin-left: -140px;
+  margin-left: -25vw;
+}
+
+.timeline ul li .right p {
+  margin-left: 3vw;
 }
 
 .timeline ul li.in-view div {
@@ -469,16 +472,16 @@ input {
     display: none;
   }
 
-  .timeline p {
-    width: 30vw;
-  }
-
-  .timeline ul li .left p {
-    margin-left: -100px;
+  .timeline ul li .left::before {
+    left: -100px;
   }
 
   .timeline ul li .right p {
-    margin-left: 0px;
+    margin-left: 5vw;
+  }
+
+  .timeline ul li .left p {
+    margin-left: -30vw;
   }
 
   .big-image, .navigator, .text {
@@ -505,28 +508,29 @@ input {
     line-height: 48px;
   }
 
-  .timeline ul li .right {
-    left: 30px;
-  }
-
   .timeline ul li .right::before {
-    left: -30px;
-  }
-
-  .timeline ul li .left {
-    left: -180px;
+    left: 0px;
   }
 
   .timeline ul li .left::before {
-    left: 80px;
+    left: -100px;
   }
 
+  .timeline ul li .left time {
+    margin-left: -180px;
+  }
+
+
   .timeline ul li .left p {
-    margin-left: 0%;
+    margin-left: -180px;
+  }
+
+  .timeline ul li .right time {
+    margin-left: 95px;
   }
 
   .timeline ul li .right p {
-    margin-left: 15px;
+    margin-left: 60px;
   }
 
   .big-image, .navigator, .text {
