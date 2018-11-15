@@ -13,14 +13,10 @@ require __DIR__.'/header.php';
   <div class="contactsheet">
     <img class="saab-big" src="SAAB_fakelogo.png" alt="Logo">
     <img class="fs-logo" src="./images/FASTSECURITY_FS_LOGO.png" alt="Logo">
-    <p>To recieve more info about FastSecurity™<br />
-       and local event invites enter your info below</p>
     <form class="contact-form" action="" method="post">
-       <input class="name" type="name" name="name" id="name" placeholder="Full name">
-    	 <input type="email" name="email" id="email" placeholder="E-mail">
-     	 <button class="register-button" type="submit">Register now</button>
+     	 <button class="download-button" type="submit">Download your brochure here <i class="fas fa-download"></i></button>
     </form>
-    <hr class="hr-email">
+    <hr class="hr-download">
   </div>
 
 </section>

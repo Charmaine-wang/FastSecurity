@@ -337,15 +337,15 @@ form {
   height: 300px;
   display: flex;
   flex-direction: column;
-  margin: 0px 20px 0 20px;
+  margin: 0px 20px 0px 20px;
 }
 
 input {
   background-color: rgba(190, 166, 131, 0.52);
   color: var(--h1-color);
   height: 57px;
-  width: 280px;
-  margin-bottom: 20px;
+  width: 385px;
+  margin-bottom: 32px;
   border: none;
   border-radius: 3px;
 }
@@ -374,7 +374,7 @@ input {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 88px;
+  margin-top: 64px;
   z-index: 1;
 }
 
@@ -384,17 +384,18 @@ input {
   font-size: 18px;
   line-height: 21px;
   letter-spacing: -0.75px;
+  margin-bottom: 36px;
 }
 
 .saab-big {
-  margin-bottom: 64px;
+  margin-bottom: 70px;
   width: 281px;
   height: 64px;
 }
 
 .fs-logo {
-  width: 200px;
-  height: 100px;
+  width: 210px;
+  height: 105px;
   margin-bottom: 38px;
 }
 
@@ -417,14 +418,41 @@ input {
   align-self: center;
   height: 61px;
   width: 230px;
+  margin-top: 29px;
+  margin-bottom: 33px;
+}
+
+.hr-email {
+  width: 170px;
+  margin-top: -5px;
 }
 
 .contact-form {
-    height: 300px;
+    /* height: 300px; */
     display: flex;
     flex-direction: column;
     margin: 0px 20px 0 20px;
-    margin-top: 36px;
+}
+
+/* CONFIRMATION PAGE STYLE */
+.download-button {
+  color: var(--h1-color);
+  text-align: center;
+  font-family: "Regular";
+  font-size: 16px;
+  line-height: 19px;
+  background-color: rgba(190, 166, 131, 0.52);
+  border: none;
+  align-self: center;
+  height: 57px;
+  width: 385px;
+  margin-top: 34px;
+}
+
+
+.hr-download {
+  width: 170px;
+  margin-top: -180px;
 }
 
 /* footer ----------------------------*/
