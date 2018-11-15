@@ -397,7 +397,7 @@ input {
   }
 
   .timeline ul li .left p {
-    margin-left: -50%;
+    margin-left: -100px;
   }
 
   .timeline ul li .right p {
