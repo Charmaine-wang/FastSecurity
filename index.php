@@ -3,46 +3,77 @@ declare (strict_types = 1);
 require __DIR__.'/header.php';
 require __DIR__.'/lang/lang.php';
 ?>
-
  <header>
-  <div class="img-car">
-    <div class="language-links">
-      <img class="saab" src="SAAB_fakelogo.png" alt="Logo">
-      <a class="lang-link" href="?user_lang=swe">SWE</a>
-      <a class="lang-link" href="?user_lang=eng">EN</a>
-    </div>
-  </div>
+   <nav class="nav">
+     <div class="hamburger-icon">
+       <i class="fa fa-bars fa-4x" aria-hidden="true"></i>
+     </div>
+     <a class="lang-link" href="?user_lang=swe">Svenska</a>
+     <a class="lang-link" href="?user_lang=eng">English</a>
+     <div class="img-car">
+           <a href="index.html">
+            <img class="saab" src="SAAB_fakelogo.png" alt="Logo">
+           </a>
+       </div>
+
+     <ul class="nav-ist nav-ist__hidden">
+       <li class="nav-item">
+         <a href="#1" class="nav-link">HOME</a>
+       </li>
+       <li class="nav-item">
+         <a href="#2" class="nav-link">EXTERIOR</a>
+       </li>
+       <li class="nav-item">
+         <a href="#3" class="nav-link">INTERIOR</a>
+       </li>
+       <li class="nav-item">
+         <a href="#4" class="nav-link">PERFORMANCE</a>
+       </li>
+       <li class="nav-item">
+         <a href="#5" class="nav-link">ACCESSORIES</a>
+       </li>
+
+     </ul>
+
+   </nav>
+   <div class="img-firstpage">
+   </div>
+
  </header>
 
-<section>
+
+<section class="main-text">
+
+  <div class="text-header">
     <h2>1.0</h2>
+
     <h1>Fast<br>Security</h1>
+  </div>
+
+  <div class="content">
     <p><?php echo $languages[$lang]['content'];?> </p>
+
+  </div>
 </section>
 
-<a href="contact.php">
-  <button type="button">Follow fast security</button>
-</a>
+<a href="contact.php"><button type="button">Follow fast security</button></a>
 
 <section>
-  <div class="big-image">
-    <img src="" alt="">
-  </div>
-  <div class="navigator">
-    <ul>
-      <li><a href="interior.php">Interior</a></li>
-      <li><a href="exterior.php">Exterior</a></li>
-      <li><a href="color.php">Color</a></li>
-    </ul>
-  </div>
-  <div class="citat">
-    <h1>Feeling special<br>with personalized<br>features</h1>
-  </div>
-</section>
 
-  <a href="contact.php">
-    <button type="button">Follow fast security</button>
-  </a>
+<div class="navigator">
+  <ul>
+    <li><a href="interior.php">Interior</a></li>
+    <li><a href="exterior.php">Exterior</a></li>
+    <li><a href="color.php">Color</a></li>
+  </ul>
+</div>
+
+<div class="citat">
+  <h1>Feeling special<br>with personalized<br>features</h1>
+</div>
+
+</section>
+<a href="contact.php"><button type="button">Follow fast security</button></a>
 
 <section class="intro">
   <div class="container">
@@ -51,6 +82,7 @@ require __DIR__.'/lang/lang.php';
 </section>
 
 <section class="timeline">
+
   <ul>
     <li>
       <div class="right">
@@ -115,9 +147,7 @@ require __DIR__.'/lang/lang.php';
   </ul>
 </section>
 
-<a href="contact.php">
-  <button type="button">Follow fast security</button>
-</a>
+<a href="contact.php"><button type="button">Follow fast security</button></a>
 
 <?php
 
