@@ -1,21 +1,27 @@
 <?php
-declare (strict_types = 1);
+
 require __DIR__.'/header.php';
+
 require __DIR__.'/lang/lang.php';
 ?>
  <header>
+<div class="header-logo">
    <nav class="nav">
+
      <div class="hamburger-icon">
-       <i class="fa fa-bars fa-4x" aria-hidden="true"></i>
+  <!-- ICON -->
+       <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
      </div>
-     <a class="lang-link" href="?user_lang=swe">Svenska</a>
-     <a class="lang-link" href="?user_lang=eng">English</a>
+
      <div class="img-car">
-           <a href="index.html">
             <img class="saab" src="SAAB_fakelogo.png" alt="Logo">
            </a>
-       </div>
+     </div>
+</div>
+       <a class="lang-link" href="?user_lang=swe">Svenska</a>
+       <a class="lang-link" href="?user_lang=eng">English</a>
 
+<!-- NAVBAR -->
      <ul class="nav-ist nav-ist__hidden">
        <li class="nav-item">
          <a href="#1" class="nav-link">HOME</a>
@@ -36,13 +42,12 @@ require __DIR__.'/lang/lang.php';
      </ul>
 
    </nav>
-   <div class="img-firstpage">
-   </div>
 
  </header>
 
 
 <section class="main-text">
+  <div class="img-firstpage">
 
   <div class="text-header">
     <h2>1.0</h2>
@@ -52,18 +57,25 @@ require __DIR__.'/lang/lang.php';
 
   <div class="content">
     <p><?php echo $languages[$lang]['content'];?> </p>
-
+  </div>
   </div>
 </section>
 
 <a href="contact.php"><button type="button">Follow fast security</button></a>
 
+<!-- NEW PAGE -->
+
 <section>
 
+<div class="big-image">
+  <img src="" alt="">
+</div>
+
 <div class="navigator">
+
   <ul>
-    <li><a href="interior.php">Interior</a></li>
     <li><a href="exterior.php">Exterior</a></li>
+    <li><a href="interior.php">Interior</a></li>
     <li><a href="color.php">Color</a></li>
   </ul>
 </div>
@@ -73,16 +85,31 @@ require __DIR__.'/lang/lang.php';
 </div>
 
 </section>
+
 <a href="contact.php"><button type="button">Follow fast security</button></a>
 
+<!-- productfolder -->
+<h1>Productfolder</h1>
+<div class="folder"> bild
+</div>
+<div>  <a href="/path/to/downloadfile.csv">
+<button class="download">
+<i class="fa fa-download"></i> Download
+</button>
+</a></div>
+<!-- end of productfolder -->
+
 <section class="intro">
+  <div class="journey">
+    <p>Reserve My Fast Security</p>
+    <hr class="hr1">
+  </div>
   <div class="container">
     <h2>Technological<br /> milestones</h2>
   </div>
 </section>
 
 <section class="timeline">
-
   <ul>
     <li>
       <div class="right">
