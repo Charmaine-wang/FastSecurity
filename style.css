@@ -779,62 +779,6 @@ hr {
     align-items: flex-end;
   }
 
-  @media screen and (max-width: 600px) {
-    .timeline ul li .right {
-      left: 30px;
-    }
-
-    .journey {
-      display: none;
-    }
-
-    .container h2 {
-      font-size: 44px;
-      line-height: 48px;
-    }
-
-    .timeline ul li .right::before {
-      left: -30px;
-    }
-
-    .timeline ul li .left::before {
-      left: -100px;
-    }
-
-    .timeline ul li .left time {
-      margin-left: -180px;
-    }
-
-    .timeline ul li .left p {
-      margin-left: -180px;
-    }
-
-    .timeline ul li .right time {
-      margin-left: 75px;
-    }
-
-    .timeline ul li .right p {
-      margin-left: 20px;
-    }
-
-    .big-image, .navigator, .text {
-      width: 100%;
-      justify-content: center;
-    }
-
-    .title {
-      width: 100%;
-      height: 250px;
-      display: flex;
-      flex-direction: column;
-      text-align: right;
-      align-items: flex-end;
-    }
-
-    button {
-      align-self: center;
-    }
-  }
   .navigator {
     display: block;
     width: 100%;
