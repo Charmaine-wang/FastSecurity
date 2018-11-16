@@ -721,7 +721,7 @@ hr {
     }
 
     .timeline ul li .right::before {
-      left: 0px;
+      left: -30px;
     }
 
     .timeline ul li .left::before {
@@ -737,11 +737,11 @@ hr {
     }
 
     .timeline ul li .right time {
-      margin-left: 95px;
+      margin-left: 75px;
     }
 
     .timeline ul li .right p {
-      margin-left: 60px;
+      margin-left: 20px;
     }
 
     .big-image, .navigator, .text {
