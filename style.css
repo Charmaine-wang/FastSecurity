@@ -19,6 +19,7 @@ body {
   justify-content: flex-end;
   background-color: rgba(0, 0, 0, 0);
 }
+
 .language-links a {
   color: var(--h1-color);
   text-decoration: none;
