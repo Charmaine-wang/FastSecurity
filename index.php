@@ -38,7 +38,7 @@ require __DIR__.'/header.php';
 <section>
 
 <div class="big-image">
-  <img src="" alt="">
+  <img src=https://images.unsplash.com/photo-1470945780341-171b6da56841?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6a004d44e4190411ec76ee0d3fc24506&auto=format&fit=crop&w=1050&q=80 alt="">
 </div>
 
 <div class="navigator">
@@ -50,12 +50,16 @@ require __DIR__.'/header.php';
 </div>
 
 <div class="citat">
-  <h1>Feeling special<br>with personalized<br>features</h1>
+  <div class="journey">
+    <p>Reserve My Fast Security</p>
+    <hr class="hr1">
+  </div>
+    <h1>Feeling special<br>with personalized<br>features</h1>
 </div>
 
 </section>
 
-<a href="contact.php"><button type="button">Follow fast security</button></a>
+<a href="contact.php"><button type="button">Start your journey</button></a>
 <!-- productfolder -->
 <h1>Productfolder</h1>
 <div class="folder"> bild

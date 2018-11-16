@@ -89,48 +89,34 @@ p {
 /* FEATURE PAGES STYLE */
 
 .big-image {
-  display: flex;
-  flex-direction: column;
-  background-color: var(--h1-color);
-  height: 300px;
-  width: 100%;
-  margin: 0px;
-}
+  display: none;
+  }
 
 .navigator {
-  width: 100%;
-  height: 50px;
+  display: none;
 }
 
-.navigator ul {
- display: flex;
- justify-content: space-around;
- list-style: none;
-}
-
-.navigator a {
-  color: var(--h1-color);
-  text-decoration: none;
-  font-size: 16px;
-  font-family: "Light";
-}
 
 .mark {
   color: var(--txt-color);
 }
 
 .citat {
+  background-image: url("https://images.unsplash.com/photo-1470945780341-171b6da56841?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6a004d44e4190411ec76ee0d3fc24506&auto=format&fit=crop&w=1050&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
-  height: 200px;
+  height: 650px;
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
+  justify-content: space-between;
+  padding: 50px 30px 0px 30px;
+  }
+
 
 .citat h1 {
   text-align: right;
   font-weight: bold;
-  font-size: 42px;
+  font-size: 58px;
   color: var(--txt-color);
   margin: 10px 20px 0px 20px;
 }
@@ -578,4 +564,46 @@ input {
    button {
     align-self: center;
   }
-}
+  .navigator {
+    display: block;
+    width: 100%;
+    height: 50px;
+  }
+
+  .navigator ul {
+   display: flex;
+   justify-content: space-around;
+   list-style: none;
+  }
+
+  .navigator a {
+    color: var(--h1-color);
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Light";
+  }
+  .big-image {
+    display: flex;
+    background-color: var(--h1-color);
+    height: 250px;
+    width: 100%;
+    margin: 0px;
+  }
+
+  .citat {
+    background-image: none;
+    background-size: none;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: none;
+  }
+  .citat h1 {
+    text-align: right;
+    font-weight: bold;
+    font-size: 42px;
+    color: var(--txt-color);
+    margin: 10px 5px 0px 20px;
+  }
