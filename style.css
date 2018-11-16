@@ -489,12 +489,12 @@ input {
   align-self: center;
   height: 57px;
   width: 385px;
-  margin-top: 34px;
+  margin-top: -30px;
 }
 
 .hr-download {
   width: 170px;
-  margin-top: -180px;
+  margin-top: -240px;
 }
 
 /* footer ----------------------------*/
@@ -610,6 +610,23 @@ hr {
   margin-top: 36px;
 }
 
+.contactsheet .thank-you {
+  color: var(--txt-color);
+  font-family: "Bold";
+  font-size: 44px;
+  line-height: 48px;
+  text-align: center;
+}
+
+.contactsheet .learn-more {
+  font-family: "Regular";
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 1px;
+  margin-top: -20px;
+}
+
 /* footer ----------------------------*/
 .footer {
   height: 158px;
@@ -674,80 +691,6 @@ hr {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-  }
-
-  .leave-email {
-    justify-content: center;
-  }
-
-  .contactsheet {
-    display: flex;
-    width: 100%;
-    margin-top: -10px;
-    /* justify-content: flex-end; */
-  }
-
-  .contactsheet-background {
-    display: none;
-  }
-
-  .cross-button {
-    display: block;
-    align-self: flex-start;
-    margin: 20px 0px 20px 20px;
-    border: none;
-    width: 47px;
-    height: 47px;
-    color: var(--txt-color);
-  }
-
-  .saab-big {
-    display: none;
-  }
-
-  .fs-logo {
-    z-index: -1;
-    margin-top: 110px;
-    opacity: 0.5;
-  }
-
-  .contactsheet p {
-    display: block;
-    align-self: flex-start;
-    margin: -250px 0px 0px 20px;
-    letter-spacing: 1px;
-  }
-
-  .contactsheet h2 {
-    display: block;
-    align-self: flex-start;
-    text-align: left;
-    margin: 0px 40px -40px 20px;
-    width: 253px;
-    height: 192px;
-    font-size: 44px;
-    line-height: 48px;
-  }
-
-  .contactsheet input {
-    background-color: inherit;
-    border-radius: 3px;
-    border: 1px solid var(--txt-color);
-    width: 332px;
-    height: 43px;
-    margin: -10px 0px 28px 0px;
-  }
-
-  .register-button {
-    background-color: inherit;
-    border-radius: 3px;
-    border: 1px solid var(--txt-color);
-    height: 44px;
-    width: 168px;
-  }
-
-  .hr-email {
-    display: none;
   }
 }
 
@@ -825,6 +768,80 @@ hr {
     font-size: 16px;
     font-family: "Light";
   }
+
+  .leave-email {
+    justify-content: center;
+  }
+
+  .contactsheet {
+    display: flex;
+    width: 100%;
+    margin-top: -10px;
+  }
+
+  .contactsheet-background {
+    display: none;
+  }
+
+  .cross-button {
+    display: block;
+    align-self: flex-start;
+    margin: 20px 0px 20px 20px;
+    border: none;
+    width: 47px;
+    height: 47px;
+    color: var(--txt-color);
+  }
+
+  .saab-big {
+    display: none;
+  }
+
+  .fs-logo {
+    z-index: -1;
+    margin-top: 110px;
+    opacity: 0.5;
+  }
+
+  .contactsheet p {
+    display: block;
+    align-self: flex-start;
+    margin: -250px 0px 0px 20px;
+    letter-spacing: 1px;
+  }
+
+  .contactsheet h2 {
+    display: block;
+    align-self: flex-start;
+    text-align: left;
+    margin: 0px 40px -40px 20px;
+    width: 253px;
+    height: 192px;
+    font-size: 44px;
+    line-height: 48px;
+  }
+
+  .contactsheet input {
+    background-color: inherit;
+    border-radius: 3px;
+    border: 1px solid var(--txt-color);
+    width: 332px;
+    height: 43px;
+    margin: -10px 0px 28px 0px;
+  }
+
+  .register-button {
+    background-color: inherit;
+    border-radius: 3px;
+    border: 1px solid var(--txt-color);
+    height: 44px;
+    width: 168px;
+  }
+
+  .hr-email {
+    display: none;
+  }
+
   .big-image {
     display: flex;
     background-color: var(--h1-color);
@@ -850,3 +867,4 @@ hr {
     color: var(--txt-color);
     margin: 10px 5px 0px 20px;
   }
+}
