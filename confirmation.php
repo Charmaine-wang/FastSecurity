@@ -10,7 +10,7 @@ require __DIR__.'/header.php';
     <img src="./images/contactsheet-background.png" alt="">
   </div>
 
-  <div class="contactsheet">
+  <div class="confirmation">
     <img class="saab-big" src="SAAB_fakelogo.png" alt="Logo">
     <img class="fs-logo2" src="./images/FASTSECURITY_FS_LOGO.png" alt="Logo">
     <p class="thank-you">Thank you for<br>registrating!</p>
