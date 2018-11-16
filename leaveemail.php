@@ -11,6 +11,7 @@ require __DIR__.'/header.php';
   </div>
 
   <div class="contactsheet">
+    <h2>create your <br>special <br>adventures.</h2>
     <img class="saab-big" src="SAAB_fakelogo.png" alt="Logo">
     <img class="fs-logo" src="./images/FASTSECURITY_FS_LOGO.png" alt="Logo">
     <p>To recieve more info about FastSecurity™<br />

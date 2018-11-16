@@ -542,6 +542,10 @@ hr {
   letter-spacing: -0.75px;
 }
 
+.contactsheet h2 {
+  display: none;
+}
+
 .saab-big {
   margin-bottom: 64px;
   width: 281px;
@@ -647,6 +651,56 @@ hr {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+  }
+
+  .leave-email {
+    justify-content: center;
+  }
+
+  .contactsheet {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+  }
+
+  .contactsheet-background {
+    display: none;
+  }
+
+  .contactsheet img {
+    display: none;
+  }
+
+  .contactsheet p {
+    display: none;
+  }
+
+  .contactsheet h2 {
+    display: block;
+    align-self: flex-end;
+    margin: 0px 40px 20px 0px;
+  }
+
+  .contactsheet input {
+    /* margin-right: 10px; */
+    background-color: inherit;
+    border-radius: 3px;
+    border: 1px solid var(--txt-color);
+    width: 292px;
+    height: 43px;
+  }
+
+  .register-button {
+    background-color: inherit;
+    border-radius: 3px;
+    border: 1px solid var(--txt-color);
+    height: 44px;
+    width: 168px;
+    /* margin-right: 10px; */
+  }
+
+  .hr-email {
+    display: none;
   }
 }
 
