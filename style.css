@@ -193,8 +193,7 @@ p {
   width: 80%;
 }
 
-/* INTRO SECTION TO TIMELINE
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* INTRO SECTION TO TIMELINE */
 .intro {
   background: var(--bg-color);
   padding: 100px 0;
@@ -262,9 +261,9 @@ button {
   font-size: 16px;
   border-radius: 3px;
 }
+/* INTRO SECTION TO TIMELINE END*/
 
-/* TIMELINE STYLE
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* TIMELINE STYLE */
 time {
   color: var(--h1-color);
   font-family: "IBM Plex Sans";
@@ -348,6 +347,8 @@ time {
   visibility: visible;
   opacity: 1;
 }
+/* TIMELINE STYLE END*/
+
 
 /* CONTACT PAGE STYLE */
 .top-text {
@@ -390,6 +391,8 @@ input {
   border: none;
   border-radius: 3px;
 }
+/* CONTACT PAGE STYLE END */
+
 
 /* LEAVE EMAIL PAGE STYLE */
 .leave-email {
@@ -477,11 +480,12 @@ input {
 }
 
 .contact-form {
-  /* height: 300px; */
   display: flex;
   flex-direction: column;
   margin: 0px 20px 0 20px;
 }
+/* LEAVE EMAIL PAGE STYLE */
+
 
 /* CONFIRMATION PAGE STYLE */
 .confirmation {
@@ -515,8 +519,9 @@ input {
   color: var(--h1-color);
   text-align: center;
   font-family: "Regular";
-  font-size: 16px;
-  line-height: 19px;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: -0.75;
   background-color: rgba(190, 166, 131, 0.52);
   border: none;
   align-self: center;
@@ -535,8 +540,10 @@ input {
   width: 170px;
   margin-top: -165px;
 }
+/* CONFIRMATION PAGE STYLE END */
 
-/* footer ----------------------------*/
+
+/* FOOTER STYLE*/
 .footer {
   height: 158px;
   width: 100%;
@@ -563,6 +570,8 @@ hr {
   font: 24px;
   padding-top: 10px;
 }
+
+/* FOOTER END*/
 
 @media screen and (max-width: 900px) {
   .intro {
@@ -617,6 +626,7 @@ hr {
     line-height: 48px;
   }
 
+/* TIMELINE STYLE */
   .timeline p {
     width: 30vw;
   }
@@ -644,6 +654,7 @@ hr {
   .timeline ul li .right p {
     margin-left: 40px;
   }
+  /* TIMELINE STYLE END*/
 
   .big-image, .navigator, .text {
     width: 100%;
@@ -678,6 +689,7 @@ hr {
     font-family: "Light";
   }
 
+/* LEAVE EMAIL PAGE STYLE */
   .leave-email {
     justify-content: center;
   }
@@ -751,19 +763,24 @@ hr {
   .hr-email {
     display: none;
   }
+  /* LEAVE EMAIL PAGE STYLE END */
 
-  .contactsheet .thank-you {
+/* CONFIRMATION PAGE STYLE */
+  .confirmation .thank-you {
     align-self: center;
+    margin-top: -450px;
+    text-align: left;
   }
 
-  .contactsheet .learn-more {
+  .confirmation .learn-more {
     align-self: center;
-    margin-top: 20px;
+    text-align: left;
+    /* margin-top: 20px; */
   }
 
   .fs-logo2 {
     z-index: -1;
-    margin-top: 110px;
+    margin-top: 280px;
     opacity: 0.5;
   }
 
@@ -771,11 +788,18 @@ hr {
     width: 288px;
     height: 75px;
     border-radius: 3px;
+    margin-top: 150px;
+  }
+
+  .download-button i {
+    display: none;
   }
 
   .hr-download {
     display: none;
   }
+
+  /* CONFIRMATION PAGE STYLE END */
 
   .big-image {
     display: flex;
