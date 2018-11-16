@@ -565,6 +565,10 @@ hr {
   display: none;
 }
 
+.cross-button {
+  display: none;
+}
+
 .saab-big {
   margin-bottom: 64px;
   width: 281px;
@@ -679,34 +683,59 @@ hr {
   .contactsheet {
     display: flex;
     width: 100%;
-    justify-content: flex-end;
+    margin-top: -10px;
+    /* justify-content: flex-end; */
   }
 
   .contactsheet-background {
     display: none;
   }
 
-  .contactsheet img {
+  .cross-button {
+    display: block;
+    align-self: flex-start;
+    margin: 20px 0px 20px 20px;
+    border: none;
+    width: 47px;
+    height: 47px;
+    color: var(--txt-color);
+  }
+
+  .saab-big {
     display: none;
   }
 
+  .fs-logo {
+    z-index: -1;
+    margin-top: 110px;
+    opacity: 0.5;
+  }
+
   .contactsheet p {
-    display: none;
+    display: block;
+    align-self: flex-start;
+    margin: -250px 0px 0px 20px;
+    letter-spacing: 1px;
   }
 
   .contactsheet h2 {
     display: block;
-    align-self: flex-end;
-    margin: 0px 40px 20px 0px;
+    align-self: flex-start;
+    text-align: left;
+    margin: 0px 40px -40px 20px;
+    width: 253px;
+    height: 192px;
+    font-size: 44px;
+    line-height: 48px;
   }
 
   .contactsheet input {
-    /* margin-right: 10px; */
     background-color: inherit;
     border-radius: 3px;
     border: 1px solid var(--txt-color);
-    width: 292px;
+    width: 332px;
     height: 43px;
+    margin: -10px 0px 28px 0px;
   }
 
   .register-button {
@@ -715,7 +744,6 @@ hr {
     border: 1px solid var(--txt-color);
     height: 44px;
     width: 168px;
-    /* margin-right: 10px; */
   }
 
   .hr-email {
