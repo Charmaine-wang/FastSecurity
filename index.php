@@ -2,18 +2,52 @@
 
 require __DIR__.'/header.php';
 
- ?>
+require __DIR__.'/lang/lang.php';
+?>
  <header>
-  <div class="img-car">
-    <div>
-      <a href="index.html">
-       <img class="saab" src="SAAB_fakelogo.png" alt="Logo">
-      </a>
-    </div>
-  </div>
+<div class="header-logo">
+   <nav class="nav">
+
+     <div class="hamburger-icon">
+  <!-- ICON -->
+       <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+     </div>
+
+     <div class="img-car">
+            <img class="saab" src="SAAB_fakelogo.png" alt="Logo">
+           </a>
+     </div>
+</div>
+       <a class="lang-link" href="?user_lang=swe">Svenska</a>
+       <a class="lang-link" href="?user_lang=eng">English</a>
+
+<!-- NAVBAR -->
+     <ul class="nav-ist nav-ist__hidden">
+       <li class="nav-item">
+         <a href="#1" class="nav-link">HOME</a>
+       </li>
+       <li class="nav-item">
+         <a href="#2" class="nav-link">EXTERIOR</a>
+       </li>
+       <li class="nav-item">
+         <a href="#3" class="nav-link">INTERIOR</a>
+       </li>
+       <li class="nav-item">
+         <a href="#4" class="nav-link">PERFORMANCE</a>
+       </li>
+       <li class="nav-item">
+         <a href="#5" class="nav-link">ACCESSORIES</a>
+       </li>
+
+     </ul>
+
+   </nav>
+
  </header>
 
+
 <section class="main-text">
+  <div class="img-firstpage">
 
   <div class="text-header">
     <h2>1.0</h2>
@@ -22,16 +56,14 @@ require __DIR__.'/header.php';
   </div>
 
   <div class="content">
-    <p>We are on the go for the future as one of  the world’s most innovative companies.
-    </p>
-    <br>
-      <p>
-        Now we are proud to present our motorcycle for the future
-      </p>
+    <p><?php echo $languages[$lang]['content'];?> </p>
+  </div>
   </div>
 </section>
 
 <a href="contact.php"><button type="button">Follow fast security</button></a>
+
+<!-- NEW PAGE -->
 
 <section>
 
@@ -40,6 +72,7 @@ require __DIR__.'/header.php';
 </div>
 
 <div class="navigator">
+
   <ul>
     <li><a href="exterior.php">Exterior</a></li>
     <li><a href="interior.php">Interior</a></li>
