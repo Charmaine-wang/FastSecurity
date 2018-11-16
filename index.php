@@ -4,22 +4,23 @@ require __DIR__.'/header.php';
 
 require __DIR__.'/lang/lang.php';
 ?>
+<section class="img-firstpage">
  <header>
-<div class="header-logo">
-   <nav class="nav">
 
+   <nav class="nav">
+<div class="header-logo">
      <div class="hamburger-icon">
   <!-- ICON -->
        <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
      </div>
 
-     <div class="img-car">
-            <img class="saab" src="SAAB_fakelogo.png" alt="Logo">
-           </a>
-     </div>
+
+    <img class="saab" src="SAAB_fakelogo.png" alt="Logo">
+
+
 <div class="language-links">
-     <a class="lang-link" href="?user_lang=swe">Svenska</a>
-     <a class="lang-link" href="?user_lang=eng">English</a>
+     <a class="lang-link" href="?user_lang=swe">SWE</a>
+     <a class="lang-link" href="?user_lang=eng">EN</a>
 </div>
 </div>
 
@@ -52,19 +53,22 @@ require __DIR__.'/lang/lang.php';
 <section class="main-text">
   <div class="img-firstpage">
 
+<div class="firstpage">
   <div class="text-header">
-    <h2>1.0</h2>
+    <h1 class="firstpage-h2">1.0</h1>
 
-    <h1>Fast<br>Security</h1>
+    <h1 class="firstpage-h1">FAST<br>SECURITY</h1>
+      <p>On the go for the future experience</p>
   </div>
+  <a href="contact.php"><button type="button" class="firstpage-button">Start your journey here</button></a>
+</div>
+</div>
 
-  <div class="content">
-    <p><?php echo $languages[$lang]['content'];?> </p>
-  </div>
-  </div>
+
+</section>
 </section>
 
-<a href="contact.php"><button type="button">Follow fast security</button></a>
+
 
 <!-- NEW PAGE -->
 
