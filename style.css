@@ -22,34 +22,54 @@ body {
 /*  FIRST PAGE STYLE */
 header {
   display: flex;
+  width: 100%;
   flex-direction: row;
   background-color: rgba(0, 0, 0, 0);
+  margin-top: 20px;
+  z-index: 1;
+}
+
+.img-firstpage {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("bike.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
 .header-logo {
   display: flex;
   width: 100%;
   flex-direction: row;
-  align-content: space-between;
+  justify-content: space-between;
+}
+
+.hamburger-icon {
+  display: flex;
+  top: 20px;
+  margin-left: 10px;
+  z-index: 1;
 }
 
 .saab {
-  width: 130px;
-  height: 30px;
+  width: 90px;
+  height: 25px;
+}
+
+.language-links {
+  margin-right: 0px;
 }
 
 .language-links a {
   color: var(--h1-color);
   text-decoration: none;
   font-family: "Medium";
-  margin: 0px 10px 0px 10px;
+  font-size: 14px;
 }
 
 /* NAVBAR */
 .nav {
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
   height: 80px;
   width: 100%;
 }
@@ -66,13 +86,11 @@ header {
   transition: transform 200ms ease;
   display: flex;
   flex-direction: column;
-  height: 100vh;
-  width: 350px;
-  background-color: rgba(254, 252, 255, 0.5);
+  height: 100%;
+  width: 478px;
+  background-color: rgba(206, 202, 196, 0.45);
   position: absolute;
-  z-index: 10;
   padding: 10px;
-  top: 80px;
   left: 0px;
   align-items: center;
   justify-content: space-between;
@@ -80,8 +98,10 @@ header {
 }
 
 .nav-link {
-  color: black;
+  font-size: 28px;
+  line-height: 14px;
   text-decoration: none;
+  color: #FFFFFF;
 }
 
 .nav-link:hover {
@@ -112,10 +132,9 @@ section {
   padding: 0;
 }
 
-.img-firstpage {
+.firstpage {
   height: 100vh;
-  width: 100%;
-  background-image: url("Studiobild-Spegelsida.png");
+  margin: 220px 142px 0px 142px;
 }
 
 .text-header {
@@ -123,7 +142,39 @@ section {
   flex-direction: column;
   height: 200px;
   text-align: right;
-  margin-right: 20px;
+}
+
+.firstpage-h1 {
+  font-family: "Bold";
+  line-height: 95px;
+  font-size: 110px;
+  color: var(--h1-color);
+  text-align: right;
+}
+
+.firstpage-h2 {
+  line-height: 100px;
+  font-family: "Bold";
+  color: var(--txt-color);
+  text-align: right;
+  font-size: 100px;
+}
+
+.text-header p {
+  text-align: right;
+  margin: 20px;
+  color: white;
+}
+
+.firstpage-button {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: var(--h1-color);
+  border: 1px solid var(--txt-color);
+  height: 85px;
+  width: 474px;
+  font-family: "Regular";
+  font-size: 16px;
+  border-radius: 3px;
 }
 
 h1 {
@@ -151,7 +202,7 @@ p {
 /* FEATURE PAGES STYLE */
 .big-image {
   display: none;
-  }
+}
 
 .navigator {
   display: none;
@@ -170,7 +221,7 @@ p {
   display: flex;
   justify-content: space-between;
   padding: 50px 30px 0px 30px;
-  }
+}
 
 .citat h1 {
   text-align: right;
@@ -261,8 +312,8 @@ button {
   font-size: 16px;
   border-radius: 3px;
 }
-/* INTRO SECTION TO TIMELINE END*/
 
+/* INTRO SECTION TO TIMELINE END*/
 /* TIMELINE STYLE */
 time {
   color: var(--h1-color);
@@ -347,9 +398,8 @@ time {
   visibility: visible;
   opacity: 1;
 }
+
 /* TIMELINE STYLE END*/
-
-
 /* CONTACT PAGE STYLE */
 .top-text {
   width: 100%;
@@ -391,9 +441,8 @@ input {
   border: none;
   border-radius: 3px;
 }
+
 /* CONTACT PAGE STYLE END */
-
-
 /* LEAVE EMAIL PAGE STYLE */
 .leave-email {
   position: relative;
@@ -485,9 +534,8 @@ input {
   flex-direction: column;
   margin: 0px 20px 0 20px;
 }
+
 /* LEAVE EMAIL PAGE STYLE */
-
-
 /* CONFIRMATION PAGE STYLE */
 .confirmation {
   display: flex;
@@ -544,8 +592,6 @@ input {
 }
 
 /* CONFIRMATION PAGE STYLE END */
-
-
 /* FOOTER STYLE*/
 .footer {
   height: 158px;
@@ -575,7 +621,6 @@ hr {
 }
 
 /* FOOTER END*/
-
 @media screen and (max-width: 900px) {
   .intro {
     display: flex;
@@ -616,6 +661,106 @@ hr {
 }
 
 @media screen and (max-width: 600px) {
+  .img-firstpage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .firstpage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 280px 0 0 0;
+  }
+
+  .text-header {
+    margin-bottom: 35px;
+    width: 100%;
+  }
+
+  .text-header p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 1px;
+  }
+
+  .firstpage-h1 {
+    font-family: "Bold";
+    font-size: 58px;
+    line-height: 50px;
+    letter-spacing: -0.05px;
+  }
+
+  .firstpage-h2 {
+    font-size: 44px;
+    line-height: 44px;
+  }
+
+  .nav {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    width: 100%;
+  }
+
+  .nav-ist__hidden {
+    transform: translateX(-100%);
+  }
+
+  .nav-ist__visible {
+    transform: translateX(0);
+  }
+
+  .nav-ist {
+    transition: transform 200ms ease;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background-color: #CECAC4;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+  }
+
+  .firstpage-button {
+    width: 168px;
+    height: 44px;
+    font-size: 16px;
+    border-radius: 3px;
+    letter-spacing: -0.75px;
+  }
+
+  .nav-link {
+    font-size: 18px;
+    line-height: 14px;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    color: #34322E
+  }
+
+  .header-logo {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .saab {
+    width: 74px;
+    height: 17px;
+  }
+
+  .language-links a {
+    display: none;
+  }
+
   h1 {
     font-size: 44px;
   }
@@ -629,7 +774,7 @@ hr {
     line-height: 48px;
   }
 
-/* TIMELINE STYLE */
+  /* TIMELINE STYLE */
   .timeline p {
     width: 30vw;
   }
@@ -657,8 +802,8 @@ hr {
   .timeline ul li .right p {
     margin-left: 40px;
   }
-  /* TIMELINE STYLE END*/
 
+  /* TIMELINE STYLE END*/
   .big-image, .navigator, .text {
     width: 100%;
     justify-content: center;
@@ -680,9 +825,9 @@ hr {
   }
 
   .navigator ul {
-   display: flex;
-   justify-content: space-around;
-   list-style: none;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
   }
 
   .navigator a {
@@ -692,7 +837,7 @@ hr {
     font-family: "Light";
   }
 
-/* LEAVE EMAIL PAGE STYLE */
+  /* LEAVE EMAIL PAGE STYLE */
   .leave-email {
     justify-content: center;
   }
@@ -767,9 +912,9 @@ hr {
   .hr-email {
     display: none;
   }
-  /* LEAVE EMAIL PAGE STYLE END */
 
-/* CONFIRMATION PAGE STYLE */
+  /* LEAVE EMAIL PAGE STYLE END */
+  /* CONFIRMATION PAGE STYLE */
   .confirmation .thank-you {
     align-self: center;
     margin-top: -450px;
@@ -805,7 +950,6 @@ hr {
   }
 
   /* CONFIRMATION PAGE STYLE END */
-
   .big-image {
     display: flex;
     background-color: var(--h1-color);
@@ -824,6 +968,7 @@ hr {
     align-items: center;
     padding: none;
   }
+
   .citat h1 {
     text-align: right;
     font-weight: bold;
