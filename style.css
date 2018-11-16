@@ -383,7 +383,7 @@ form {
 }
 
 input {
-  background-color: rgba(190, 166, 131, 0.52);
+  background-color: rgba(190, 166, 131, 0.7);
   color: var(--h1-color);
   height: 57px;
   width: 385px;
@@ -465,7 +465,7 @@ input {
   font-family: "Regular";
   font-size: 16px;
   line-height: 19px;
-  background-color: rgba(190, 166, 131, 0.52);
+  background-color: rgba(190, 166, 131, 0.7);
   border: none;
   align-self: center;
   height: 61px;
@@ -476,7 +476,8 @@ input {
 
 .hr-email {
   width: 170px;
-  margin-top: -5px;
+  margin-top: 645px;
+  position: absolute;
 }
 
 .contact-form {
@@ -522,7 +523,7 @@ input {
   font-size: 18px;
   line-height: 21px;
   letter-spacing: -0.75;
-  background-color: rgba(190, 166, 131, 0.52);
+  background-color: rgba(190, 166, 131, 0.7);
   border: none;
   align-self: center;
   height: 57px;
@@ -531,15 +532,17 @@ input {
 }
 
 .fs-logo2 {
-  width: 200px;
-  height: 100px;
+  width: 210px;
+  height: 105px;
   margin-bottom: 38px;
 }
 
 .hr-download {
   width: 170px;
-  margin-top: -165px;
+  position: absolute;
+  margin-top: 590px;
 }
+
 /* CONFIRMATION PAGE STYLE END */
 
 
@@ -758,6 +761,7 @@ hr {
     height: 44px;
     width: 168px;
     margin-top: 70px;
+    /* position: relative; */
   }
 
   .hr-email {
@@ -789,6 +793,7 @@ hr {
     height: 75px;
     border-radius: 3px;
     margin-top: 150px;
+    background-color: rgba(190, 166, 131, 0.8);
   }
 
   .download-button i {
