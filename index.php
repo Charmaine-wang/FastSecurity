@@ -17,9 +17,12 @@ require __DIR__.'/lang/lang.php';
             <img class="saab" src="SAAB_fakelogo.png" alt="Logo">
            </a>
      </div>
+<div class="language-links">
+     <a class="lang-link" href="?user_lang=swe">Svenska</a>
+     <a class="lang-link" href="?user_lang=eng">English</a>
 </div>
-       <a class="lang-link" href="?user_lang=swe">Svenska</a>
-       <a class="lang-link" href="?user_lang=eng">English</a>
+</div>
+
 
 <!-- NAVBAR -->
      <ul class="nav-ist nav-ist__hidden">
