@@ -173,7 +173,6 @@ p {
   padding: 50px 30px 0px 30px;
   }
 
-
 .citat h1 {
   text-align: right;
   font-weight: bold;
@@ -194,7 +193,28 @@ p {
   text-align: center;
   width: 80%;
 }
+.feature-03 {
+  height: 600px;
+  display: flex;
 
+  }
+
+.feature-text {
+  height: 100px;
+  width: 40%;
+}
+.features-image {
+  background-color: var(--h1-color);
+  height: 250px;
+  width: 40%;
+
+  /* margin: 0px; */
+}
+
+
+.ext {
+
+}
 /* INTRO SECTION TO TIMELINE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .intro {
@@ -799,12 +819,16 @@ hr {
     font-size: 16px;
     font-family: "Light";
   }
-  .big-image {
+  .big-image, .features-image {
     display: flex;
     background-color: var(--h1-color);
     height: 250px;
     width: 100%;
     margin: 0px;
+  }
+/* feature-page */
+  .feature-02, .feature-03, .feature-04 {
+    display: none;
   }
 
   .citat {

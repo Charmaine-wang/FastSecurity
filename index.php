@@ -90,10 +90,45 @@ require __DIR__.'/lang/lang.php';
   </div>
     <h1>Feeling special<br>with personalized<br>features</h1>
 </div>
+</section>
+<a href="contact.php"><button type="button">Start your journey</button></a>
+  <div class="feature-02">
 
+  </div>
+  <div class="feature-03">
+    <div class="ext">
+        <div class="feature-text">
+          <h2>Exterior.</h2>
+          <p>The FastSecurity motorcycle gets you
+            132 miles worth of adventure on a
+            single charge. It’s carbon composite
+            body is both lightweight and aerodynamic,
+        in tandem with it’s high-end suspension
+        system - FastSecurity is speed and
+        comfort combined in excellence.</p>
+        </div>
+        <div class="features-image">
+          <img src="" alt="">
+        </div>
+    </div>
+    <div class="int">
+      <div class="features-image">
+        <img src="" alt="">
+      </div>
+        <div class="feature-text">
+          <h2>Interior.</h2>
+          <p>The high-end technology inside of the FastSecurity puts you in front of a
+             robust titanium steering system and on smooth alcantara seating. The integrated AR-glasses lets you experience the world in a new way -
+             all connected to your FastSecurity motorcycle..</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="feature-04">
+
+  </div>
 </section>
 
-<a href="contact.php"><button type="button">Start your journey</button></a>
 <!-- productfolder -->
 <h1>Productfolder</h1>
 <div class="folder"> bild
