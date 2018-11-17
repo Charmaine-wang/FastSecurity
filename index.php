@@ -94,14 +94,28 @@ require __DIR__.'/lang/lang.php';
   </div>
     <h1>Feeling special<br>with personalized<br>features</h1>
 </div>
+<a href="contact.php"><button type="button" class="button" id="features-button">Start your journey</button></a>
 </section>
-<a href="contact.php"><button type="button">Start your journey</button></a>
-  <div class="feature-02">
-
+<div class="feature-02">
+  <div class="journey">
+    <p>Reserve My Fast Security</p>
+    <hr class="hr1">
   </div>
+    <h1>exlusive accessories <br> from Wera Wang.</h1>
+  </div>
+  <div class="accessories">
+    bild
+  </div>
+
+<section class="intro">
+  <div class="journey">
+    <p>Reserve My Fast Security</p>
+    <hr class="hr1">
+  </div>
+</section>
   <div class="feature-03">
     <div class="ext">
-        <div class="feature-text">
+      <div class="features-text-ext">
           <h2>Exterior.</h2>
           <p>The FastSecurity motorcycle gets you
             132 miles worth of adventure on a
@@ -110,28 +124,32 @@ require __DIR__.'/lang/lang.php';
         in tandem with it’s high-end suspension
         system - FastSecurity is speed and
         comfort combined in excellence.</p>
-        </div>
-        <div class="features-image">
+      </div>
+    <div class="features-image-ext">
           <img src="" alt="">
-        </div>
     </div>
-    <div class="int">
-      <div class="features-image">
+  </div>
+  <div class="int">
+      <div class="features-image-int">
         <img src="" alt="">
       </div>
-        <div class="feature-text">
+
+        <div class="features-text-int">
           <h2>Interior.</h2>
           <p>The high-end technology inside of the FastSecurity puts you in front of a
              robust titanium steering system and on smooth alcantara seating. The integrated AR-glasses lets you experience the world in a new way -
              all connected to your FastSecurity motorcycle..</p>
         </div>
       </div>
-    </div>
-  </div>
-  <div class="feature-04">
+      </div>
 
-  </div>
-</section>
+  <div class="feature-04">
+      <div class="journey">
+        <p>Reserve My Fast Security</p>
+        <hr class="hr1">
+      </div>
+        <h1>choose your<br>own color.</h1>
+    </div>
 
 <!-- productfolder -->
 <h1>Productfolder</h1>
