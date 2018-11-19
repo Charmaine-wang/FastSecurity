@@ -10,7 +10,7 @@ require __DIR__.'/header.php';
   <div class="navigator">
     <ul>
       <li><a href="exterior.php">Exterior</a></li>
-      <li><a class="mark" id="mark" href="interior.php">Interior</a></li>
+      <li><a class="mark" href="interior.php">Interior</a></li>
       <li><a href="color.php">Color</a></li>
     </ul>
   </div>

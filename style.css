@@ -1026,7 +1026,7 @@ hr {
     display: none;
   }
 
-  .mark {
+  ul .mark {
     color: var(--txt-color);
   }
   .citat {
