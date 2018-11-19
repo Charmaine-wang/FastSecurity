@@ -98,6 +98,7 @@ header {
 }
 
 .nav-link {
+  font-family: "Light";
   font-size: 28px;
   line-height: 14px;
   text-decoration: none;
