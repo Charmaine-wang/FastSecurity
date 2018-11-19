@@ -4,7 +4,7 @@ require __DIR__.'/header.php';
 
 ?>
 
-  <div class="big-image">
+  <div class="features-image">
     <img src="" alt="">
   </div>
 
