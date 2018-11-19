@@ -23,7 +23,7 @@ require __DIR__.'/header.php';
     <form class="contact-form" action="" method="post">
        <input class="name" type="name" name="name" id="name" placeholder="Full name">
     	 <input type="email" name="email" id="email" placeholder="E-mail">
-     	 <button class="register-button" type="submit">Register now</button>
+     	 <a href="confirmation.php"><button class="register-button" type="button">Register now</button></a>
     </form>
     <hr class="hr-email">
   </div>
