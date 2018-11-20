@@ -211,12 +211,12 @@ p {
   width: 100%;
   height: 650px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 80px 30px 0px 30px;
 }
 
 .citat {
-  background-image: url("bike.jpg");
+  <<<<<<< HEAD background-image: url("bike.jpg");
 }
 
 .feature-04 {
@@ -224,11 +224,15 @@ p {
 }
 
 .citat h1, .feature-04 h1, .feature-02 h1 {
+  /* background: var(--bg-color); */
+  padding: 100px 0;
   text-align: right;
-  font-weight: bold;
-  font-size: 58px;
-  color: var(--txt-color);
-  margin: 10px 20px 0px 20px;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: space-around;
+  flex-direction: row;
+  background-image: url("bike.jpg");
 }
 
 .text {
@@ -257,6 +261,7 @@ p {
   width: 100%;
   height: 100vh;
   display: flex;
+  flex-direction: row;
   padding-top: 50px;
   padding-bottom: 100px;
   align-content: space-between;
@@ -280,8 +285,19 @@ p {
   background-color: white;
 }
 
+.features-image-ext, .features-image-int {
+  height: 300px;
+  width: 600px;
+  background-color: white;
+}
+
 .features-image-int {
   float: right;
+  margin-bottom: 50px;
+}
+
+.features-image-ext {
+  float: left;
 }
 
 .features-image-ext {
@@ -290,15 +306,44 @@ p {
 
 .features-text-ext, .features-text-int {
   height: 200px;
-  width: 300px;
+  width: 480px;
+  margin: auto;
+  line-height: 27px;
 }
 
-.features-text-ext {
-  text-align: justify;
+.features-text-ext h2 {
+  text-align: left;
 }
 
 .features-text-int {
-  text-align: justify;
+  text-align: right;
+}
+
+.notvisible {
+  display: none;
+}
+
+.int-ext-page {
+  /* background: var(--bg-color); */
+  padding: 100px 0px 0px 130px;
+  text-align: right;
+  display: flex;
+  width: 100%;
+  height: 10vh;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.feature-4 {
+  background: var(--bg-color);
+  padding: 100px 0;
+  text-align: right;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: space-around;
+  flex-direction: row;
+  background-image: url("bike.jpg");
 }
 
 #features-button {
@@ -374,6 +419,11 @@ button {
   font-family: "Regular";
   font-size: 16px;
   border-radius: 3px;
+  line-height: 19px;
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 /* INTRO SECTION TO TIMELINE END*/
@@ -489,10 +539,11 @@ time {
 }
 
 form {
-  height: 300px;
+  /* height: 300px; */
   display: flex;
   flex-direction: column;
-  margin: 0px 20px 0px 20px;
+  /* justify-content: space-between; */
+  /* margin: 0px 20px 0px 32px; */
 }
 
 input {
@@ -503,6 +554,10 @@ input {
   margin-bottom: 32px;
   border: none;
   border-radius: 3px;
+}
+
+.back-button {
+  display: none;
 }
 
 /* CONTACT PAGE STYLE END */
@@ -529,6 +584,7 @@ input {
 .contactsheet {
   display: flex;
   flex-direction: column;
+  /* justify-content: space-around; */
   align-items: center;
   margin-top: 64px;
   z-index: 1;
@@ -543,6 +599,12 @@ input {
   margin-bottom: 36px;
 }
 
+.contactsheet a {
+  margin-top: 30px;
+  /* justify-content: flex-end; */
+  /* align-self: center; */
+}
+
 .saab-big {
   margin-bottom: 64px;
   width: 281px;
@@ -550,10 +612,6 @@ input {
 }
 
 .contactsheet h2 {
-  display: none;
-}
-
-.cross-button {
   display: none;
 }
 
@@ -571,6 +629,15 @@ input {
   line-height: 19px;
 }
 
+input:focus::-webkit-input-placeholder {
+  color: var(--h1-color);
+  text-align: left;
+  font-family: "Regular";
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: -0.75px;
+}
+
 .register-button {
   color: var(--h1-color);
   text-align: center;
@@ -579,11 +646,13 @@ input {
   line-height: 19px;
   background-color: rgba(190, 166, 131, 0.7);
   border: none;
-  align-self: center;
+  /* align-self: center; */
   height: 61px;
   width: 230px;
-  margin-top: 29px;
-  margin-bottom: 33px;
+  margin: 0;
+  /* bottom: 29px; */
+  /* margin-top: 29px;
+  margin-bottom: 33px; */
 }
 
 .hr-email {
@@ -608,16 +677,16 @@ input {
   z-index: 1;
 }
 
-.confirmation .thank-you {
+.confirmation h2 {
   color: var(--txt-color);
   font-family: "Bold";
   font-size: 44px;
   line-height: 48px;
   text-align: center;
-  margin-top: 10px;
+  /* margin-top: 100px; */
 }
 
-.confirmation .learn-more {
+.confirmation p {
   font-family: "Regular";
   color: var(--h1-color);
   font-size: 16px;
@@ -902,27 +971,24 @@ hr {
 
   /* LEAVE EMAIL PAGE STYLE */
   .leave-email {
+    /* align-items: center; */
     justify-content: center;
   }
 
   .contactsheet {
     display: flex;
+    height: 100%;
     width: 100%;
-    margin-top: -10px;
+    margin-top: 40px;
+    /* margin-top: -100px; */
+  }
+
+  .contactsheet a {
+    margin-top: 70px;
   }
 
   .contactsheet-background {
     display: none;
-  }
-
-  .cross-button {
-    display: block;
-    align-self: flex-start;
-    margin: 20px 0px 20px 20px;
-    border: none;
-    width: 47px;
-    height: 47px;
-    color: var(--txt-color);
   }
 
   .saab-big {
@@ -968,7 +1034,7 @@ hr {
     border: 1px solid var(--txt-color);
     height: 44px;
     width: 168px;
-    margin-top: 70px;
+    /* margin-top: 20px; */
     /* position: relative; */
   }
 
@@ -976,23 +1042,42 @@ hr {
     display: none;
   }
 
+  .back-button {
+    display: block;
+    margin: 0px;
+    border: none;
+    letter-spacing: 1px;
+    /* font-size: 16px; */
+  }
+
   /* LEAVE EMAIL PAGE STYLE END */
   /* CONFIRMATION PAGE STYLE */
-  .confirmation .thank-you {
-    align-self: center;
-    margin-top: -450px;
+  .confirmation {
+    /* margin-top: 40px; */
+    /* display: flex;
+    align-items: center; */
+    /* justify-content: space-between ; */
+  }
+
+  .confirmation h2 {
+    /* align-self: center; */
+    margin-top: -350px;
     text-align: left;
   }
 
-  .confirmation .learn-more {
-    align-self: center;
+  .confirmation p {
+    /* align-self: center; */
     text-align: left;
-    /* margin-top: 20px; */
+    margin-top: 20px;
+  }
+
+  .confirmation a {
+    margin-top: 50px;
   }
 
   .fs-logo2 {
     z-index: -1;
-    margin-top: 280px;
+    margin-top: 150px;
     opacity: 0.5;
   }
 
@@ -1000,7 +1085,8 @@ hr {
     width: 288px;
     height: 75px;
     border-radius: 3px;
-    margin-top: 150px;
+    /* margin: 0; */
+    /* margin-top: 150px;   */
     background-color: rgba(190, 166, 131, 0.8);
   }
 
