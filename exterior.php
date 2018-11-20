@@ -4,13 +4,13 @@ require __DIR__.'/header.php';
 
 ?>
 
-  <div class="features-image">
+  <div class="big-image">
     <img src="" alt="">
   </div>
 
   <div class="navigator">
     <ul>
-      <li><a class="mark" id="mark" href="exterior.php">Exterior</a></li>
+      <li><a class="mark" href="exterior.php">Exterior</a></li>
       <li><a href="interior.php">Interior</a></li>
       <li><a href="color.php">Color</a></li>
     </ul>
