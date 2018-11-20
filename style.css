@@ -636,16 +636,16 @@ input:focus::-webkit-input-placeholder {
   z-index: 1;
 }
 
-.confirmation .thank-you {
+.confirmation h2 {
   color: var(--txt-color);
   font-family: "Bold";
   font-size: 44px;
   line-height: 48px;
   text-align: center;
-  margin-top: 10px;
+  /* margin-top: 100px; */
 }
 
-.confirmation .learn-more {
+.confirmation p {
   font-family: "Regular";
   color: var(--h1-color);
   font-size: 16px;
@@ -1011,21 +1011,33 @@ hr {
 
   /* LEAVE EMAIL PAGE STYLE END */
   /* CONFIRMATION PAGE STYLE */
-  .confirmation .thank-you {
-    align-self: center;
-    margin-top: -450px;
+
+  .confirmation {
+    /* margin-top: 40px; */
+    /* display: flex;
+    align-items: center; */
+    /* justify-content: space-between ; */
+  }
+
+  .confirmation h2 {
+    /* align-self: center; */
+    margin-top: -350px;
     text-align: left;
   }
 
-  .confirmation .learn-more {
-    align-self: center;
+  .confirmation p {
+    /* align-self: center; */
     text-align: left;
-    /* margin-top: 20px; */
+    margin-top: 20px;
+  }
+
+  .confirmation a {
+    margin-top: 50px;
   }
 
   .fs-logo2 {
     z-index: -1;
-    margin-top: 280px;
+    margin-top: 150px;
     opacity: 0.5;
   }
 
@@ -1033,7 +1045,8 @@ hr {
     width: 288px;
     height: 75px;
     border-radius: 3px;
-    margin-top: 150px;
+    /* margin: 0; */
+    /* margin-top: 150px;   */
     background-color: rgba(190, 166, 131, 0.8);
   }
 
