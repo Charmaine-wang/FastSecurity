@@ -291,12 +291,12 @@ background-color: white;
 
 .int-ext-page {
   /* background: var(--bg-color); */
-  padding: 100px 0px 0px 0px;
+  padding: 100px 0px 0px 130px;
   text-align: right;
   display: flex;
   width: 100%;
   height: 10vh;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-direction: row;
 
 }
