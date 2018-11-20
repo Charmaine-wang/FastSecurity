@@ -15,6 +15,12 @@ require __DIR__.'/lang/lang.php';
   <title>FastSecurity</title>
   <link rel="stylesheet" href="config.css">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="feature.css">
+  <link rel="stylesheet" href="firstpage.css">
+  <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="contactpages.css">
+  <link rel="stylesheet" href="timeline.css">
 
 
   <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:700" rel="stylesheet">
