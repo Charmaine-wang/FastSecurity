@@ -210,30 +210,6 @@ require __DIR__.'/lang/lang.php';
         <p>SAAB enters the future with the FastSecurity.</p>
       </div>
     </li>
-    <!-- <li>
-      <div class="right">
-        <time>1957</time>
-        <p>In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.</p>
-      </div>
-    </li>
-    <li>
-      <div class="left">
-        <time>1967</time>
-        <p>Aenean condimentum odio a bibendum rhoncus. Ut mauris felis, volutpat eget porta faucibus, euismod quis ante.</p>
-      </div>
-    </li>
-    <li>
-      <div class="right">
-        <time>1977</time>
-        <p>Vestibulum porttitor lorem sed pharetra dignissim. Nulla maximus, dui a tristique iaculis, quam dolor convallis enim, non dignissim ligula ipsum a turpis.</p>
-      </div>
-    </li>
-    <li>
-      <div class="left">
-        <time>1985</time>
-        <p>In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.</p>
-      </div>
-    </li> -->
   </ul>
 </section>
 
