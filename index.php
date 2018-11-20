@@ -86,17 +86,18 @@ require __DIR__.'/lang/lang.php';
     <li><a href="color.php">Color</a></li>
   </ul>
 </div>
-
-<div class="citat">
+<section class="citat">
   <div class="journey">
     <p>Reserve My Fast Security</p>
     <hr class="hr1">
   </div>
-    <h1>Feeling special<br>with personalized<br>features</h1>
-</div>
+  <div class="container">
+    <h2>Feeling special<br>with personalized<br>features and accessorie</h2>
+  </div>
+</section>
 <a href="contact.php"><button type="button" class="button" id="features-button">Start your journey</button></a>
 </section>
-<div class="feature-02">
+<!-- <div class="feature-02">
   <div class="journey">
     <p>Reserve My Fast Security</p>
     <hr class="hr1">
@@ -105,25 +106,22 @@ require __DIR__.'/lang/lang.php';
   </div>
   <div class="accessories">
     bild
-  </div>
+  </div> -->
 
-<section class="intro">
-  <div class="journey">
-    <p>Reserve My Fast Security</p>
-    <hr class="hr1">
-  </div>
-</section>
-  <div class="feature-03">
+  <section class="int-ext-page">
+    <div class="journey">
+      <p>Reserve My Fast Security</p>
+      <hr class="hr1">
+    </div>
+    <div class="container">
+      <h2 class="notvisible">not visible </h2>
+    </div>
+  </section>
+<div class="feature-03">
     <div class="ext">
       <div class="features-text-ext">
           <h2>Exterior.</h2>
-          <p>The FastSecurity motorcycle gets you
-            132 miles worth of adventure on a
-            single charge. It’s carbon composite
-            body is both lightweight and aerodynamic,
-        in tandem with it’s high-end suspension
-        system - FastSecurity is speed and
-        comfort combined in excellence.</p>
+          <p>The FastSecurity motorcycle gets you 132 miles worth of adventure on a single charge. It’s carbon composite body is both lightweight and aerodynamic, in tandem with it’s high-end suspension system - FastSecurity is speed andc comfort combined in excellence.</p>
       </div>
     <div class="features-image-ext">
           <img src="" alt="">
@@ -142,14 +140,16 @@ require __DIR__.'/lang/lang.php';
         </div>
       </div>
       </div>
+      <section class="feature-4">
+        <div class="journey">
+          <p>Reserve My Fast Security</p>
+          <hr class="hr1">
+        </div>
+        <div class="container">
+          <h2>choose your<br>own color.</h2>
+        </div>
+      </section>
 
-  <div class="feature-04">
-      <div class="journey">
-        <p>Reserve My Fast Security</p>
-        <hr class="hr1">
-      </div>
-        <h1>choose your<br>own color.</h1>
-    </div>
 
 <!-- productfolder -->
 <h1>Productfolder</h1>
