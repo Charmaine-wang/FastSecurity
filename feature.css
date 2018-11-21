@@ -108,7 +108,7 @@
   background-image: url("bike.jpg");
 }
 
-#features-button {
+.features-button {
   display: none;
 }
 
@@ -140,6 +140,7 @@
     flex-direction: column;
     width: 100vw;
     height: 100vh;
+    display: flex;
   }
 
   .big-image {
@@ -153,9 +154,10 @@
   .container {
     text-align: right;
     font-family: "Bold";
-    font-size: 58px;
+    font-size: 42px;
     line-height: 48px;
-  }
+    color: var(--txt-color);
+    }
 
   /* .features-button {
     justify-content: center;
@@ -164,28 +166,24 @@
     display: flex;
     background-image: none;
     background-size: none;
-    /* width: 100%;
-    height: 200px; */
-    justify-content: space-around;
-    padding: none;
-  }
+}
 
-  .citat h1 {
+  /* .citat h1 {
     text-align: right;
     font-weight: bold;
     font-size: 42px;
     color: var(--txt-color);
     margin: 10px 5px 0px 20px;
-  }
+  } */
 
-  .title {
+  /* .title {
     width: 100%;
     height: 250px;
     display: flex;
     flex-direction: column;
     text-align: right;
     align-items: flex-end;
-  }
+  } */
 
   .navigator {
     display: block;
@@ -216,8 +214,10 @@
     color: var(--txt-color);
   }
 
-  #features-button {
+
+  .features-button {
     display: flex;
+    margin: auto;
     background-color: var(--bg-color);
     color: var(--h1-color);
     border: 1px solid var(--txt-color);
@@ -226,5 +226,6 @@
     font-family: "Regular";
     font-size: 16px;
     border-radius: 3px;
+    letter-spacing: -0.75px;
   }
 }

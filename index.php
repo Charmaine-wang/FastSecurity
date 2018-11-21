@@ -100,8 +100,7 @@ require __DIR__.'/lang/lang.php';
     <h2>Feeling special with<br>personalized<br>features and accessories</h2>
   </div>
 </section>
-<a href="contact.php"><button type="button" class="features-button" id="features-button">Start your journey</button></a>
-
+<a href="contact.php"><button type="button" class="features-button">Start your journey</button></a>
 </section>
 <!-- <div class="feature-02">
   <div class="journey">
@@ -146,7 +145,7 @@ require __DIR__.'/lang/lang.php';
         </div>
       </div>
       </div>
-      <section class="feature-4">
+      <section class="feature-04">
         <div class="journey">
           <p>Reserve My Fast Security</p>
           <hr class="hr1">
