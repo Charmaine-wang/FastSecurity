@@ -4,8 +4,8 @@ require __DIR__.'/header.php';
 
 ?>
 
-  <div class="big-image">
-    <img src="" alt="">
+  <div class="color-image">
+    <!-- <img src="" alt=""> -->
   </div>
 
   <div class="navigator">
@@ -17,7 +17,7 @@ require __DIR__.'/header.php';
   </div>
 
   <div class="text">
-    <p>Choose your own</p>
+    <h2>Choose your own color</h2>
   </div>
 
   <div class="follow">

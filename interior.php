@@ -3,7 +3,7 @@
 require __DIR__.'/header.php';
 
 ?>
-  <div class="big-image">
+  <div class="interior-image">
     <img src="" alt="">
   </div>
 

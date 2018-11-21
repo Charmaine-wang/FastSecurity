@@ -75,12 +75,12 @@ require __DIR__.'/lang/lang.php';
 
 <!-- NEW PAGE -->
 
+<div class="big-image">
+  <!-- IMAGE -->
+  <!-- <img src=https://images.unsplash.com/photo-1470945780341-171b6da56841?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6a004d44e4190411ec76ee0d3fc24506&auto=format&fit=crop&w=1050&q=80 alt=""> -->
+</div>
 <section class="feature-section">
 
-<div class="big-image">
-<!-- IMAGE -->
-<!-- <img src=https://images.unsplash.com/photo-1470945780341-171b6da56841?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6a004d44e4190411ec76ee0d3fc24506&auto=format&fit=crop&w=1050&q=80 alt=""> -->
-</div>
 
 <div class="navigator">
 

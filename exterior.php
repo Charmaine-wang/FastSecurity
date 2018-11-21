@@ -4,8 +4,8 @@ require __DIR__.'/header.php';
 
 ?>
 
-  <div class="big-image">
-    <img src="" alt="">
+  <div class="exterior-image">
+    <!-- <img src="" alt=""> -->
   </div>
 
   <div class="navigator">
