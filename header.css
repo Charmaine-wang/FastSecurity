@@ -4,13 +4,14 @@ header {
   width: 100%;
   flex-direction: row;
   background-color: rgba(0, 0, 0, 0);
-  margin-top: 20px;
+  /* margin-top: 20px; */
   z-index: 1;
 }
 
 .img-firstpage {
   height: 100vh;
   width: 100vw;
+  margin-top: 20px;
   background-image: url("bike.jpg");
   background-position: center;
   background-size: cover;
@@ -59,8 +60,13 @@ header {
 
 .nav-ist__visible {
   transform: translateX(0);
+  margin-top: -20px;
 }
 
+/* .nav-item {
+  display: flex;
+  align-items: flex-start;
+} */
 .nav-ist {
   transition: transform 200ms ease;
   display: flex;
@@ -69,11 +75,23 @@ header {
   width: 478px;
   background-color: rgba(206, 202, 196, 0.45);
   position: absolute;
-  padding: 10px;
+  padding-left: 10px;
   left: 0px;
-  align-items: center;
-  justify-content: space-between;
+  align-items: left;
+  justify-content: space-around;
   list-style: none;
+}
+
+.nav-link-start {
+  display: flex;
+  font-family: "Medium";
+  font-size: 28px;
+  line-height: 14px;
+  text-decoration: none;
+  text-align: left;
+  letter-spacing: 0.5;
+  color: #FFFFFF;
+  margin: 0;
 }
 
 .nav-link {
@@ -81,11 +99,18 @@ header {
   font-size: 28px;
   line-height: 14px;
   text-decoration: none;
+  text-align: left;
+  letter-spacing: 0.5;
   color: #FFFFFF;
 }
 
 .nav-link:hover {
   opacity: 0.5;
+}
+
+.nav-hr {
+  height: 1px;
+  width: 414px;
 }
 
 /* LANGUAGE BUTTONS */

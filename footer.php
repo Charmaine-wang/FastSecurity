@@ -1,7 +1,7 @@
 
 
 <div class="footer">
-<hr>
+<hr class="footer-hr">
   <ul>
     <li>Copyright SAAB AB</li>
     <li>Legal Notice  <i class="far fa-share-square"></i></li>

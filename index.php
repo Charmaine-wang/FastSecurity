@@ -28,8 +28,10 @@ require __DIR__.'/lang/lang.php';
 <!-- NAVBAR -->
      <ul class="nav-ist nav-ist__hidden">
        <li class="nav-item">
-         <a href="#1" class="nav-link">HOME</a>
+         <a href="#1" class="nav-link-start">HOME</a>
+          <hr class="nav-hr">
        </li>
+
        <li class="nav-item">
          <a href="#2" class="nav-link">EXTERIOR</a>
        </li>
@@ -66,6 +68,7 @@ require __DIR__.'/lang/lang.php';
 
 
 </section>
+
 </section>
 
 
