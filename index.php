@@ -95,7 +95,7 @@ require __DIR__.'/lang/lang.php';
     <hr class="hr1">
   </div>
   <div class="container">
-    <h2>Feeling special<br>with personalized<br>features and accessorie</h2>
+    <h2>Feeling special with<br>personalized<br>features and accessories</h2>
   </div>
 </section>
 <a href="contact.php"><button type="button" class="button" id="features-button">Start your journey</button></a>
