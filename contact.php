@@ -17,8 +17,10 @@ require __DIR__.'/header.php';
     <p>To recieve more info about FastSecurity™<br />
        and local event invites enter your info below</p>
     <form class="contact-form" action="" method="post">
-       <input class="name" type="name" name="name" id="name" placeholder="Full name">
-    	 <input type="email" name="email" id="email" placeholder="E-mail">
+      <label for="name">Full name</label>
+      <input class="name" type="name" name="name" id="name" placeholder="Full name">
+      <label for="email">E-mail</label>
+    	<input type="email" name="email" id="email" placeholder="E-mail">
     </form>
     <a href="confirmation.php"><button class="register-button" type="button">Register now</button></a>
     <hr class="hr-email">

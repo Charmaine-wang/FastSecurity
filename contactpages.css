@@ -16,6 +16,19 @@ input {
   border-radius: 3px;
 }
 
+label {
+  /* display: none; */
+  font-family: "Regular";
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: -0.75px;
+  color: var(--h1-color);
+}
+
+/* input label:focus {
+  display: block;
+} */
+
 .back-button {
   display: none;
 }
@@ -90,12 +103,12 @@ input {
 }
 
 input:focus::-webkit-input-placeholder {
-  color: var(--h1-color);
+  /* color: rgba(255, 255, 255, 0);
   text-align: left;
   font-family: "Regular";
   font-size: 14px;
   line-height: 14px;
-  letter-spacing: -0.75px;
+  letter-spacing: -0.75px; */
 }
 
 .register-button {
