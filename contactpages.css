@@ -1,9 +1,7 @@
 form {
-  /* height: 300px; */
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
-  /* margin: 0px 20px 0px 32px; */
+  position: relative;
 }
 
 input {
@@ -15,19 +13,6 @@ input {
   border: none;
   border-radius: 3px;
 }
-
-label {
-  /* display: none; */
-  font-family: "Regular";
-  font-size: 14px;
-  line-height: 14px;
-  letter-spacing: -0.75px;
-  color: var(--h1-color);
-}
-
-/* input label:focus {
-  display: block;
-} */
 
 .back-button {
   display: none;
@@ -57,7 +42,6 @@ label {
 .contactsheet {
   display: flex;
   flex-direction: column;
-  /* justify-content: space-around; */
   align-items: center;
   margin-top: 64px;
   z-index: 1;
@@ -74,8 +58,6 @@ label {
 
 .contactsheet a {
   margin-top: 30px;
-  /* justify-content: flex-end; */
-  /* align-self: center; */
 }
 
 .saab-big {
@@ -102,15 +84,6 @@ label {
   line-height: 19px;
 }
 
-input:focus::-webkit-input-placeholder {
-  /* color: rgba(255, 255, 255, 0);
-  text-align: left;
-  font-family: "Regular";
-  font-size: 14px;
-  line-height: 14px;
-  letter-spacing: -0.75px; */
-}
-
 .register-button {
   color: var(--h1-color);
   text-align: center;
@@ -119,13 +92,9 @@ input:focus::-webkit-input-placeholder {
   line-height: 19px;
   background-color: rgba(190, 166, 131, 0.7);
   border: none;
-  /* align-self: center; */
   height: 61px;
   width: 230px;
   margin: 0;
-  /* bottom: 29px; */
-  /* margin-top: 29px;
-  margin-bottom: 33px; */
 }
 
 .hr-email {
@@ -156,7 +125,6 @@ input:focus::-webkit-input-placeholder {
   font-size: 44px;
   line-height: 48px;
   text-align: center;
-  /* margin-top: 100px; */
 }
 
 .confirmation p {
@@ -198,135 +166,120 @@ input:focus::-webkit-input-placeholder {
 
 /* CONFIRMATION PAGE STYLE END */
 
-  @media screen and (max-width: 600px) {
-    /* LEAVE EMAIL PAGE STYLE */
-    .leave-email {
-      /* align-items: center; */
-      justify-content: center;
-    }
-
-    .contactsheet {
-      display: flex;
-      height: 100%;
-      width: 100%;
-      margin-top: 40px;
-      /* margin-top: -100px; */
-    }
-
-    .contactsheet a {
-      margin-top: 70px;
-    }
-
-    .contactsheet-background {
-      display: none;
-    }
-
-    .saab-big {
-      display: none;
-    }
-
-    .fs-logo {
-      z-index: -1;
-      margin-top: 120px;
-      opacity: 0.5;
-    }
-
-    .contactsheet p {
-      display: block;
-      align-self: flex-start;
-      margin: -270px 0px 0px 20px;
-      letter-spacing: 1px;
-    }
-
-    .contactsheet h2 {
-      display: block;
-      align-self: flex-start;
-      text-align: left;
-      margin: 0px 40px -40px 20px;
-      width: 253px;
-      height: 192px;
-      font-size: 44px;
-      line-height: 48px;
-    }
-
-    .contactsheet input {
-      background-color: inherit;
-      border-radius: 3px;
-      border: 1px solid var(--txt-color);
-      width: 332px;
-      height: 43px;
-      margin: 41px 0px -20px 0px;
-    }
-
-    .register-button {
-      background-color: inherit;
-      border-radius: 3px;
-      border: 1px solid var(--txt-color);
-      height: 44px;
-      width: 168px;
-      /* margin-top: 20px; */
-      /* position: relative; */
-    }
-
-    .hr-email {
-      display: none;
-    }
-
-    .back-button {
-      display: block;
-      margin: 0px;
-      border: none;
-      letter-spacing: 1px;
-      /* font-size: 16px; */
-    }
-
-    /* LEAVE EMAIL PAGE STYLE END */
-    /* CONFIRMATION PAGE STYLE */
-    .confirmation {
-      /* margin-top: 40px; */
-      /* display: flex;
-      align-items: center; */
-      /* justify-content: space-between ; */
-    }
-
-    .confirmation h2 {
-      /* align-self: center; */
-      margin-top: -350px;
-      text-align: left;
-    }
-
-    .confirmation p {
-      /* align-self: center; */
-      text-align: left;
-      margin-top: 20px;
-    }
-
-    .confirmation a {
-      margin-top: 50px;
-    }
-
-    .fs-logo2 {
-      z-index: -1;
-      margin-top: 150px;
-      opacity: 0.5;
-    }
-
-    .download-button {
-      width: 288px;
-      height: 75px;
-      border-radius: 3px;
-      /* margin: 0; */
-      /* margin-top: 150px;   */
-      background-color: rgba(190, 166, 131, 0.8);
-    }
-
-    .download-button i {
-      display: none;
-    }
-
-    .hr-download {
-      display: none;
-    }
-
-    /* CONFIRMATION PAGE STYLE END */
+@media screen and (max-width: 600px) {
+  /* LEAVE EMAIL PAGE STYLE */
+  .leave-email {
+    justify-content: center;
   }
+
+  .contactsheet {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin-top: 40px;
+  }
+
+  .contactsheet a {
+    margin-top: 70px;
+  }
+
+  .contactsheet-background {
+    display: none;
+  }
+
+  .saab-big {
+    display: none;
+  }
+
+  .fs-logo {
+    z-index: -1;
+    margin-top: 120px;
+    opacity: 0.5;
+  }
+
+  .contactsheet p {
+    display: block;
+    align-self: flex-start;
+    margin: -270px 0px 0px 20px;
+    letter-spacing: 1px;
+  }
+
+  .contactsheet h2 {
+    display: block;
+    align-self: flex-start;
+    text-align: left;
+    margin: 0px 40px -40px 20px;
+    width: 253px;
+    height: 192px;
+    font-size: 44px;
+    line-height: 48px;
+  }
+
+  .contactsheet input {
+    background-color: inherit;
+    border-radius: 3px;
+    border: 1px solid var(--txt-color);
+    width: 332px;
+    height: 43px;
+    margin: 41px 0px -20px 0px;
+  }
+
+  .register-button {
+    background-color: inherit;
+    border-radius: 3px;
+    border: 1px solid var(--txt-color);
+    height: 44px;
+    width: 168px;
+  }
+
+  .hr-email {
+    display: none;
+  }
+
+  .back-button {
+    display: block;
+    margin: 0px;
+    border: none;
+    letter-spacing: 1px;
+  }
+
+  /* LEAVE EMAIL PAGE STYLE END */
+  /* CONFIRMATION PAGE STYLE */
+
+  .confirmation h2 {
+    margin-top: -350px;
+    text-align: left;
+  }
+
+  .confirmation p {
+    text-align: left;
+    margin-top: 20px;
+  }
+
+  .confirmation a {
+    margin-top: 50px;
+  }
+
+  .fs-logo2 {
+    z-index: -1;
+    margin-top: 150px;
+    opacity: 0.5;
+  }
+
+  .download-button {
+    width: 288px;
+    height: 75px;
+    border-radius: 3px;
+    background-color: rgba(190, 166, 131, 0.8);
+  }
+
+  .download-button i {
+    display: none;
+  }
+
+  .hr-download {
+    display: none;
+  }
+
+  /* CONFIRMATION PAGE STYLE END */
+}
