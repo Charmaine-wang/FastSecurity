@@ -10,13 +10,6 @@
   flex-direction: row;
 }
 
-.container h2 {
-  text-align: right;
-  font-family: "Bold";
-  font-size: 58px;
-  line-height: 48px;
-}
-
 .journey {
   margin-right: 20%;
   display: flex;
@@ -55,8 +48,8 @@ p:hover+.hr1 {
   transition: .5s;
   width: 150px;
 }
-/* INTRO SECTION TO TIMELINE END*/
 
+/* INTRO SECTION TO TIMELINE END*/
 /* TIMELINE STYLE */
 time {
   color: var(--h1-color);
@@ -143,7 +136,6 @@ time {
 }
 
 /* TIMELINE STYLE END*/
-
 @media screen and (max-width: 900px) {
   .intro {
     display: flex;

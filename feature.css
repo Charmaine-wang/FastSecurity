@@ -1,4 +1,3 @@
-
 .big-image, .navigator {
   display: none;
 }
@@ -29,8 +28,7 @@
 
 .features-02 {
   border-color: var(--bg-color);
-  }
-
+}
 
 .feature-03 {
   width: 100%;
@@ -39,34 +37,34 @@
   flex-direction: row;
   padding-top: 50px;
   padding-bottom: 100px;
-  }
+}
 
 .int {
   flex: 45%;
   flex-direction: row;
   padding-top: 50px;
-  }
+}
 
 .ext {
   flex: 45%;
   padding-top: 50px;
   flex-direction: row;
-  }
+}
 
 .features-image-ext, .features-image-int {
-height: 300px;
-width: 600px;
-background-color: white;
+  height: 300px;
+  width: 600px;
+  background-color: white;
 }
 
 .features-image-int {
   float: right;
   margin-bottom: 50px;
-  }
+}
 
 .features-image-ext {
   float: left;
-  }
+}
 
 .features-text-ext, .features-text-int {
   height: 200px;
@@ -96,8 +94,8 @@ background-color: white;
   height: 10vh;
   justify-content: space-between;
   flex-direction: row;
-
 }
+
 .feature-4 {
   background: var(--bg-color);
   padding: 100px 0;
@@ -113,8 +111,8 @@ background-color: white;
 #features-button {
   display: none;
 }
-/* end of style features-pages------------------------------------- */
 
+/* end of style features-pages------------------------------------- */
 /* INTRO SECTION TO TIMELINE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .intro {
@@ -173,7 +171,6 @@ p:hover+.hr1 {
   width: 150px;
 }
 
-
 /* end of style features-pages------------------------------------- */
 @media screen and (max-width: 900px) {
   .big-image, .navigator, .text {
@@ -190,9 +187,48 @@ p:hover+.hr1 {
 }
 
 @media screen and (max-width: 600px) {
-  .big-image, .navigator, .text {
-    width: 100%;
+  .navigator, .text {
+    width: 100vw;
+    height: 100vh;
     justify-content: center;
+  }
+
+  .feature-section {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .big-image {
+    display: flex;
+    background-color: var(--h1-color);
+    height: 50vh;
+    width: 100%;
+    margin: 0px;
+  }
+
+  .container {
+    text-align: right;
+    font-family: "Bold";
+    font-size: 58px;
+    line-height: 48px;
+  }
+
+  .citat {
+    display: flex;
+    background-image: none;
+    background-size: none;
+    width: 100%;
+    height: 200px;
+    justify-content: space-around;
+    padding: none;
+  }
+
+  .citat h1 {
+    text-align: right;
+    font-weight: bold;
+    font-size: 42px;
+    color: var(--txt-color);
+    margin: 10px 5px 0px 20px;
   }
 
   .title {
@@ -223,14 +259,6 @@ p:hover+.hr1 {
     font-family: "Light";
   }
 
-  .big-image {
-    display: flex;
-    background-color: var(--h1-color);
-    height: 250px;
-    width: 100%;
-    margin: 0px;
-  }
-
   /* feature-page */
   .feature-02, .feature-03, .feature-04 {
     display: none;
@@ -238,25 +266,6 @@ p:hover+.hr1 {
 
   ul .mark {
     color: var(--txt-color);
-  }
-
-  .citat {
-    background-image: none;
-    background-size: none;
-    width: 100%;
-    height: 200px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: none;
-  }
-
-  .citat h1 {
-    text-align: right;
-    font-weight: bold;
-    font-size: 42px;
-    color: var(--txt-color);
-    margin: 10px 5px 0px 20px;
   }
 
   #features-button {
