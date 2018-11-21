@@ -75,10 +75,11 @@ require __DIR__.'/lang/lang.php';
 
 <!-- NEW PAGE -->
 
-<section>
+<section class="feature-section">
 
 <div class="big-image">
-
+<!-- IMAGE -->
+<!-- <img src=https://images.unsplash.com/photo-1470945780341-171b6da56841?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6a004d44e4190411ec76ee0d3fc24506&auto=format&fit=crop&w=1050&q=80 alt=""> -->
 </div>
 
 <div class="navigator">
@@ -89,6 +90,7 @@ require __DIR__.'/lang/lang.php';
     <li><a href="color.php">Color</a></li>
   </ul>
 </div>
+
 <section class="citat">
   <div class="journey">
     <p>Reserve My Fast Security</p>
@@ -98,7 +100,8 @@ require __DIR__.'/lang/lang.php';
     <h2>Feeling special with<br>personalized<br>features and accessories</h2>
   </div>
 </section>
-<a href="contact.php"><button type="button" class="button" id="features-button">Start your journey</button></a>
+<a href="contact.php"><button type="button" class="features-button" id="features-button">Start your journey</button></a>
+
 </section>
 <!-- <div class="feature-02">
   <div class="journey">

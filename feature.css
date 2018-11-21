@@ -194,6 +194,9 @@ p:hover+.hr1 {
   }
 
   .feature-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     width: 100vw;
     height: 100vh;
   }
@@ -201,7 +204,7 @@ p:hover+.hr1 {
   .big-image {
     display: flex;
     background-color: var(--h1-color);
-    height: 50vh;
+    height: 50%;
     width: 100%;
     margin: 0px;
   }
@@ -213,12 +216,15 @@ p:hover+.hr1 {
     line-height: 48px;
   }
 
+  /* .features-button {
+    justify-content: center;
+  } */
   .citat {
     display: flex;
     background-image: none;
     background-size: none;
-    width: 100%;
-    height: 200px;
+    /* width: 100%;
+    height: 200px; */
     justify-content: space-around;
     padding: none;
   }
@@ -244,6 +250,7 @@ p:hover+.hr1 {
     display: block;
     width: 100%;
     height: 50px;
+    margin: 0;
   }
 
   .navigator ul {
