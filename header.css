@@ -56,6 +56,7 @@ header {
 
 .nav-ist__hidden {
   transform: translateX(-100%);
+  margin-top: -20px;
 }
 
 .nav-ist__visible {
@@ -75,7 +76,7 @@ header {
   width: 478px;
   background-color: rgba(206, 202, 196, 0.45);
   position: absolute;
-  padding-left: 10px;
+  padding-left: 30px;
   left: 0px;
   align-items: left;
   justify-content: space-around;
@@ -91,7 +92,8 @@ header {
   text-align: left;
   letter-spacing: 0.5;
   color: #FFFFFF;
-  margin: 0;
+  margin-bottom: 20px;
+  margin-top: 40px;
 }
 
 .nav-link {
@@ -109,8 +111,7 @@ header {
 }
 
 .nav-hr {
-  height: 1px;
-  width: 414px;
+  border: 1px solid #BEA683;
 }
 
 /* LANGUAGE BUTTONS */
