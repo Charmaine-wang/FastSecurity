@@ -70,6 +70,15 @@ require __DIR__.'/lang/lang.php';
 </section>
 
 </section>
+<!-- NEW PAGE -->
+<section class="page-2-mobile">
+  <div class="wera-wang">
+    <h2 class="h2-wera-wang">Accessories from<br> Vera Wang</h2>
+  </div>
+  <div class="wera-wang-button">
+    <button type="button" class="follow">Start your journey</button>
+  </div>
+</section>
 
 
 
