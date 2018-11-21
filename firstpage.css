@@ -1,0 +1,96 @@
+.firstpage {
+  height: 100vh;
+  margin: 220px 142px 0px 142px;
+}
+
+.text-header {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  text-align: right;
+}
+
+.firstpage-h1 {
+  font-family: "Bold";
+  line-height: 95px;
+  font-size: 110px;
+  color: var(--h1-color);
+  text-align: right;
+}
+
+.firstpage-h2 {
+  line-height: 100px;
+  font-family: "Bold";
+  color: var(--txt-color);
+  text-align: right;
+  font-size: 100px;
+}
+
+.text-header p {
+  text-align: right;
+  margin: 20px;
+  color: white;
+}
+
+.firstpage-button {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: var(--h1-color);
+  border: 1px solid var(--txt-color);
+  height: 85px;
+  width: 474px;
+  font-family: "Regular";
+  font-size: 16px;
+  border-radius: 3px;
+}
+
+@media screen and (max-width: 900px) {
+
+}
+
+@media screen and (max-width: 600px) {
+  .img-firstpage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .firstpage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 280px 0 0 0;
+  }
+
+  .text-header {
+    margin-bottom: 35px;
+    width: 100%;
+  }
+
+  .text-header p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 1px;
+  }
+
+  .firstpage-h1 {
+    font-family: "Bold";
+    font-size: 58px;
+    line-height: 50px;
+    letter-spacing: -0.05px;
+  }
+
+  .firstpage-h2 {
+    font-size: 44px;
+    line-height: 44px;
+  }
+
+  .firstpage-button {
+    width: 168px;
+    height: 44px;
+    font-size: 16px;
+    border-radius: 3px;
+    letter-spacing: -0.75px;
+  }
+}

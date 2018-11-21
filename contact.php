@@ -10,10 +10,6 @@ require __DIR__.'/header.php';
     <img src="./images/contactsheet-background.png" alt="">
   </div>
 
-  <button class="cross-button" type="button" name="button">
-    <i class="fas fa-times fa-3x"></i>
-  </button>
-
   <div class="contactsheet">
     <h2>create your <br>unique <br>adventures.</h2>
     <img class="saab-big" src="SAAB_fakelogo.png" alt="Logo">
@@ -23,9 +19,10 @@ require __DIR__.'/header.php';
     <form class="contact-form" action="" method="post">
        <input class="name" type="name" name="name" id="name" placeholder="Full name">
     	 <input type="email" name="email" id="email" placeholder="E-mail">
-     	 <button class="register-button" type="submit">Register now</button>
     </form>
+    <a href="confirmation.php"><button class="register-button" type="button">Register now</button></a>
     <hr class="hr-email">
+    <a href="#"><button class="back-button" type="button" name="button"><i class="fas fa-angle-left"></i> Take me back</button></a>
   </div>
 
 </section>

@@ -1,0 +1,186 @@
+/*  FIRST PAGE STYLE */
+header {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  background-color: rgba(0, 0, 0, 0);
+  /* margin-top: 20px; */
+  z-index: 1;
+}
+
+.img-firstpage {
+  height: 100vh;
+  width: 100vw;
+  margin-top: 20px;
+  background-image: url("bike.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.header-logo {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.hamburger-icon {
+  display: flex;
+  top: 20px;
+  margin-left: 10px;
+  z-index: 1;
+}
+
+.saab {
+  width: 90px;
+  height: 25px;
+}
+
+.language-links {
+  margin-right: 0px;
+}
+
+.language-links a {
+  color: var(--h1-color);
+  text-decoration: none;
+  font-family: "Medium";
+  font-size: 14px;
+}
+
+/* NAVBAR */
+.nav {
+  display: flex;
+  height: 80px;
+  width: 100%;
+}
+
+.nav-ist__hidden {
+  transform: translateX(-100%);
+}
+
+.nav-ist__visible {
+  transform: translateX(0);
+  margin-top: -20px;
+}
+
+/* .nav-item {
+  display: flex;
+  align-items: flex-start;
+} */
+.nav-ist {
+  transition: transform 200ms ease;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 478px;
+  background-color: rgba(206, 202, 196, 0.45);
+  position: absolute;
+  padding-left: 10px;
+  left: 0px;
+  align-items: left;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.nav-link-start {
+  display: flex;
+  font-family: "Medium";
+  font-size: 28px;
+  line-height: 14px;
+  text-decoration: none;
+  text-align: left;
+  letter-spacing: 0.5;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.nav-link {
+  font-family: "Light";
+  font-size: 28px;
+  line-height: 14px;
+  text-decoration: none;
+  text-align: left;
+  letter-spacing: 0.5;
+  color: #FFFFFF;
+}
+
+.nav-link:hover {
+  opacity: 0.5;
+}
+
+.nav-hr {
+  height: 1px;
+  width: 414px;
+}
+
+/* LANGUAGE BUTTONS */
+.language-links {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.language-links a {
+  color: var(--h1-color);
+  text-decoration: none;
+  font-family: "Medium";
+  margin: 0px 10px 0px 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .nav {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    width: 100%;
+  }
+
+  .nav-ist__hidden {
+    transform: translateX(-100%);
+  }
+
+  .nav-ist__visible {
+    transform: translateX(0);
+  }
+
+  .nav-ist {
+    transition: transform 200ms ease;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background-color: #CECAC4;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+  }
+
+  .nav-link {
+    font-size: 18px;
+    line-height: 14px;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    color: #34322E
+  }
+
+  .header-logo {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .saab {
+    width: 74px;
+    height: 17px;
+  }
+
+  .language-links a {
+    display: none;
+  }
+}

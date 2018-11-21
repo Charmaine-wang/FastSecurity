@@ -28,8 +28,10 @@ require __DIR__.'/lang/lang.php';
 <!-- NAVBAR -->
      <ul class="nav-ist nav-ist__hidden">
        <li class="nav-item">
-         <a href="#1" class="nav-link">HOME</a>
+         <a href="#1" class="nav-link-start">HOME</a>
+          <hr class="nav-hr">
        </li>
+
        <li class="nav-item">
          <a href="#2" class="nav-link">EXTERIOR</a>
        </li>
@@ -66,6 +68,7 @@ require __DIR__.'/lang/lang.php';
 
 
 </section>
+
 </section>
 
 
@@ -177,61 +180,37 @@ require __DIR__.'/lang/lang.php';
     <li>
       <div class="right">
         <time>1937</time>
-        <p>Saab started in Trollhättan, Sweden</p>
+        <p>SAAB started in Trollhättan, Sweden.</p>
       </div>
     </li>
     <li>
       <div class="left">
-        <time>1937</time>
-        <p>Proin quam velit, efficitur vel neque vitae, rhoncus commodo mi. Suspendisse finibus mauris et bibendum molestie. Aenean ex augue, varius et pulvinar in, pretium non nisi.</p>
-      </div>
-    </li>
-    <li>
-      <div class="right">
-        <time>1940</time>
-        <p>Proin iaculis, nibh eget efficitur varius, libero tellus porta dolor, at pulvinar tortor ex eget ligula. Integer eu dapibus arcu, sit amet sollicitudin eros.</p>
-      </div>
-    </li>
-    <li>
-      <div class="left">
-        <time>1943</time>
-        <p>In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.</p>
-      </div>
-    </li>
-    <li>
-      <div class="right">
         <time>1946</time>
-        <p>In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.</p>
-      </div>
-    </li>
-    <li>
-      <div class="left">
-        <time>1956</time>
-        <p>In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.</p>
+        <p>The first SAAB car is born. The SAAB 92.</p>
       </div>
     </li>
     <li>
       <div class="right">
-        <time>1957</time>
-        <p>In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.</p>
+        <time>1978</time>
+        <p>The SAAB 900 marks a new form factor and power.</p>
       </div>
     </li>
     <li>
       <div class="left">
-        <time>1967</time>
-        <p>Aenean condimentum odio a bibendum rhoncus. Ut mauris felis, volutpat eget porta faucibus, euismod quis ante.</p>
+        <time>1997</time>
+        <p>The SAAB 9-5 is unveiled. A car for a new era.</p>
       </div>
     </li>
     <li>
       <div class="right">
-        <time>1977</time>
-        <p>Vestibulum porttitor lorem sed pharetra dignissim. Nulla maximus, dui a tristique iaculis, quam dolor convallis enim, non dignissim ligula ipsum a turpis.</p>
+        <time>2010</time>
+        <p>Second generation SAAB 9-5 is made a reality.</p>
       </div>
     </li>
     <li>
       <div class="left">
-        <time>1985</time>
-        <p>In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.</p>
+        <time>2020</time>
+        <p>SAAB enters the future with the FastSecurity.</p>
       </div>
     </li>
   </ul>

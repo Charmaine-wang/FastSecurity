@@ -1,0 +1,29 @@
+/* FOOTER STYLE*/
+.footer {
+  height: 158px;
+  width: 100%;
+  background-color: #34322E;
+}
+
+.footer-hr {
+  color: #fffff;
+  border-style: inset;
+  border-width: 1px;
+  margin: 2em auto;
+  width: 85%;
+}
+
+.footer ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer ul li {
+  list-style: none;
+  font-family: "Light";
+  font: 24px;
+  padding-top: 10px;
+}
+
+/* FOOTER END*/

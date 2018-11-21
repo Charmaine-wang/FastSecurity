@@ -1,0 +1,273 @@
+
+.big-image, .navigator {
+  display: none;
+}
+
+.citat {
+  padding: 100px 70px 0px 110px;
+  text-align: right;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: space-between;
+  flex-direction: row;
+  background-image: url("bike.jpg");
+}
+
+.text {
+  color: var(--txt-color);
+  width: 100%;
+  font-size: 16px;
+  line-height: 28px;
+  display: flex;
+}
+
+.text p {
+  text-align: center;
+  width: 80%;
+}
+
+.features-02 {
+  border-color: var(--bg-color);
+  }
+
+
+.feature-03 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  }
+
+.int {
+  flex: 45%;
+  flex-direction: row;
+  padding-top: 50px;
+  }
+
+.ext {
+  flex: 45%;
+  padding-top: 50px;
+  flex-direction: row;
+  }
+
+.features-image-ext, .features-image-int {
+height: 300px;
+width: 600px;
+background-color: white;
+}
+
+.features-image-int {
+  float: right;
+  margin-bottom: 50px;
+  }
+
+.features-image-ext {
+  float: left;
+  }
+
+.features-text-ext, .features-text-int {
+  height: 200px;
+  width: 480px;
+  margin: auto;
+  line-height: 27px;
+}
+
+.features-text-ext h2 {
+  text-align: left;
+}
+
+.features-text-int {
+  text-align: right;
+}
+
+.notvisible {
+  display: none;
+}
+
+.int-ext-page {
+  /* background: var(--bg-color); */
+  padding: 100px 0px 0px 110px;
+  text-align: right;
+  display: flex;
+  width: 100%;
+  height: 10vh;
+  justify-content: space-between;
+  flex-direction: row;
+
+}
+.feature-4 {
+  background: var(--bg-color);
+  padding: 100px 0;
+  text-align: right;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: space-around;
+  flex-direction: row;
+  background-image: url("bike.jpg");
+}
+
+#features-button {
+  display: none;
+}
+/* end of style features-pages------------------------------------- */
+
+/* INTRO SECTION TO TIMELINE
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.intro {
+  background: var(--bg-color);
+  padding: 100px 0;
+  text-align: right;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.container h2 {
+  text-align: right;
+  font-family: "Bold";
+  font-size: 58px;
+  line-height: 48px;
+}
+
+.journey {
+  margin-right: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 0px;
+}
+
+.journey p {
+  /* margin-bottom: 7px; */
+  font-family: "Light";
+  font-size: 14px;
+  line-height: 14px;
+  /* padding: 5px; */
+  color: var(--h1-color);
+}
+
+.hr1 {
+  border: 0;
+  border-top: 7px solid var(--txt-color);
+  width: 40px;
+  margin: 5px;
+}
+
+.journey:hover {
+  cursor: pointer;
+}
+
+.hr1:hover {
+  transition: .5s;
+  width: 150px;
+}
+
+p:hover+.hr1 {
+  cursor: pointer;
+  transition: .5s;
+  width: 150px;
+}
+
+
+/* end of style features-pages------------------------------------- */
+@media screen and (max-width: 900px) {
+  .big-image, .navigator, .text {
+    width: 100%;
+  }
+
+  .title {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .big-image, .navigator, .text {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .title {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    align-items: flex-end;
+  }
+
+  .navigator {
+    display: block;
+    width: 100%;
+    height: 50px;
+  }
+
+  .navigator ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+  }
+
+  .navigator a {
+    color: var(--h1-color);
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Light";
+  }
+
+  .big-image {
+    display: flex;
+    background-color: var(--h1-color);
+    height: 250px;
+    width: 100%;
+    margin: 0px;
+  }
+
+  /* feature-page */
+  .feature-02, .feature-03, .feature-04 {
+    display: none;
+  }
+
+  ul .mark {
+    color: var(--txt-color);
+  }
+
+  .citat {
+    background-image: none;
+    background-size: none;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: none;
+  }
+
+  .citat h1 {
+    text-align: right;
+    font-weight: bold;
+    font-size: 42px;
+    color: var(--txt-color);
+    margin: 10px 5px 0px 20px;
+  }
+
+  #features-button {
+    display: flex;
+    background-color: var(--bg-color);
+    color: var(--h1-color);
+    border: 1px solid var(--txt-color);
+    height: 44px;
+    width: 168px;
+    font-family: "Regular";
+    font-size: 16px;
+    border-radius: 3px;
+  }
+}
