@@ -155,18 +155,6 @@ require __DIR__.'/lang/lang.php';
         </div>
       </section>
 
-
-<!-- productfolder -->
-<h1>Productfolder</h1>
-<div class="folder"> bild
-</div>
-<div>  <a href="/path/to/downloadfile.csv">
-<button class="download">
-<i class="fa fa-download"></i> Download
-</button>
-</a></div>
-<!-- end of productfolder -->
-
 <section class="intro">
   <div class="journey">
     <p>Reserve My Fast Security</p>
@@ -219,6 +207,17 @@ require __DIR__.'/lang/lang.php';
 </section>
 
 <a href="contact.php"><button type="button">Follow fast security</button></a>
+
+<!-- productfolder -->
+<h1>Productfolder</h1>
+<div class="folder"> bild
+</div>
+<div>  <a href="/path/to/downloadfile.csv">
+<button class="download">
+<i class="fa fa-download"></i> Download
+</button>
+</a></div>
+<!-- end of productfolder -->
 
 <?php
 
