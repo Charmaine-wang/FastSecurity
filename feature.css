@@ -113,65 +113,6 @@
 }
 
 /* end of style features-pages------------------------------------- */
-/* INTRO SECTION TO TIMELINE
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.intro {
-  background: var(--bg-color);
-  padding: 100px 0;
-  text-align: right;
-  display: flex;
-  width: 100%;
-  justify-content: space-around;
-  flex-direction: row;
-}
-
-.container h2 {
-  text-align: right;
-  font-family: "Bold";
-  font-size: 58px;
-  line-height: 48px;
-}
-
-.journey {
-  margin-right: 20%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 0px;
-}
-
-.journey p {
-  /* margin-bottom: 7px; */
-  font-family: "Light";
-  font-size: 14px;
-  line-height: 14px;
-  /* padding: 5px; */
-  color: var(--h1-color);
-}
-
-.hr1 {
-  border: 0;
-  border-top: 7px solid var(--txt-color);
-  width: 40px;
-  margin: 5px;
-}
-
-.journey:hover {
-  cursor: pointer;
-}
-
-.hr1:hover {
-  transition: .5s;
-  width: 150px;
-}
-
-p:hover+.hr1 {
-  cursor: pointer;
-  transition: .5s;
-  width: 150px;
-}
-
-/* end of style features-pages------------------------------------- */
 @media screen and (max-width: 900px) {
   .big-image, .navigator, .text {
     width: 100%;
@@ -267,7 +208,7 @@ p:hover+.hr1 {
   }
 
   /* feature-page */
-  .feature-02, .feature-03, .feature-04 {
+  .feature-02, .feature-03, .feature-4 {
     display: none;
   }
 
