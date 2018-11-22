@@ -3,6 +3,11 @@
 require __DIR__.'/header.php';
 
 require __DIR__.'/lang/lang.php';
+
+
+
+  // code...
+
 ?>
 <section class="img-firstpage">
  <header>
@@ -23,6 +28,8 @@ require __DIR__.'/lang/lang.php';
      <a class="lang-link" href="?user_lang=eng">EN</a>
 </div>
 </div>
+<?php foreach ($languages as $language): ?>
+  <?php foreach ($language as $key): ?>
 
 
 <!-- NAVBAR -->
@@ -60,7 +67,9 @@ require __DIR__.'/lang/lang.php';
     <h1 class="firstpage-h2">1.0</h1>
 
     <h1 class="firstpage-h1">FAST<br>SECURITY</h1>
-      <p>On the go for the future experience</p>
+      <p><?php echo $key['firstPage'][2]; ?></p>
+<?php endforeach; ?>
+<?php endforeach; ?>
   </div>
   <a href="contact.php"><button type="button" class="firstpage-button">Start your journey here</button></a>
 </div>
@@ -84,35 +93,7 @@ require __DIR__.'/lang/lang.php';
 
 <!-- NEW PAGE -->
 
-<!-- <div class="img-desktop"> -->
-<section class="feature-section">
-<div class="feature-bike-img">
-</div>
-<!-- img mobile -->
 
-<!-- navbar, only in mobile -->
-<div class="feature-nav">
-  <ul>
-    <li><a href="exterior.php">Exterior</a></li>
-    <li><a href="interior.php">Interior</a></li>
-    <li><a href="color.php">Color</a></li>
-  </ul>
-</div><!-- end navbar -->
-
-<!-- textarea -->
-<div class="feature-content">
-  <div class="feature-reserve">
-    <p>Reserve My Fast Security</p>
-    <hr class="reserve-hr">
-  </div>
-  <div class="feature-text">
-    <h2 class="feature-text">Feeling special with<br>personalized<br>features</h2>
-  </div>
-
-<a href="contact.php"><button type="button" class="feature-button">Start your journey</button></a>
-</div>
-
-</section>
 
   <section class="int-ext-page">
     <div class="journey">
