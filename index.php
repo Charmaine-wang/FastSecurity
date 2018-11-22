@@ -24,8 +24,8 @@ require __DIR__.'/lang/lang.php';
 
 
 <div class="language-links">
-     <a class="lang-link" href="?user_lang=swe">SWE</a>
-     <a class="lang-link" href="?user_lang=eng">EN</a>
+  <a class="lang-link" href="?user_lang=eng">ENG</a>
+  <a class="lang-link" href="?user_lang=swe">SWE</a>
 </div>
 </div>
 
