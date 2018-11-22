@@ -70,6 +70,15 @@ require __DIR__.'/lang/lang.php';
 </article>
 
 </section>
+<!-- NEW PAGE -->
+<section class="page-2-mobile">
+  <div class="wera-wang">
+    <h2 class="h2-wera-wang">Accessories from<br> Vera Wang</h2>
+  </div>
+  <div class="wera-wang-button">
+    <button type="button" class="follow">Start your journey</button>
+  </div>
+</section>
 
 
 
@@ -104,16 +113,6 @@ require __DIR__.'/lang/lang.php';
 </div>
 
 </section>
-<!-- <div class="feature-02">
-  <div class="journey">
-    <p>Reserve My Fast Security</p>
-    <hr class="hr1">
-  </div>
-    <h1>exlusive accessories <br> from Wera Wang.</h1>
-  </div>
-  <div class="accessories">
-    bild
-  </div> -->
 
   <section class="int-ext-page">
     <div class="journey">
@@ -147,7 +146,7 @@ require __DIR__.'/lang/lang.php';
         </div>
       </div>
       </div>
-      <section class="feature-4">
+      <section class="feature-04">
         <div class="journey">
           <p>Reserve My Fast Security</p>
           <hr class="hr1">
@@ -156,18 +155,6 @@ require __DIR__.'/lang/lang.php';
           <h2>choose your<br>own color.</h2>
         </div>
       </section>
-
-
-<!-- productfolder -->
-<h1>Productfolder</h1>
-<div class="folder"> bild
-</div>
-<div>  <a href="/path/to/downloadfile.csv">
-<button class="download">
-<i class="fa fa-download"></i> Download
-</button>
-</a></div>
-<!-- end of productfolder -->
 
 <section class="intro">
   <div class="journey">
@@ -221,6 +208,17 @@ require __DIR__.'/lang/lang.php';
 </section>
 
 <a href="contact.php"><button type="button">Follow fast security</button></a>
+
+<!-- productfolder -->
+<h1>Productfolder</h1>
+<div class="folder"> bild
+</div>
+<div>  <a href="/path/to/downloadfile.csv">
+<button class="download">
+<i class="fa fa-download"></i> Download
+</button>
+</a></div>
+<!-- end of productfolder -->
 
 <?php
 
