@@ -1,12 +1,16 @@
 .firstpage {
   height: 100vh;
-  margin: 220px 142px 0px 142px;
+  display:flex;
+  flex-direction: column;
+  /* justify-content: flex-start; */
+  /* margin: 220px 142px 0px 142px; */
 }
 
 .text-header {
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
-  height: 200px;
+  margin: 350px 150px 0px 0px;
+  /* height: 200px; */
   text-align: right;
 }
 
@@ -28,7 +32,7 @@
 
 .text-header p {
   text-align: right;
-  margin: 20px;
+  margin: 5px;
   color: white;
 }
 
@@ -39,8 +43,13 @@
   height: 85px;
   width: 474px;
   font-family: "Regular";
-  font-size: 16px;
+  font-size: 24px;
   border-radius: 3px;
+  /* margin-top: -800px; */
+}
+
+.firstpage a {
+  margin: -150px 0px 0px 150px;
 }
 
 @media screen and (max-width: 900px) {

@@ -62,10 +62,10 @@ require __DIR__.'/lang/lang.php';
 
 <div class="firstpage">
   <div class="text-header">
-    <h1 class="firstpage-h2">1.0</h1>
+    <h2 class="firstpage-h2">1.0</h2>
 
     <h1 class="firstpage-h1">FAST<br>SECURITY</h1>
-      <p>On the go for the future experience</p>
+    <p>On the go for the future experience</p>
 
   </div>
   <a href="contact.php"><button type="button" class="firstpage-button">Start your journey here</button></a>
