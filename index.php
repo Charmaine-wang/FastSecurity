@@ -132,8 +132,46 @@ features</h2>
 </div>
 
 </section> -->
+<div class="feature-03">
+      <div class="ext">
+      <section class="int-ext-page">
+        <div class="journey-features">
+          <p>Reserve My Fast Security</p>
+          <hr class="hr1">
+        </div>
+      </section>
+      <div class="features-text-ext">
+          <h2>Exterior.</h2>
+          <p>The FastSecurity motorcycle gets you 132 miles worth<br>
+            of adventure on a single charge. It’s carbon composite body is<br>
+             both lightweight and aerodynamic, in tandem with it’s high-end<br>
+             suspension system - FastSecurity is speed andc comfort<br>
+             combined in excellence.</p>
+      </div>
+    <div class="features-image-ext">
+          <img src="" alt="">
+    </div>
+  </div>
+  <div class="verticle-line">
+    <div class="line">
+    </div>
+  </div>
+  <div class="int">
+      <div class="features-image-int">
+        <img src="" alt="">
+      </div>
 
-  <section class="int-ext-page">
+        <div class="features-text-int">
+          <h2>Interior.</h2>
+          <p>The high-end technology inside of the FastSecurity puts<br>
+              you in front of a robust titanium steering system and on<br>
+              smooth alcantara seating. The integrated AR-glasses lets<br>
+              you experience the world in a new way -<br>
+             all connected to your FastSecurity motorcycle..</p>
+        </div>
+      </div>
+      </div>
+  <!-- <section class="int-ext-page">
     <div class="journey">
       <p>Reserve My Fast Security</p>
       <hr class="hr1">
@@ -164,7 +202,7 @@ features</h2>
              all connected to your FastSecurity motorcycle..</p>
         </div>
       </div>
-      </div>
+      </div> -->
       <section class="feature-04">
         <div class="journey">
           <p>Reserve My Fast Security</p>
