@@ -247,11 +247,14 @@ input {
   /* CONFIRMATION PAGE STYLE */
 
   .confirmation h2 {
-    margin-top: -350px;
+    margin-top: -400px;
     text-align: left;
+    font-size: 42px;
+    line-height: 48px;
   }
 
   .confirmation p {
+    align-self: flex-start;
     text-align: left;
     margin-top: 20px;
   }
@@ -262,7 +265,7 @@ input {
 
   .fs-logo2 {
     z-index: -1;
-    margin-top: 150px;
+    margin-top: 180px;
     opacity: 0.5;
   }
 
@@ -271,6 +274,7 @@ input {
     height: 75px;
     border-radius: 3px;
     background-color: rgba(190, 166, 131, 0.8);
+    margin-top: 100px;
   }
 
   .download-button i {
