@@ -75,35 +75,7 @@ require __DIR__.'/lang/lang.php';
 
 </section>
 
-<!-- <div class="img-desktop"> -->
-<section class="feature-section">
-<div class="feature-bike-img">
-</div>
-<!-- img mobile -->
 
-<!-- navbar, only in mobile -->
-<div class="feature-nav">
-  <ul>
-    <li><a href="exterior.php">Exterior</a></li>
-    <li><a href="interior.php">Interior</a></li>
-    <li><a href="color.php">Color</a></li>
-  </ul>
-</div><!-- end navbar -->
-
-<!-- textarea -->
-<div class="feature-content">
-  <div class="feature-reserve">
-    <p>Reserve My Fast Security</p>
-    <hr class="reserve-hr">
-  </div>
-  <div class="feature-text">
-    <h2 class="feature-text">Feeling special with<br>personalized<br>features</h2>
-  </div>
-
-<a href="contact.php"><button type="button" class="feature-button">Start your journey</button></a>
-</div>
-
-</section>
 <!-- NEW PAGE -->
 <section class="page-2-mobile">
   <div class="wera-wang">

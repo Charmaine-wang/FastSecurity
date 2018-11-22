@@ -1,8 +1,7 @@
 <?php
-// $languages = [
-
-$languages =[
-'header' =>
+$languages = [
+  'eng' =>
+    ['header' =>
               ['firstHeader' => 'Fast Security',
                'weraHeader' => 'Accessories from Wera Wang',
                'featuresHeader' => 'Feeling special with personalized features',
@@ -12,14 +11,13 @@ $languages =[
                'registerHeader' => 'create your unique adventures.',
                'downHeader' => 'Continue learning more!',
                'downDesk'=> 'Thank you for registrating.'],
-'navbar' =>
+    'navbar' =>
               ['home' => 'Home',
                'exterior' => 'Exterior',
                'interior' => 'Interior',
                'performance' => 'Performance',
                'accessories' => 'Accessories'],
-
-'content' =>
+  'content' =>
               ['firstPage' => 'On the go for a future experience',
                'exterior' => 'The FastSecurity motorcycle gets you 132 miles worth of adventure on a single charge. It’s carbon composite body is both lightweight and aerodynamic, in tandem with it’s high-end suspension system - FastSecurity is speed and comfort combined in excellence.',
                'interior' => 'The high-end technology inside of the FastSecurity puts you In front of a robust titanium steering system and on smooth alcantara seating. The integrated AR-glasses lets you experience the world in a new way - all connected to your FastSecurity motorcycle.',
@@ -31,18 +29,15 @@ $languages =[
                '1997' => 'The SAAB 9-5 is unveiled. A car for a new era.',
                '2010' => 'Second generation SAAB 9-5 is made a reality.',
                '2020' => 'SAAB enters the future with the FastSecurity'],
-'button' =>
+  'button' =>
               ['btn' => 'Start your journey',
                'reserve' => 'Reserve My Fast Security',
               'btnFollow' => 'Follow fast security',
               'btnBack' => 'Take me back',
-              'btnDown' => 'Download your brouchure here'],
-
-  ];
-
-$languages =[
-
-'header' =>
+              'btnDown' => 'Download your brouchure here']
+    ],
+  'swe' =>
+    ['header' =>
               ['firstHeader' => 'Fast Security',
                'weraHeader' => 'Tillbehör från Wera Wang.',
                'featuresHeader' => 'Känner speciellt med personliga funktioner.',
@@ -76,7 +71,7 @@ $languages =[
               'btnFollow' => 'Följ fast security',
               'btnBack' => 'Ta mig tillbaka',
               'btnDown' => 'Ladda ner din brouchure här']
-
+    ],
   ];
 
 
