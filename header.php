@@ -16,6 +16,7 @@ require __DIR__.'/lang/lang.php';
   <link rel="stylesheet" href="config.css">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="accessories.css">
   <link rel="stylesheet" href="feature.css">
   <link rel="stylesheet" href="firstpage.css">
   <link rel="stylesheet" href="footer.css">
