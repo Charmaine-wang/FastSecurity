@@ -58,7 +58,7 @@ require __DIR__.'/lang/lang.php';
 
 
 <article class="main-text">
-  <div class="img-firstpage">
+  <!-- <div class="img-firstpage-1"> -->
 
 <div class="firstpage">
   <div class="text-header">
@@ -69,7 +69,7 @@ require __DIR__.'/lang/lang.php';
 
   </div>
   <a href="contact.php"><button type="button" class="firstpage-button">Start your journey here</button></a>
-</div>
+<!-- </div> -->
 </div>
 </article>
 
