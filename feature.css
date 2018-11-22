@@ -15,11 +15,11 @@
 .int {
   flex: 45%;
   margin-top: 100px;
-  }
+}
 
 .ext {
   flex: 45%;
-  }
+}
 
 .features-image-ext, .features-image-int {
   height: 300px;
@@ -69,6 +69,7 @@
   justify-content: space-between;
   flex-direction: row;
 }
+
 .journey-features {
   margin-right: 20%;
   display: flex;
@@ -81,7 +82,7 @@
   font-family: "Light";
   font-size: 14px;
   line-height: 14px;
-    color: #BEA683;
+  color: #BEA683;
 }
 
 .hr1 {
@@ -105,6 +106,7 @@ p:hover+.hr1 {
   transition: .5s;
   width: 150px;
 }
+
 .verticle-line {
   flex: 10%;
   background-color: black;
@@ -117,9 +119,8 @@ p:hover+.hr1 {
   height: 105vh;
   width: 1px;
   background-color: #FFFFFF;
-  }
+}
 
-/*
 .feature-section {
   display: flex;
   width: 100vw;
@@ -185,7 +186,7 @@ p:hover+.reserve-hr {
 }
 
 /* end of style features-pages------------------------------------- */
-/* .intro {
+.intro {
   background: var(--bg-color);
   padding: 100px 0;
   text-align: right;
@@ -215,7 +216,7 @@ p:hover+.reserve-hr {
   font-size: 14px;
   line-height: 14px;
   color: var(--h1-color);
-}  */
+}
 
 /* end of style features-pages------------------------------------- */
 @media screen and (max-width: 900px) {
@@ -224,105 +225,103 @@ p:hover+.reserve-hr {
   }
 
   @media screen and (max-width: 600px) {
-
     .feature-04 {
       display: none;
     }
 
     .page-03 {
-  width: 100vw;
-  height: 100vh;
-  background-color: black;
-  display: flex;
-  flex-direction: column;
-}
+      width: 100vw;
+      height: 100vh;
+      background-color: black;
+      display: flex;
+      flex-direction: column;
+    }
 
-.features {
-  display: flex;
-  height: 50vh;
-  }
+    .features {
+      display: flex;
+      height: 50vh;
+    }
 
-  .features-img, .features-img-exterior, .features-img-interior, .features-img-color {
-    height: 50vh;
-    background-color: white;
-  }
+    .features-img, .features-img-exterior, .features-img-interior, .features-img-color {
+      height: 50vh;
+      background-color: white;
+    }
 
-  .features-nav {
-    height: 10vh;
-    display: block;
-  }
+    .features-nav {
+      height: 10vh;
+      display: block;
+    }
 
-  .features-nav ul {
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
+    .features-nav ul {
+      display: flex;
+      justify-content: space-around;
+      list-style: none;
     }
 
     .features-nav a {
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-    font-family: "Light";
-  }
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+      font-family: "Light";
+    }
 
+    .h2-features {
+      align-self: center;
+      margin: auto;
+      text-align: right;
+      color: #BEA683;
+      font-size: 42px;
+      line-height: 48px;
+      font-family:
+    }
 
-.h2-features {
-  align-self: center;
-  margin: auto;
-  text-align: right;
-  color: #BEA683;
-  font-size: 42px;
-  line-height: 48px;
-  font-family:
+    .h2-color {
+      align-self: flex-start;
+      margin-left: 24px;
+      text-align: left;
+      color: #BEA683;
+      font-size: 44px;
+      line-height: 48px;
+      font-family:
+    }
 
-}
+    .p-exterior, .p-interior {
+      align-self: center;
+      margin: auto;
+      text-align: center;
+      color: #BEA683;
+      font-size: 16px;
+      line-height: 25px;
+      letter-spacing: 1.2px;
+      font-family:
+    }
 
-.h2-color {
-  align-self: flex-start;
-  margin-left: 24px;
-  text-align: left;
-  color: #BEA683;
-  font-size: 44px;
-  line-height: 48px;
-  font-family:
-}
+    ul .mark {
+      color: #BEA683;
+    }
 
-.p-exterior, .p-interior {
-  align-self: center;
-  margin: auto;
-  text-align: center;
-  color: #BEA683;
-  font-size: 16px;
-  line-height: 25px;
-  letter-spacing: 1.2px;
-  font-family:
-}
+    .features-button {
+      display: flex;
+      height: 30vh;
+    }
 
-ul .mark {
-  color: #BEA683;
-}
+    .follow-2 {
+      height: 44px;
+      width: 168px;
+      align-self: center;
+      margin: auto;
+      font-size: 16px;
+      border: solid 1px #BEA683;
+      background-color: black;
+      color: white;
+      border-radius: 3px;
+    }
 
-.features-button {
-  display: flex;
-  height: 30vh;
-  }
+    .feature-03 {
+      display: none;
+    }
 
-.follow-2 {
-  height: 44px;
-  width: 168px;
-  align-self: center;
-  margin: auto;
-  font-size: 16px;
-  border: solid 1px #BEA683;
-  background-color: black;
-  color: white;
-  border-radius: 3px;
-}
-
-.feature-03 {
-  display: none;
-}
-    /* .feature-section {
+    .feature-section {
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -422,5 +421,5 @@ ul .mark {
       font-family: "Regular";
       font-size: 16px;
       border-radius: 3px;
-    } */
+    }
   }
