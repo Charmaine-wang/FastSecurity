@@ -3,9 +3,34 @@
 require __DIR__.'/header.php';
 
 ?>
+<section class="page-03">
+  <div class="features-img-exterior">
 
-  <div class="exterior-image">
-    <!-- <img src="" alt=""> -->
+  </div>
+  <div class="features-nav">
+    <ul>
+    <a href="exterior.php" class="mark"><li>Exterior</li></a>
+      <a href="interior.php"><li>Interior</li></a>
+      <a href="color.php"><li>Color</li></a>
+    </ul>
+  </div>
+  <div class="features">
+    <p class="p-exterior">The FastSecurity motorcycle gets you<br>
+      132 miles worth of adventure on a<br>
+      single charge. It’s carbon composite<br>
+      body is both lightweight and<br>
+      aerodynamic, in tandem with it’s<br>
+      high-end suspension system -<br>
+      FastSecurity is speed and<br>
+      comfort combined in excellence.</p>
+  </div>
+  <div class="features-button">
+    <button type="button" class="follow-2">Start your journey</button>
+  </div>
+  </section>
+
+  <!-- <div class="exterior-image">
+    <img src="" alt="">
   </div>
 
   <div class="navigator">
@@ -28,7 +53,7 @@ comfort combined in excellence.</p>
 
   <div class="follow">
     <a href="contact.php"><button type="button">Follow fast security</button></a>
-  </div>
+  </div> -->
 
   <?php
 

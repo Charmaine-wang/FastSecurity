@@ -3,7 +3,32 @@
 require __DIR__.'/header.php';
 
 ?>
-  <div class="interior-image">
+<section class="page-03">
+  <div class="features-img-interior">
+
+  </div>
+  <div class="features-nav">
+    <ul>
+    <a href="exterior.php"><li>Exterior</li></a>
+      <a href="interior.php" class="mark"><li>Interior</li></a>
+      <a href="color.php"><li>Color</li></a>
+    </ul>
+  </div>
+    <div class="features">
+      <p class="p-interior">The high-end technology inside<br>
+          of the FastSecurity puts you<br>
+          In front of a robust titanium<br>
+          steering system and on smooth<br>
+          alcantara seating. The integrated<br>
+          AR-glasses lets you experience the<br>
+          world in a new way - all connected<br>
+          to your FastSecurity motorcycle.</p>
+      </div>
+  <div class="features-button">
+    <button type="button" class="follow-2">Start your journey</button>
+  </div>
+  </section>
+  <!-- <div class="interior-image">
     <img src="" alt="">
   </div>
 
@@ -21,7 +46,7 @@ require __DIR__.'/header.php';
 
   <div class="follow">
     <a href="contact.php"><button type="button">Follow fast security</button></a>
-  </div>
+  </div> -->
 
   <?php
 

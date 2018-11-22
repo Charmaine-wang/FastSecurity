@@ -88,19 +88,38 @@ require __DIR__.'/lang/lang.php';
 <section class="feature-section">
 <div class="feature-bike-img">
 </div>
+<section class="page-03">
+  <div class="features-img">
+
+  </div>
+  <div class="features-nav">
+    <ul>
+    <a href="exterior.php"><li>Exterior</li></a>
+      <a href="interior.php"><li>Interior</li></a>
+      <a href="color.php"><li>Color</li></a>
+    </ul>
+  </div>
+  <div class="features">
+    <h2 class="h2-features">Feeling special<br> with personalized<br>
+features</h2>
+  </div>
+  <div class="features-button">
+    <button type="button" class="follow-2">Start your journey</button>
+  </div>
+  </section>
 <!-- img mobile -->
 
 <!-- navbar, only in mobile -->
-<div class="feature-nav">
+<!-- <div class="feature-nav">
   <ul>
     <li><a href="exterior.php">Exterior</a></li>
     <li><a href="interior.php">Interior</a></li>
     <li><a href="color.php">Color</a></li>
   </ul>
-</div><!-- end navbar -->
+</div><!-- end navbar --> -->
 
 <!-- textarea -->
-<div class="feature-content">
+<!-- <div class="feature-content">
   <div class="feature-reserve">
     <p>Reserve My Fast Security</p>
     <hr class="reserve-hr">
@@ -112,7 +131,7 @@ require __DIR__.'/lang/lang.php';
 <a href="contact.php"><button type="button" class="feature-button">Start your journey</button></a>
 </div>
 
-</section>
+</section> -->
 
   <section class="int-ext-page">
     <div class="journey">
