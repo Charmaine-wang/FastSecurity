@@ -1,120 +1,73 @@
-.big-image, .navigator {
+/* CHARRES CSS */
+.feature-nav {
   display: none;
 }
 
-.citat {
-  padding: 100px 70px 0px 110px;
-  text-align: right;
+.feature-section {
   display: flex;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
-  justify-content: space-between;
-  flex-direction: row;
   background-image: url("bike.jpg");
 }
 
-.text {
+.feature-bike-img {
+  display: none;
+}
+
+.feature-text {
   color: var(--txt-color);
-  width: 100%;
-  font-size: 16px;
-  line-height: 28px;
+  font-size: 58px;
+  line-height: 57px;
   display: flex;
 }
 
-.text p {
+.feature-text p {
   text-align: center;
   width: 80%;
 }
 
-.features-02 {
-  border-color: var(--bg-color);
-}
-
-.feature-03 {
-  width: 100%;
-  height: 100vh;
+.feature-content {
   display: flex;
+  width: 100vw;
   flex-direction: row;
-  padding-top: 50px;
-  padding-bottom: 100px;
+  justify-content: space-between;
+  margin: 154px 30px 0 148px;
 }
 
-.int {
-  flex: 45%;
-  flex-direction: row;
-  padding-top: 50px;
+.feature-reserve {
+  font-family: "Light";
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0.5px;
 }
 
-.ext {
-  flex: 45%;
-  padding-top: 50px;
-  flex-direction: row;
-}
-
-.features-image-ext, .features-image-int {
-  height: 300px;
-  width: 600px;
-  background-color: white;
-}
-
-.features-image-int {
-  float: right;
-  margin-bottom: 50px;
-}
-
-.features-image-ext {
-  float: left;
-}
-
-.features-text-ext, .features-text-int {
-  height: 200px;
-  width: 480px;
-  margin: auto;
-  line-height: 27px;
-}
-
-.features-text-ext h2 {
-  text-align: left;
-}
-
-.features-text-int {
-  text-align: right;
-}
-
-.notvisible {
+.feature-button {
   display: none;
 }
 
-.int-ext-page {
-  /* background: var(--bg-color); */
-  padding: 100px 0px 0px 110px;
-  text-align: right;
-  display: flex;
-  width: 100%;
-  height: 10vh;
-  justify-content: space-between;
-  flex-direction: row;
+.reserve-hr {
+  border: 0;
+  border-top: 7px solid var(--txt-color);
+  width: 40px;
+  margin: 5px;
 }
 
-.feature-4 {
-  background: var(--bg-color);
-  padding: 100px 0;
-  text-align: right;
-  display: flex;
-  width: 100%;
-  height: 100vh;
-  justify-content: space-around;
-  flex-direction: row;
-  background-image: url("bike.jpg");
+.reserve-hr:hover {
+  transition: .5s;
+  width: 150px;
 }
 
-#features-button {
+p:hover+.reserve-hr {
+  cursor: pointer;
+  transition: .5s;
+  width: 150px;
+}
+
+.features-button {
   display: none;
 }
 
 /* end of style features-pages------------------------------------- */
-/* INTRO SECTION TO TIMELINE
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .intro {
   background: var(--bg-color);
   padding: 100px 0;
@@ -125,14 +78,14 @@
   flex-direction: row;
 }
 
-.container h2 {
+.feature-text h2 {
   text-align: right;
   font-family: "Bold";
   font-size: 58px;
   line-height: 48px;
 }
 
-.journey {
+.feature-reserve {
   margin-right: 20%;
   display: flex;
   flex-direction: column;
@@ -140,35 +93,11 @@
   height: 0px;
 }
 
-.journey p {
-  /* margin-bottom: 7px; */
+.feature-reserve p {
   font-family: "Light";
   font-size: 14px;
   line-height: 14px;
-  /* padding: 5px; */
   color: var(--h1-color);
-}
-
-.hr1 {
-  border: 0;
-  border-top: 7px solid var(--txt-color);
-  width: 40px;
-  margin: 5px;
-}
-
-.journey:hover {
-  cursor: pointer;
-}
-
-.hr1:hover {
-  transition: .5s;
-  width: 150px;
-}
-
-p:hover+.hr1 {
-  cursor: pointer;
-  transition: .5s;
-  width: 150px;
 }
 
 /* end of style features-pages------------------------------------- */
@@ -177,113 +106,109 @@ p:hover+.hr1 {
     width: 100%;
   }
 
-  .title {
-    width: 100%;
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-  }
-}
+  @media screen and (max-width: 600px) {
+    .feature-section {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: column;
+      width: 100vw;
+      height: 100vh;
+      background-image: none;
+    }
 
-@media screen and (max-width: 600px) {
-  .navigator, .text {
-    width: 100vw;
-    height: 100vh;
-    justify-content: center;
+    .feature-nav {
+      width: 100vw;
+      justify-content: center;
+    }
+
+    .feature-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100vw;
+      height: 100vh;
+      top: 0;
+      margin: 0;
+      background-image: none;
+      background-size: none;
+      padding: inherit;
+    }
+
+    .feature-bike-img {
+      display: flex;
+      background-color: var(--h1-color);
+      height: 90%;
+      width: 100%;
+      margin: 0px;
+    }
+
+    .feature-text {
+      justify-content: center;
+      width: 100vw;
+      margin: 15px 0px 20px 0px;
+    }
+
+    .feature-text h2 {
+      text-align: right;
+      font-family: "Bold";
+      /* margin: 0; */
+      font-size: 33px;
+      line-height: 36px;
+      text-align: right;
+    }
+
+    .feature-reserve {
+      display: none;
+    }
+
+    .feature-content h1 {
+      font-family: "Bold";
+      font-size: 42px;
+      color: var(--txt-color);
+      margin: 5px 30px 0px 20px;
+    }
+
+    .feature-text {
+      width: 100%;
+      height: 250px;
+      display: flex;
+      flex-direction: column;
+      text-align: right;
+      align-items: flex-end;
+    }
+
+    .feature-nav {
+      display: block;
+      width: 100%;
+      height: 50px;
+      margin: 0;
+    }
+
+    .feature-nav ul {
+      display: flex;
+      justify-content: space-around;
+      list-style: none;
+    }
+
+    .feature-nav a {
+      color: var(--h1-color);
+      text-decoration: none;
+      font-size: 16px;
+      font-family: "Light";
+    }
+
+    .feature-button {
+      display: flex;
+      background-color: var(--bg-color);
+      color: var(--h1-color);
+      border: 1px solid var(--txt-color);
+      height: 44px;
+      width: 168px;
+      font-family: "Regular";
+      font-size: 16px;
+      border-radius: 3px;
+    }
   }
 
-  .feature-section {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 100vw;
-    height: 100vh;
-  }
-
-  .big-image {
-    display: flex;
-    background-color: var(--h1-color);
-    height: 50%;
-    width: 100%;
-    margin: 0px;
-  }
-
-  .container {
-    text-align: right;
-    font-family: "Bold";
-    font-size: 58px;
-    line-height: 48px;
-  }
-
-  /* .features-button {
-    justify-content: center;
-  } */
-  .citat {
-    display: flex;
-    background-image: none;
-    background-size: none;
-    /* width: 100%;
-    height: 200px; */
-    justify-content: space-around;
-    padding: none;
-  }
-
-  .citat h1 {
-    text-align: right;
-    font-weight: bold;
-    font-size: 42px;
-    color: var(--txt-color);
-    margin: 10px 5px 0px 20px;
-  }
-
-  .title {
-    width: 100%;
-    height: 250px;
-    display: flex;
-    flex-direction: column;
-    text-align: right;
-    align-items: flex-end;
-  }
-
-  .navigator {
-    display: block;
-    width: 100%;
-    height: 50px;
-    margin: 0;
-  }
-
-  .navigator ul {
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-  }
-
-  .navigator a {
-    color: var(--h1-color);
-    text-decoration: none;
-    font-size: 16px;
-    font-family: "Light";
-  }
-
-  /* feature-page */
-  .feature-02, .feature-03, .feature-04 {
-    display: none;
-  }
-
-  ul .mark {
-    color: var(--txt-color);
-  }
-
-  #features-button {
-    display: flex;
-    background-color: var(--bg-color);
-    color: var(--h1-color);
-    border: 1px solid var(--txt-color);
-    height: 44px;
-    width: 168px;
-    font-family: "Regular";
-    font-size: 16px;
-    border-radius: 3px;
-  }
-}
+  /* CHARRES CSS avslut */
