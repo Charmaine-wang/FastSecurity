@@ -75,11 +75,6 @@ $languages = [
   ];
 
 
-
-
-
-
-
 if(isset($_GET['user_lang'])){
    $lang = trim(filter_var($_GET['user_lang'], FILTER_SANITIZE_STRING));
  } else {

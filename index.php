@@ -52,7 +52,7 @@ require __DIR__.'/lang/lang.php';
  </header>
 
 
-<section class="main-text">
+<article class="main-text">
   <div class="img-firstpage">
 
 <div class="firstpage">
@@ -67,7 +67,7 @@ require __DIR__.'/lang/lang.php';
 </div>
 
 
-</section>
+</article>
 
 </section>
 <!-- NEW PAGE -->
@@ -84,43 +84,35 @@ require __DIR__.'/lang/lang.php';
 
 <!-- NEW PAGE -->
 
-<div class="big-image">
-  <!-- IMAGE -->
-  <!-- <img src=https://images.unsplash.com/photo-1470945780341-171b6da56841?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6a004d44e4190411ec76ee0d3fc24506&auto=format&fit=crop&w=1050&q=80 alt=""> -->
-</div>
+<!-- <div class="img-desktop"> -->
 <section class="feature-section">
+<div class="feature-bike-img">
+</div>
+<!-- img mobile -->
 
-
-<div class="navigator">
-
+<!-- navbar, only in mobile -->
+<div class="feature-nav">
   <ul>
     <li><a href="exterior.php">Exterior</a></li>
     <li><a href="interior.php">Interior</a></li>
     <li><a href="color.php">Color</a></li>
   </ul>
+</div><!-- end navbar -->
+
+<!-- textarea -->
+<div class="feature-content">
+  <div class="feature-reserve">
+    <p>Reserve My Fast Security</p>
+    <hr class="reserve-hr">
+  </div>
+  <div class="feature-text">
+    <h2 class="feature-text">Feeling special with<br>personalized<br>features</h2>
+  </div>
+
+<a href="contact.php"><button type="button" class="feature-button">Start your journey</button></a>
 </div>
 
-<section class="citat">
-  <div class="journey">
-    <p>Reserve My Fast Security</p>
-    <hr class="hr1">
-  </div>
-  <div class="container">
-    <h2>Feeling special with<br>personalized<br>features and accessories</h2>
-  </div>
 </section>
-<a href="contact.php"><button type="button" class="features-button">Start your journey</button></a>
-</section>
-<!-- <div class="feature-02">
-  <div class="journey">
-    <p>Reserve My Fast Security</p>
-    <hr class="hr1">
-  </div>
-    <h1>exlusive accessories <br> from Wera Wang.</h1>
-  </div>
-  <div class="accessories">
-    bild
-  </div> -->
 
   <section class="int-ext-page">
     <div class="journey">
