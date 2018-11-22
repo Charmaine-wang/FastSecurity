@@ -3,9 +3,27 @@
 require __DIR__.'/header.php';
 
 ?>
+<section class="page-03">
+  <div class="features-img-color">
 
-  <div class="color-image">
-    <!-- <img src="" alt=""> -->
+  </div>
+  <div class="features-nav">
+    <ul>
+    <a href="exterior.php"><li>Exterior</li></a>
+      <a href="interior.php"><li>Interior</li></a>
+      <a href="color.php" class="mark"><li>Color</li></a>
+    </ul>
+  </div>
+    <div class="features">
+      <h2 class="h2-color">Choose your<br>
+          own colour.</h2>
+    </div>
+  <div class="features-button">
+    <button type="button" class="follow-2">Start your journey</button>
+  </div>
+  </section>
+  <!-- <div class="color-image">
+    <img src="" alt="">
   </div>
 
   <div class="navigator">
@@ -22,7 +40,7 @@ require __DIR__.'/header.php';
 
   <div class="follow">
     <button>Follow fast security</button>
-  </div>
+  </div> -->
 
   <?php
 

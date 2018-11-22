@@ -28,8 +28,6 @@ require __DIR__.'/lang/lang.php';
      <a class="lang-link" href="?user_lang=eng">EN</a>
 </div>
 </div>
-<?php foreach ($languages as $language): ?>
-  <?php foreach ($language as $key): ?>
 
 
 <!-- NAVBAR -->
@@ -67,9 +65,8 @@ require __DIR__.'/lang/lang.php';
     <h1 class="firstpage-h2">1.0</h1>
 
     <h1 class="firstpage-h1">FAST<br>SECURITY</h1>
-      <p><?php echo $key['firstPage'][2]; ?></p>
-<?php endforeach; ?>
-<?php endforeach; ?>
+      <p>On the go for the future experience</p>
+
   </div>
   <a href="contact.php"><button type="button" class="firstpage-button">Start your journey here</button></a>
 </div>

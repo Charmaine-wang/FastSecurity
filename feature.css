@@ -1,7 +1,125 @@
-.feature-nav {
+.features-nav, .features-button {
   display: none;
 }
 
+.feature-03 {
+  width: 100vw;
+  height: 120vh;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.int {
+  flex: 45%;
+  margin-top: 100px;
+  }
+
+.ext {
+  flex: 45%;
+  }
+
+.features-image-ext, .features-image-int {
+  height: 300px;
+  width: 600px;
+  background-color: white;
+}
+
+.features-image-int {
+  float: right;
+  margin-bottom: 50px;
+}
+
+.features-image-ext {
+  float: left;
+}
+
+.features-text-ext, .features-text-int {
+  height: 200px;
+  width: 480px;
+  margin: auto;
+  line-height: 27px;
+  color: #BEA683;
+}
+
+.features-text-ext h2 {
+  text-align: left;
+}
+
+.features-text-ext {
+  margin-left: 110px;
+}
+
+.features-text-int {
+  text-align: right;
+}
+
+.notvisible {
+  display: none;
+}
+
+.int-ext-page {
+  padding: 20px 0px 60px 110px;
+  text-align: right;
+  display: flex;
+  width: 100%;
+  height: 10vh;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.journey-features {
+  margin-right: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 0px;
+}
+
+.journey-features p {
+  font-family: "Light";
+  font-size: 14px;
+  line-height: 14px;
+    color: #BEA683;
+}
+
+.hr1 {
+  border: 0;
+  border-top: 7px solid #BEA683;
+  width: 40px;
+  margin: 5px;
+}
+
+.journey:hover {
+  cursor: pointer;
+}
+
+.hr1:hover {
+  transition: .5s;
+  width: 150px;
+}
+
+p:hover+.hr1 {
+  cursor: pointer;
+  transition: .5s;
+  width: 150px;
+}
+.verticle-line {
+  flex: 10%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.line {
+  height: 105vh;
+  width: 1px;
+  background-color: #FFFFFF;
+  }
+
+/*
 .feature-section {
   display: flex;
   width: 100vw;
@@ -67,7 +185,7 @@ p:hover+.reserve-hr {
 }
 
 /* end of style features-pages------------------------------------- */
-.intro {
+/* .intro {
   background: var(--bg-color);
   padding: 100px 0;
   text-align: right;
@@ -97,7 +215,7 @@ p:hover+.reserve-hr {
   font-size: 14px;
   line-height: 14px;
   color: var(--h1-color);
-}
+}  */
 
 /* end of style features-pages------------------------------------- */
 @media screen and (max-width: 900px) {
@@ -106,7 +224,105 @@ p:hover+.reserve-hr {
   }
 
   @media screen and (max-width: 600px) {
-    .feature-section {
+
+    .feature-04 {
+      display: none;
+    }
+
+    .page-03 {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.features {
+  display: flex;
+  height: 50vh;
+  }
+
+  .features-img, .features-img-exterior, .features-img-interior, .features-img-color {
+    height: 50vh;
+    background-color: white;
+  }
+
+  .features-nav {
+    height: 10vh;
+    display: block;
+  }
+
+  .features-nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    }
+
+    .features-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Light";
+  }
+
+
+.h2-features {
+  align-self: center;
+  margin: auto;
+  text-align: right;
+  color: #BEA683;
+  font-size: 42px;
+  line-height: 48px;
+  font-family:
+
+}
+
+.h2-color {
+  align-self: flex-start;
+  margin-left: 24px;
+  text-align: left;
+  color: #BEA683;
+  font-size: 44px;
+  line-height: 48px;
+  font-family:
+}
+
+.p-exterior, .p-interior {
+  align-self: center;
+  margin: auto;
+  text-align: center;
+  color: #BEA683;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: 1.2px;
+  font-family:
+}
+
+ul .mark {
+  color: #BEA683;
+}
+
+.features-button {
+  display: flex;
+  height: 30vh;
+  }
+
+.follow-2 {
+  height: 44px;
+  width: 168px;
+  align-self: center;
+  margin: auto;
+  font-size: 16px;
+  border: solid 1px #BEA683;
+  background-color: black;
+  color: white;
+  border-radius: 3px;
+}
+
+.feature-03 {
+  display: none;
+}
+    /* .feature-section {
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -151,7 +367,6 @@ p:hover+.reserve-hr {
     .feature-text h2 {
       text-align: right;
       font-family: "Bold";
-      /* margin: 0; */
       font-size: 33px;
       line-height: 36px;
       text-align: right;
@@ -207,5 +422,5 @@ p:hover+.reserve-hr {
       font-family: "Regular";
       font-size: 16px;
       border-radius: 3px;
-    }
+    } */
   }
