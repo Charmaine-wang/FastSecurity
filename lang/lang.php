@@ -2,11 +2,13 @@
 $languages = [
   'eng' =>
     ['header' =>
-              ['firstHeader' => 'Fast Security',
-               'weraHeader' => 'Accessories from Wera Wang',
+              ['firstHeader' => 'FastSecurity',
+               'veraHeader' => 'Accessories from',
                'featuresHeader' => 'Feeling special with personalized features',
                'timeHeader' => 'Technological milestones',
                'featureColor' => 'Choose your own colour.',
+               'exteriorHeader' => 'Exterior.',
+               'interiorHeader' => 'Interior.',
                'folder' => 'Productfolder',
                'registerHeader' => 'create your unique adventures.',
                'downHeader' => 'Continue learning more!',
@@ -33,15 +35,18 @@ $languages = [
               ['btn' => 'Start your journey',
                'reserve' => 'Reserve My Fast Security',
               'btnFollow' => 'Follow fast security',
+              'register' => 'Register now',
               'btnBack' => 'Take me back',
               'btnDown' => 'Download your brouchure here']
     ],
   'swe' =>
     ['header' =>
               ['firstHeader' => 'Fast Security',
-               'weraHeader' => 'Tillbehör från Wera Wang.',
+               'veraHeader' => 'Tillbehör från.',
                'featuresHeader' => 'Känner speciellt med personliga funktioner.',
                'timeHeader' => 'Teknologiska milstolpar.',
+               'exteriorHeader' => 'Exteriör.',
+               'interiorHeader' => 'Interiör.',
                'featureColor' => 'Känner speciellt med personliga funktioner',
                'folder' => 'Produktmapp',
                'registerHeader' => 'skapa dina unika äventyr.',
@@ -69,14 +74,21 @@ $languages = [
               ['btn' => 'Börja din resa',
                'reserve' => 'Boka min Fast Security',
               'btnFollow' => 'Följ fast security',
+              'register' => 'Registrera nu',
               'btnBack' => 'Ta mig tillbaka',
               'btnDown' => 'Ladda ner din brouchure här']
     ],
   ];
 
 
-if(isset($_GET['user_lang'])){
-   $lang = trim(filter_var($_GET['user_lang'], FILTER_SANITIZE_STRING));
+if(isset($_GET['lang'])){
+   $lang = trim(filter_var($_GET['lang'], FILTER_SANITIZE_STRING));
  } else {
    $lang = 'eng';
  };
+
+
+ $header = $languages[$lang]['header'];
+ $navbar = $languages[$lang]['navbar'];
+ $content = $languages[$lang]['content'];
+ $btn = $languages[$lang]['button'];
