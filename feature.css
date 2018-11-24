@@ -4,53 +4,57 @@
 
 .feature-03 {
   width: 100vw;
-  height: 120vh;
-  background-color: black;
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
   padding-top: 50px;
-  padding-bottom: 100px;
+  padding-bottom: 150px;
 }
 
-.int {
+.ext-int-page {
+  margin: 125px 140px 0px 140px;
+  background-color: #3D352A;
+}
+
+/* .int {
   flex: 45%;
   margin-top: 100px;
 }
 
 .ext {
   flex: 45%;
-}
-
+} */
 .features-image-ext, .features-image-int {
-  height: 300px;
-  width: 600px;
+  height: 329px;
+  width: 513px;
   background-color: white;
 }
 
 .features-image-int {
   float: right;
-  margin-bottom: 50px;
+  ;
+  background-image: url("images/interior.png");
 }
 
 .features-image-ext {
   float: left;
+  margin: 70px 0px 0px 0px;
+  background-image: url("images/interior.png");
 }
 
 .features-text-ext, .features-text-int {
   height: 200px;
   width: 480px;
-  margin: auto;
   line-height: 27px;
   color: #BEA683;
+  margin:
 }
 
 .features-text-ext h2 {
   text-align: left;
 }
 
-.features-text-ext {
-  margin-left: 110px;
-}
+.features-text-ext {}
 
 .features-text-int {
   text-align: right;
@@ -70,7 +74,11 @@
   flex-direction: row;
 }
 
-/* .journey-features {
+.journey {
+  margin-left: 107px;
+}
+
+.journey-features {
   margin-right: 20%;
   display: flex;
   flex-direction: column;
@@ -105,7 +113,7 @@ p:hover+.hr1 {
   cursor: pointer;
   transition: .5s;
   width: 150px;
-} */
+}
 
 .verticle-line {
   flex: 10%;

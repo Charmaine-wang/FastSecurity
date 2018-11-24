@@ -1,47 +1,76 @@
 .page-2-mobile {
+  display: flex;
+  background-image: url("images/overlay-glasses.png");
+  width: 100vw;
+  height: 100vh;
+}
+
+.h2-wera-wang {
   display: none;
 }
 
-@media screen and (max-width: 600px) {
-
-.page-2-mobile {
-  width: 100vw;
-  height: 100vh;
-  background-color: black;
-  display: flex;
-  flex-direction: column;
-  }
-
-.wera-wang {
-  display: flex;
-  height: 70vh;
-  }
-
-.h2-wera-wang {
-  align-self: center;
-  margin: auto;
-  text-align: right;
-  color: var(--txt-color);
-  font-size: 42px;
-  line-height: 48px;
-  font-family: "Bold";
-  }
-
 .wera-wang-button {
   display: flex;
-  height: 30vh;
+  margin: 650px 100px 0px 0px;
+  justify-content: flex-end;
+}
+
+.wera-wang-button button {
+  font-family: "Light";
+  width: 474px;
+  height: 85px;
+  font-size: 24px;
+  line-height: 66px;
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 600px) {
+  .page-2-mobile {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    background-image: none;
+    display: flex;
+    flex-direction: column;
   }
 
-.follow {
-  height: 44px;
-  width: 168px;
-  align-self: center;
-  margin: auto;
-  font-size: 16px;
-  font-family: "Regular";
-  border: solid 1px #BEA683;
-  background-color: var(--bg-color);
-  color: var(--h1-color);
-  border-radius: 3px;
+  .wera-wang {
+    display: flex;
+    height: 70vh;
+    margin-top: 480px;
+  }
+
+  .h2-wera-wang {
+    display: inherit;
+    align-self: center;
+    margin: auto;
+    text-align: right;
+    color: var(--txt-color);
+    font-size: 42px;
+    line-height: 48px;
+    font-family: "Bold";
+  }
+
+  .wera-wang-button {
+    width: 168px;
+    height: 44px;
+    font-size: 16px;
+    border-radius: 3px;
+    letter-spacing: -0.75px;
+    /* align-self: center; */
+    margin: 0px 0px 0px 100px;
+  }
+
+  .follow {
+    height: 44px;
+    width: 168px;
+    align-self: center;
+    margin: auto;
+    font-size: 16px;
+    font-family: "Regular";
+    border: solid 1px #BEA683;
+    background-color: var(--bg-color);
+    color: var(--h1-color);
+    border-radius: 3px;
   }
 }

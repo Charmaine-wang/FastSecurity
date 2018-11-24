@@ -2,10 +2,10 @@
 $languages = [
   'eng' =>
     ['header' =>
-              ['firstHeader' => 'FastSecurity',
+              ['firstHeader' => 'Fast'. '<br>'. 'Security',
                'veraHeader' => 'Accessories from',
                'featuresHeader' => 'Feeling special with personalized features',
-               'timeHeader' => 'Technological milestones',
+               'timeHeader' => 'Technological'. '<br>'. 'milestones',
                'featureColor' => 'Choose your own colour.',
                'exteriorHeader' => 'Exterior.',
                'interiorHeader' => 'Interior.',
@@ -41,10 +41,10 @@ $languages = [
     ],
   'swe' =>
     ['header' =>
-              ['firstHeader' => 'Fast Security',
+              ['firstHeader' => 'Fast'. '<br>'. 'Security',
                'veraHeader' => 'Tillbehör från.',
                'featuresHeader' => 'Känner speciellt med personliga funktioner.',
-               'timeHeader' => 'Teknologiska milstolpar.',
+               'timeHeader' => 'Teknologiska'. '<br>'. 'milstolpar.',
                'exteriorHeader' => 'Exteriör.',
                'interiorHeader' => 'Interiör.',
                'featureColor' => 'Känner speciellt med personliga funktioner',

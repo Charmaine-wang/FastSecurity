@@ -8,6 +8,8 @@ require __DIR__.'/lang/lang.php';
 
 
 ?>
+
+<!-- firstPage -->
 <section class="img-firstpage">
  <header>
 
@@ -72,10 +74,10 @@ require __DIR__.'/lang/lang.php';
 </div>
 </article>
 
-</section>
+</section> <!-- end of firstPage -->
 
 
-<!-- NEW PAGE -->
+<!-- Accessories VeraWang page -->
 <section class="page-2-mobile">
   <div class="wera-wang">
     <h2 class="h2-wera-wang"><?php echo $header['veraHeader'] ?><br> Vera Wang</h2>
@@ -83,15 +85,14 @@ require __DIR__.'/lang/lang.php';
   <div class="wera-wang-button">
     <button type="button" class="follow"><?php echo $btn['btn']; ?></button>
   </div>
-</section>
+</section> <!-- end of accessories veraWang page -->
 
 
 
-<!-- NEW PAGE -->
+<!-- exterior and interior page -->
+<section class="ext-int-page">
 
-
-
-  <section class="int-ext-page">
+  <div class="int-ext-page">
     <div class="journey">
       <p><?php echo $btn['reserve']; ?></p>
       <hr class="hr1">
@@ -99,7 +100,7 @@ require __DIR__.'/lang/lang.php';
     <div class="container">
       <h2 class="notvisible">not visible </h2>
     </div>
-  </section>
+  </div>
 <div class="feature-03">
     <div class="ext">
       <div class="features-text-ext">
@@ -110,6 +111,7 @@ require __DIR__.'/lang/lang.php';
           <img src="" alt="">
     </div>
   </div>
+
   <div class="int">
       <div class="features-image-int">
         <img src="" alt="">
@@ -121,6 +123,10 @@ require __DIR__.'/lang/lang.php';
         </div>
       </div>
       </div>
+</section>
+<!-- end exterior and interior page -->
+
+<!-- choose your own colorPage -->
       <section class="feature-04">
         <div class="journey">
           <p><?php echo $btn['reserve']; ?></p>
@@ -130,7 +136,7 @@ require __DIR__.'/lang/lang.php';
           <h2>choose your<br>own color.</h2>
         </div>
       </section>
-
+<!-- end choose your own colorPage -->
 <section class="intro">
   <div class="journey">
     <p><?php echo $btn['reserve']; ?></p>
