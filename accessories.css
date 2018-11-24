@@ -37,7 +37,7 @@
   .wera-wang {
     display: flex;
     height: 70vh;
-    margin-top: 480px;
+    margin-top: 350px;
   }
 
   .h2-wera-wang {
@@ -58,7 +58,7 @@
     border-radius: 3px;
     letter-spacing: -0.75px;
     /* align-self: center; */
-    margin: 0px 0px 0px 100px;
+    margin: 0px 0px 100px 100px;
   }
 
   .follow {
