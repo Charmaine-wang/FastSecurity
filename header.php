@@ -22,6 +22,7 @@ require __DIR__.'/lang/lang.php';
   <link rel="stylesheet" href="footer.css">
   <link rel="stylesheet" href="contactpages.css">
   <link rel="stylesheet" href="timeline.css">
+  <link rel="stylesheet" href="fea.css">
 
 
   <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:700" rel="stylesheet">

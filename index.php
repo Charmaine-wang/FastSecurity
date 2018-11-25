@@ -103,10 +103,6 @@ require __DIR__.'/lang/lang.php';
 
 <!-- textarea -->
 <div class="feature-content">
-  <div class="feature-reserve">
-    <p>Reserve My Fast Security</p>
-    <hr class="reserve-hr">
-  </div>
   <div class="feature-text">
     <h2 class="feature-text">Feeling special with<br>personalized<br>features</h2>
   </div>
@@ -119,7 +115,7 @@ require __DIR__.'/lang/lang.php';
 <!-- exterior and interior page -->
 <section class="ext-int-page">
 
-  <div class="int-ext-page">
+  <!-- <div class="int-ext-page"> -->
     <div class="journey">
       <p><?php echo $btn['reserve']; ?></p>
       <hr class="hr1">
@@ -127,7 +123,7 @@ require __DIR__.'/lang/lang.php';
     <div class="container">
       <h2 class="notvisible">not visible </h2>
     </div>
-  </div>
+  <!-- </div> -->
 <div class="feature-03">
     <div class="ext">
       <div class="features-text-ext">
@@ -135,13 +131,11 @@ require __DIR__.'/lang/lang.php';
           <p><?php echo $content['exterior'] ?></p>
       </div>
     <div class="features-image-ext">
-          <img src="" alt="">
     </div>
   </div>
 
   <div class="int">
       <div class="features-image-int">
-        <img src="" alt="">
       </div>
 
         <div class="features-text-int">

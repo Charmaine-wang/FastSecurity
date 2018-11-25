@@ -31,17 +31,14 @@
 .features-image-ext, .features-image-int {
   height: 329px;
   width: 513px;
-  background-color: white;
 }
 
 .features-image-int {
-  float: right;
   margin: 0px 0px 135px 0px;
   background-image: url("images/interior.png");
 }
 
 .features-image-ext {
-  float: left;
   margin: 70px 0px 0px 0px;
   background-image: url("images/interior.png");
 }
@@ -80,47 +77,6 @@
   height: 10vh;
   justify-content: space-between;
   flex-direction: row;
-}
-
-.journey {
-  margin-left: 107px;
-}
-
-.journey-features {
-  margin-right: 20%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 0px;
-}
-
-.journey-features p {
-  font-family: "Light";
-  font-size: 14px;
-  line-height: 14px;
-  color: #BEA683;
-}
-
-.hr1 {
-  border: 0;
-  border-top: 7px solid #BEA683;
-  width: 40px;
-  margin: 5px;
-}
-
-.journey:hover {
-  cursor: pointer;
-}
-
-.hr1:hover {
-  transition: .5s;
-  width: 150px;
-}
-
-p:hover+.hr1 {
-  cursor: pointer;
-  transition: .5s;
-  width: 150px;
 }
 
 .verticle-line {
