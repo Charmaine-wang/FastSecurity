@@ -23,7 +23,6 @@ require __DIR__.'/lang/lang.php';
 
     <img class="saab" src="SAAB_fakelogo.png" alt="Logo">
 
-
 <div class="language-links">
   <a class="lang-link" href="?lang=eng">ENG</a>
   <a class="lang-link" href="?lang=swe">SWE</a>
