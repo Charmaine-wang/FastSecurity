@@ -82,9 +82,8 @@ require __DIR__.'/lang/lang.php';
   <div class="wera-wang">
     <h2 class="h2-wera-wang"><?php echo $header['veraHeader'] ?><br> Vera Wang</h2>
   </div>
-  <div class="wera-wang-button">
-    <button type="button" class="follow"><?php echo $btn['btn']; ?></button>
-  </div>
+  <p>Exclusive first rider augmented reality <br>glasses from our partner.</p>
+    <button class="wera-wang-button" type="button"><?php echo $btn['btn']; ?></button>
 </section> <!-- end of accessories veraWang page -->
 
 <!-- <div class="img-desktop"> -->
