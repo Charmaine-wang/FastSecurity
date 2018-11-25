@@ -11,6 +11,10 @@
   padding-bottom: 150px;
 }
 
+.feature-04 {
+  display: none;
+}
+
 .ext-int-page {
   margin: 125px 140px 0px 140px;
   background-color: #3D352A;
@@ -32,7 +36,7 @@
 
 .features-image-int {
   float: right;
-  ;
+  margin: 0px 0px 135px 0px;
   background-image: url("images/interior.png");
 }
 
@@ -60,6 +64,10 @@
   text-align: right;
 }
 
+/*
+.feature-text-int h2 {
+  margin: 300px 0px 0px 0px;
+} */
 .notvisible {
   display: none;
 }
@@ -359,7 +367,8 @@ p:hover+.reserve-hr {
 
     .feature-bike-img {
       display: flex;
-      background-color: var(--h1-color);
+      background-image: url("images/car-move.png");
+      object-fit: scale-down;
       height: 50vh;
       width: 100%;
       margin: 0px;
