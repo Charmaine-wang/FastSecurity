@@ -24,8 +24,8 @@ require __DIR__.'/lang/lang.php';
     <img class="saab" src="SAAB_fakelogo.png" alt="Logo">
 
 <div class="language-links">
-  <a class="lang-link" href="?lang=eng">ENG</a>
-  <a class="lang-link" href="?lang=swe">SWE</a>
+  <a class="lang-link-eng" href="?lang=eng">ENG</a>
+  <a class="lang-link-swe" href="?lang=swe">SWE</a>
 </div>
 </div>
 
@@ -50,6 +50,11 @@ require __DIR__.'/lang/lang.php';
          <a href="#5" class="nav-link"><?php echo $navbar['accessories'];?></a>
        </li>
 
+       <div class="language-links-nav">
+         <a class="lang-link-eng" href="?lang=eng">ENG</a>
+         <a class="lang-link-swe" href="?lang=swe">SWE</a>
+       </div>
+
      </ul>
 
    </nav>
@@ -58,9 +63,7 @@ require __DIR__.'/lang/lang.php';
 
 
 <article class="main-text">
-  <!-- <div class="img-firstpage-1"> -->
 
-<div class="firstpage">
   <div class="text-header">
     <h2 class="firstpage-h2">1.0</h2>
 
@@ -69,8 +72,6 @@ require __DIR__.'/lang/lang.php';
 
   </div>
   <a href="contact.php"><button type="button" class="firstpage-button"><?php echo $btn['btn']; ?></button></a>
-<!-- </div> -->
-</div>
 </article>
 
 </section> <!-- end of firstPage -->
