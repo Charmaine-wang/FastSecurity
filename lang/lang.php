@@ -2,7 +2,7 @@
 $languages = [
   'eng' =>
     ['header' =>
-              ['firstHeader' => 'Fast'. '<br>'. 'Security',
+              ['firstHeader' => 'FAST SECURITY',
                'veraHeader' => 'Accessories from',
                'featuresHeader' => 'Feeling special with personalized features',
                'timeHeader' => 'Technological'. '<br>'. 'milestones',
