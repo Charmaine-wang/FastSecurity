@@ -75,9 +75,9 @@ header {
 }
 
 .saab {
-  width: 90px;
-  height: 25px;
-  margin-left: 47%;
+  width: 152px;
+  height: 34px;
+  margin-left: 45%;
 }
 
 .language-links {
@@ -103,55 +103,12 @@ header {
   margin-top: -20px;
 }
 
-.nav-ist__visible {
+/* .nav-ist__visible {
   transform: translateX(0);
   margin-top: -20px;
-}
-
+} */
 .nav-ist {
-  transition: transform 200ms ease;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  width: 478px;
-  background-color: rgba(206, 202, 196, 0.45);
-  position: absolute;
-  padding-left: 30px;
-  left: 0px;
-  align-items: left;
-  justify-content: space-around;
-  list-style: none;
-}
-
-.nav-link-start {
-  display: flex;
-  font-family: "Medium";
-  font-size: 28px;
-  line-height: 14px;
-  text-decoration: none;
-  text-align: left;
-  letter-spacing: 0.5;
-  color: #FFFFFF;
-  margin-bottom: 20px;
-  margin-top: 40px;
-}
-
-.nav-link {
-  font-family: "Light";
-  font-size: 28px;
-  line-height: 14px;
-  text-decoration: none;
-  text-align: left;
-  letter-spacing: 0.5;
-  color: #FFFFFF;
-}
-
-.nav-link:hover {
-  opacity: 0.5;
-}
-
-.nav-hr {
-  border: 1px solid #BEA683;
+  display: none;
 }
 
 /* LANGUAGE BUTTONS */
@@ -179,18 +136,16 @@ header {
   padding-left: 20px;
 }
 
-@media screen and (max-width: 900px) {
-
-}
+@media screen and (max-width: 900px) {}
 
 @media screen and (max-width: 600px) {
-.main-text {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: center;
-  height: 100%;
-}
+  .main-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    height: 100%;
+  }
 
   .text-header {
     width: 100%;
@@ -256,14 +211,15 @@ header {
     background-color: #CECAC4;
     position: absolute;
     top: 0px;
-    left: 0px;
+    left: 0;
     align-items: center;
     justify-content: space-between;
     list-style: none;
   }
 
   .nav-link {
-    font-size: 18px;
+    font-family: "Light";
+    font-size: 16px;
     line-height: 14px;
     text-decoration: none;
     letter-spacing: 0.5px;
@@ -277,12 +233,14 @@ header {
   }
 
   .nav-item {
-    margin-bottom: 50px;
+    margin: 0 0 15% 5%;
   }
 
   .nav-link-start {
+    font-family: "Medium";
     color: #34322E;
-    font-size: 24px;
+    font-size: 26px;
+    line-height: 14px;
     margin-top: -40px;
     text-transform: uppercase;
   }
@@ -306,6 +264,10 @@ header {
 
   .language-links a {
     display: none;
+  }
+
+  .language-links-nav {
+    margin-left: 5%;
   }
 
   .lang-link-eng {
