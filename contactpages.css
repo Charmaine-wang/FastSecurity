@@ -267,18 +267,19 @@ a {
     border: 1px solid var(--txt-color);
     height: 44px;
     width: 168px;
+    margin-bottom: 20%;
   }
 
   .hr-email {
     display: none;
   }
 
-  .contactsheet i {
-    margin-top: 50%;
-  }
-
   /* LEAVE EMAIL PAGE STYLE END */
   /* DOWNLOAD PAGE STYLE */
+
+  .download {
+    margin-top: 50%;
+  }
 
   .download h2 {
     margin-top: -400px;
@@ -309,10 +310,6 @@ a {
     border-radius: 3px;
     background-color: rgba(190, 166, 131, 0.8);
     margin-top: 100px;
-  }
-
-  .download-button i {
-    display: none;
   }
 
   .hr-download {

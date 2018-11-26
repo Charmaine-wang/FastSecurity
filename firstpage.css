@@ -16,8 +16,9 @@
 }
 
 .text-header {
-  width: 31%;
+  /* width: 38%; */
   text-align: right;
+  margin-right: 9%;
 }
 
 .firstpage-h1 {
@@ -34,11 +35,12 @@
   color: var(--txt-color);
   text-align: right;
   font-size: 100px;
+  margin: 0;
 }
 
 .text-header p {
   text-align: right;
-  margin: 5px;
+  margin-right: 5%;
   color: white;
 }
 
@@ -51,6 +53,7 @@
   font-family: "Regular";
   font-size: 24px;
   border-radius: 3px;
+  margin-left: 28%;
 }
 
 /*  FIRST PAGE STYLE */
@@ -168,6 +171,7 @@ header {
   .firstpage-h2 {
     font-size: 44px;
     line-height: 44px;
+    margin: 0;
   }
 
   .main-text a {
@@ -181,6 +185,7 @@ header {
     border-radius: 3px;
     letter-spacing: -0.75px;
     align-self: center;
+    margin: 0;
   }
 
   .firstpage a {

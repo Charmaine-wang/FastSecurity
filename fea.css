@@ -36,16 +36,23 @@
   margin-bottom: 5%;
 }
 
+.exterior-text h3 {
+  display: none;
+}
+
 .exterior-text p {
   font-size: 16px;
   color: #CBCBCB;
 }
 
-
 .exterior-text {
   width: 513px;
   text-align: left;
   font-size: 16px;
+}
+
+.exterior-mobile {
+  display: none;
 }
 
 .interior {
@@ -87,4 +94,127 @@
   align-self: center;
   justify-content: center;
   margin-right: 5%;
+}
+
+.feature-button {
+  display: none;
+}
+
+.navigator {
+  display: none;
+}
+
+.color-page {
+  width: 100vw;
+  height: 100vh;
+}
+
+@media screen and (max-width: 600px) {
+
+  .feature-page {
+    flex-direction: row;
+  }
+
+  .exterior {
+    margin: 0;
+    width: 100vw;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  }
+
+  .interior {
+    display: none;
+  }
+
+  .exterior-image {
+    display: none;
+  }
+
+  .exterior-text {
+    height: 70%;
+    width: 100vw;
+    /* display: flex; */
+    /* align: flex-end; */
+  }
+
+  .exterior-text h2 {
+    display: none;
+  }
+
+  .exterior-text h3 {
+    display: block;
+    font-size: 36px;
+    font-family: "Bold";
+    text-align: right;
+    line-height: 48px;
+    /* position: fixed; */
+    margin: 0 5% 30% 0;
+  }
+
+  .exterior-text p {
+    /* transform: translateX(200%); */
+    /* margin: 0; */
+    display: none;
+  }
+
+  .exterior-mobile {
+    width: 100vw;
+    height: 40vh;
+    display: block;
+    margin: 0;
+  }
+
+  .interior-image {
+    display: none;
+  }
+
+  .interior-text {
+    display: none;
+  }
+/*
+  .interior-text {
+    transform: translateX(200%);
+  } */
+
+  .vertical-line {
+    display: none;
+  }
+
+  .feature-button {
+    display: block;
+    /* margin-top: -15%; */
+    position: sticky;
+  }
+
+  .navigator {
+    display: block;
+    position: sticky;
+    /* flex-direction: row; */
+  }
+
+  .feature-nav {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    font-family: "Light";
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.06px;
+    margin: 3%;
+  }
+
+  .feature-nav a {
+    color: var(--h1-color);
+    text-decoration: none;
+  }
+
+  .feature-button {
+    margin-left: 28%;
+  }
+
+  .color-page {
+    display: none;
+  }
 }

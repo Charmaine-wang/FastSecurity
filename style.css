@@ -36,11 +36,12 @@ h1 {
 }
 
 h2 {
-  line-height: 0.8em;
+  line-height: 60px;
   font-family: "Bold";
-  font-size: 44px;
+  font-size: 68px;
   color: var(--txt-color);
   text-align: right;
+  margin-right: 9%;
 }
 
 p {
@@ -63,6 +64,64 @@ button {
 
 button:hover {
   cursor: pointer;
+}
+
+.all-page-button1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 0px;
+  margin-left: -65%;
+}
+
+.all-page-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 0px;
+  margin-left: -69%;
+}
+
+.all-page-button1 p {
+  color: var(--h1-color);
+  font-family: "Light";
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.5px;
+}
+
+.all-page-button p {
+  color: var(--h1-color);
+  font-family: "Light";
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.5px;
+}
+
+.hr1 {
+  border: 0;
+  border-top: 7px solid var(--txt-color);
+  width: 40px;
+  margin: 5px;
+}
+
+.all-page-button:hover {
+  cursor: pointer;
+}
+
+.all-page-button1:hover {
+  cursor: pointer;
+}
+
+.hr1:hover {
+  transition: .5s;
+  width: 150px;
+}
+
+p:hover+.hr1 {
+  cursor: pointer;
+  transition: .5s;
+  width: 150px;
 }
 
 /* CONTACT PAGE STYLE */
