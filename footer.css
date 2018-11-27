@@ -1,29 +1,139 @@
 /* FOOTER STYLE*/
 .footer {
-  height: 158px;
+  height: 80vh;
   width: 100%;
   background-color: #34322E;
-}
+  display: flex;
+  flex-direction: column;
+  }
+
+  .saablogo-footer {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+  .logo-footer {
+    height: 170px;
+    width: 340px;
+    padding-top: 5%;
+  }
+
+  .saab-footer {
+    height: 60px;
+    width: 180px;
+    padding-top: 3%;
+    }
+
+
+  .footer-button {
+    margin-top: 8%;
+    background-color: #34322E;
+    color: var(--h1-color);
+    border: 1px solid var(--txt-color);
+    height: 85px;
+    width: 474px;
+    font-family: "Regular";
+    font-size: 24px;
+    border-radius: 3px;
+  }
+
+  .hr {
+    height: 35%;
+    margin-top: 5%;
+      }
 
 .footer-hr {
   color: #fffff;
   border-style: inset;
   border-width: 1px;
-  margin: 2em auto;
+  margin: 10% auto;
   width: 85%;
 }
 
-.footer ul {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+.ul-footer {
+  height: 5%;
 }
 
-.footer ul li {
+.ul-footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  }
+
+.ul-footer ul li {
   list-style: none;
+  color: var(--txt-color);
   font-family: "Light";
   font: 24px;
-  padding-top: 10px;
-}
+  }
+
+  .p-footer {
+    display: none;
+  }
+
+  @media screen and (max-width: 900px) {
+    .footer-hr {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .footer {
+      height: 20vh;
+      width: 100%;
+      background-color: #34322E;
+      display: flex;
+      flex-direction: column;
+      }
+
+    .p-footer {
+      display: flex;
+      color: #BEA683;
+      justify-content: center;
+
+    }
+
+      .saablogo-footer, .width-button, .only-desktop {
+          display: none;
+        }
+
+      .hr {
+        height: 25%;
+        margin-top: 4%;
+          }
+
+
+    .footer-hr {
+      display: flex;
+      color: #fffff;
+      border-style: inset;
+      border-width: 1px;
+      margin: 5% auto;
+      width: 85%;
+    }
+
+    .ul-footer {
+      height: 10%;
+    }
+
+    .ul-footer ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      }
+
+    .ul-footer ul li {
+      list-style: none;
+      color: var(--txt-color);
+      font-family: "Light";
+      font: 24px;
+      margin-right: 55px;
+      margin-top: 30px;
+
+      }
+  }
 
 /* FOOTER END*/

@@ -80,6 +80,18 @@ require __DIR__.'/header.php';
 
 </section> <!-- end of firstPage -->
 
+<!-- GO FURTHER PAGE -->
+<section class="go-further-page">
+
+  <div class="all-page-button1">
+    <p><?php echo $btn['reserve']; ?></p>
+    <hr class="hr1">
+  </div>
+<div class="further">
+<h1 class="further-head">Go further <br> with Fast Security</h1>
+</div>
+</section>
+
 
 <!-- Accessories VeraWang page -->
 <section class="page-2-mobile">
@@ -89,6 +101,17 @@ require __DIR__.'/header.php';
   <p>Exclusive first rider augmented reality <br>glasses from our partner.</p>
     <button class="wera-wang-button" type="button"><?php echo $btn['btn']; ?></button>
 </section> <!-- end of accessories veraWang page -->
+
+<!-- Sustaineble page -->
+<section class="sustaineble-page">
+  <div class="all-page-button1">
+    <p><?php echo $btn['reserve']; ?></p>
+    <hr class="hr1">
+  </div>
+
+<h1 class="sustaineble-head">Sustaineble for<br>the future</h1>
+
+</section>
 
 <!-- FEATURE PAGES -->
 

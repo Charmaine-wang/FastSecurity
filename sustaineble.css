@@ -1,0 +1,16 @@
+.sustaineble-page {
+  width: 100%;
+  height: 100vh;
+  background-image: url("images/mountain.png");
+  background-position: center;
+  background-size: cover;
+  padding: 9% 9% 9% 0;
+}
+
+.sustaineble-head {
+  font-family: "Bold";
+  font-size: 68px;
+  line-height: 60px;
+  text-align: right;
+  color: var(--txt-color);
+}
