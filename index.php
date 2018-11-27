@@ -2,11 +2,6 @@
 
 require __DIR__.'/header.php';
 
-// require __DIR__.'/lang/lang.php';
-
-
-
-
 ?>
 
 <!-- firstPage -->
@@ -192,14 +187,14 @@ require __DIR__.'/header.php';
   <section class="timeline">
     <ul>
       <li>
-        <img class="img-right" src="./images/trollhattan.jpeg" alt="">
+        <img class="img-right" src="<?php echo $timeline['rightimage'] ?>" alt="">
         <div class="right">
           <time><?php echo $timeline['rightyear']; ?></time>
           <p><?php echo $timeline['rightcontent']; ?></p>
         </div>
       </li>
       <li>
-        <img class="img-left" src="./images/trollhattan.jpeg" alt="">
+        <img class="img-left" src="<?php echo $timeline['leftimage'] ?>" alt="">
         <div class="left">
           <time><?php echo $timeline['leftyear']; ?></time>
           <p><?php echo $timeline['leftcontent']; ?></p>
@@ -209,7 +204,7 @@ require __DIR__.'/header.php';
   </section>
     <?php endforeach; ?>
 
-<a href="contact.php"><button type="button"><?php echo $btn['btnFollow'] ?></button></a>
+<a href="contact.php"><button class ="timeline-button" type="button"><?php echo $btn['btnFollow'] ?></button></a>
 
 <!-- productfolder -->
 <h1><?php echo $header['folder'] ?></h1>

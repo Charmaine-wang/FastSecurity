@@ -82,13 +82,13 @@ button:hover {
   margin-left: -69%;
 }
 
-.all-page-button1 p {
+/* .all-page-button1 p {
   color: var(--h1-color);
   font-family: "Light";
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.5px;
-}
+} */
 
 .all-page-button p {
   color: var(--h1-color);
@@ -109,9 +109,9 @@ button:hover {
   cursor: pointer;
 }
 
-.all-page-button1:hover {
+/* .all-page-button1:hover {
   cursor: pointer;
-}
+} */
 
 .hr1:hover {
   transition: .5s;
@@ -127,5 +127,9 @@ p:hover+.hr1 {
   @media screen and (max-width: 600px) {
     h1 {
       font-size: 44px;
+    }
+
+    .all-page-button {
+      display: none;
     }
   }

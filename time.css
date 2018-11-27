@@ -1,5 +1,5 @@
 .timeline-page {
-  padding-bottom: 10%;
+  padding: 10% 0 10% 0;
 }
 
 .timeline ul li img {
@@ -14,7 +14,7 @@
   transform: translate3d(-200px, 0, 0);
   visibility: hidden;
   opacity: 0;
-  transition: all .5s ease-in-out;
+  transition: all 1s ease-in-out;
   /* z-index: 1; */
   /* top: 0%; */
 }
@@ -24,7 +24,7 @@
   transform: translate3d(200px, 0, 0);
   visibility: hidden;
   opacity: 0;
-  transition: all .5s ease-in-out;
+  transition: all 1s ease-in-out;
   /* z-index: 1; */
   /* top: 0%; */
 }
@@ -49,7 +49,7 @@
   height: 70vh;
   visibility: hidden;
   opacity: 0;
-  transition: all .5s ease-in-out;
+  transition: all 1s ease-in-out;
   /* width: 100vw; */
 }
 
@@ -145,4 +145,95 @@
   transform: none;
   visibility: visible;
   opacity: 1;
+}
+
+.timeline-button {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+
+  .timeline ul li div {
+    /* position: relative; */
+    height: 30vh;
+    /* visibility: hidden;
+    opacity: 0;
+    transition: all 1s ease-in-out; */
+    /* width: 100vw; */
+  }
+
+  .timeline ul li div::before {
+    width: 30vw;
+  }
+
+  .timeline ul li .left::before {
+    left: -10vw;
+    /* position: absolute; */
+    /* right: 70%; */
+  }
+
+  .img-right {
+    right: 8vw;
+    /* transform: translate3d(-200px, 0, 0);
+    visibility: hidden;
+    opacity: 0;
+    transition: all 1s ease-in-out; */
+    /* z-index: 1; */
+    /* top: 0%; */
+  }
+
+  .img-left {
+    left: 8vw;
+    /* transform: translate3d(200px, 0, 0);
+    visibility: hidden;
+    opacity: 0;
+    transition: all 1s ease-in-out; */
+    /* z-index: 1; */
+    /* top: 0%; */
+  }
+
+  .timeline ul li img {
+    width: 42vw;
+    height: 15vh;
+    /* top: 1%; */
+    /* position: absolute; */
+    /* right: 100  %; */
+  }
+
+  .timeline h2 {
+    font-size: 36px;
+    line-height: 38px;
+    letter-spacing: 0.1px;
+  }
+
+  .timeline ul li .right time {
+    font-size: 23px;
+    line-height: 30px;
+    left: 35vw;
+    top: -7%;
+  }
+
+  .timeline ul li .left time {
+    font-size: 23px;
+    line-height: 30px;
+    right: 15vw;
+    top: -7%;
+  }
+
+  .timeline ul li .left p {
+    position: absolute;
+    right: -5vw;
+    text-align: left;
+    width: 35vw;
+    top: 15%;
+  }
+
+  .timeline ul li .right p {
+    position: absolute;
+    left: 15vw;
+    text-align: right;
+    width: 35vw;
+    top: 15%;
+  }
+
 }

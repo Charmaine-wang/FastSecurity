@@ -33,26 +33,33 @@ $language = [
             'btnBack' => 'Ta mig tillbaka',
             'btnDown' => 'Ladda ner din brouchure här'],
 
-  'timeline' => [
-    [
-      'rightyear' => '1937',
-      'rightcontent' => 'SAAB startade i Trollhättan, Sverige',
-      'leftyear' => '1946',
-      'leftcontent' => 'Den första SAAB bilen är född. SAAB 92',
-    ],
-    [
-      'rightyear' => '1978',
-      'rightcontent' => 'SAAB 900 markerar en ny formfaktor och effekt.',
-      'leftyear' => '1997',
-      'leftcontent' => 'SAAB 9-5 presenteras. En bil för en ny era.',
-    ],
-    [
-      'rightyear' => '2010',
-      'rightcontent' => 'Andra generationens SAAB 9-5 är en realitet.',
-      'leftyear' => '2019',
-      'leftcontent' => 'SAAB går in i framtiden med FastSecurity',
-    ],
-]
+            'timeline' =>
+            [
+              [
+                'rightyear' => '1937',
+                'rightcontent' => 'SAAB started in Trollhättan, Sweden',
+                'rightimage' => './images/trollhattan.jpg',
+                'leftyear' => '1946',
+                'leftcontent' => 'The first SAAB car is born. The SAAB 92',
+                'leftimage' => './images/history1.jpg',
+              ],
+              [
+                'rightyear' => '1978',
+                'rightcontent' => 'The SAAB 900 marks a new form factor and power.',
+                'rightimage' => './images/history2.jpg',
+                'leftyear' => '1997',
+                'leftcontent' => 'The SAAB 9-5 is unveiled. A car for a new era.',
+                'leftimage' => './images/history3.jpg',
+              ],
+              [
+                'rightyear' => '2010',
+                'rightcontent' => 'Second generation SAAB 9-5 is made a reality.',
+                'rightimage' => './images/history4.jpg',
+                'leftyear' => '2019',
+                'leftcontent' => 'SAAB enters the future with the FastSecurity',
+                'leftimage' => './images/history5.jpg',
+              ],
+            ],
 
 ];
 
