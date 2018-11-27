@@ -82,7 +82,7 @@
 
   @media screen and (max-width: 600px) {
     .footer {
-      height: 30vh;
+      height: 20vh;
       width: 100%;
       background-color: #34322E;
       display: flex;
@@ -102,7 +102,7 @@
 
       .hr {
         height: 25%;
-        margin-top: 3%;
+        margin-top: 4%;
           }
 
 
@@ -122,7 +122,7 @@
     .ul-footer ul {
       display: flex;
       flex-direction: row;
-      justify-content: flex-start;
+      justify-content: center;
       }
 
     .ul-footer ul li {
@@ -130,7 +130,9 @@
       color: var(--txt-color);
       font-family: "Light";
       font: 24px;
-      margin-right: 40px;
+      margin-right: 55px;
+      margin-top: 30px;
+
       }
   }
 

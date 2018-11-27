@@ -2,7 +2,7 @@
 
 require __DIR__.'/header.php';
 
-require __DIR__.'/lang/lang.php';
+// require __DIR__.'/lang/lang.php';
 
 
 
@@ -24,8 +24,8 @@ require __DIR__.'/lang/lang.php';
     <img class="saab" src="images/saablogo.png" alt="Logo">
 
 <div class="language-links">
-  <a class="lang-link-eng" href="?lang=eng">ENG</a>
-  <a class="lang-link-swe" href="?lang=swe">SWE</a>
+  <a class="lang-link-eng" href="?language=En">ENG</a>
+  <a class="lang-link-swe" href="?language=Sv">SWE</a>
 </div>
 </div>
 
@@ -51,8 +51,8 @@ require __DIR__.'/lang/lang.php';
        </li>
 
        <div class="language-links-nav">
-         <a class="lang-link-eng" href="?lang=eng">ENG</a>
-         <a class="lang-link-swe" href="?lang=swe">SWE</a>
+         <a class="lang-link-eng" href="?language=En">ENG</a>
+         <a class="lang-link-swe" href="?language=Sv">SWE</a>
        </div>
 
      </ul>
@@ -175,6 +175,7 @@ require __DIR__.'/lang/lang.php';
         </div>
       </section>
 <!-- end choose your own colorPage -->
+
   <section class="timeline-page">
     <div class="all-page-button">
       <p><?php echo $btn['reserve']; ?></p>
@@ -186,46 +187,27 @@ require __DIR__.'/lang/lang.php';
     </div>
   </section>
 
-<section class="timeline">
-  <ul>
-    <li>
-      <div class="right">
-        <time>1937</time>
-        <p><?php echo $content['1937']; ?></p>
-      </div>
-    </li>
-    <li>
-      <div class="left">
-        <time>1946</time>
-        <p><?php echo $content['1946']; ?></p>
-      </div>
-    </li>
-    <li>
-      <div class="right">
-        <time>1978</time>
-        <p><?php echo $content['1978']; ?></p>
-      </div>
-    </li>
-    <li>
-      <div class="left">
-        <time>1997</time>
-        <p><?php echo $content['1997']; ?></p>
-      </div>
-    </li>
-    <li>
-      <div class="right">
-        <time>2010</time>
-        <p><?php echo $content['2010']; ?></p>
-      </div>
-    </li>
-    <li>
-      <div class="left">
-        <time>2020</time>
-        <p><?php echo $content['2020']; ?></p>
-      </div>
-    </li>
-  </ul>
-</section>
+
+  <?php foreach ($language['timeline'] as $timeline): ?>
+  <section class="timeline">
+    <ul>
+      <li>
+        <img class="img-right" src="./images/trollhattan.jpeg" alt="">
+        <div class="right">
+          <time><?php echo $timeline['rightyear']; ?></time>
+          <p><?php echo $timeline['rightcontent']; ?></p>
+        </div>
+      </li>
+      <li>
+        <img class="img-left" src="./images/trollhattan.jpeg" alt="">
+        <div class="left">
+          <time><?php echo $timeline['leftyear']; ?></time>
+          <p><?php echo $timeline['leftcontent']; ?></p>
+        </div>
+      </li>
+    </ul>
+  </section>
+    <?php endforeach; ?>
 
 <a href="contact.php"><button type="button"><?php echo $btn['btnFollow'] ?></button></a>
 

@@ -1,6 +1,18 @@
 <?php
 
-require __DIR__.'/lang/lang.php';
+if (isset($_GET['language'])) {
+  $language = $_GET['language'];
+
+  if ($language == 'En') {
+    require __DIR__.'/english.php';
+  }
+  elseif ($language == 'Sv') {
+    require __DIR__.'/swedish.php';
+  }
+}
+else {
+  require __DIR__.'/english.php';
+}
 
 ?>
 
@@ -17,12 +29,13 @@ require __DIR__.'/lang/lang.php';
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="accessories.css">
 <link rel="stylesheet" href="sustaineble.css">
+<link rel="stylesheet" href="time.css">
   <!-- <link rel="stylesheet" href="feature.css"> -->
   <link rel="stylesheet" href="firstpage.css">
 <link rel="stylesheet" href="gofurther.css">
   <link rel="stylesheet" href="footer.css">
   <link rel="stylesheet" href="contactpages.css">
-  <link rel="stylesheet" href="timeline.css">
+  <!-- <link rel="stylesheet" href="timeline.css"> -->
   <link rel="stylesheet" href="fea.css">
 
 

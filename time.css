@@ -1,0 +1,148 @@
+.timeline-page {
+  padding-bottom: 10%;
+}
+
+.timeline ul li img {
+  width: 30vw;
+  height: 30vh;
+  position: absolute;
+  /* right: 100  %; */
+}
+
+.img-right {
+  right: 5vw;
+  transform: translate3d(-200px, 0, 0);
+  visibility: hidden;
+  opacity: 0;
+  transition: all .5s ease-in-out;
+  /* z-index: 1; */
+  /* top: 0%; */
+}
+
+.img-left {
+  left: 5vw;
+  transform: translate3d(200px, 0, 0);
+  visibility: hidden;
+  opacity: 0;
+  transition: all .5s ease-in-out;
+  /* z-index: 1; */
+  /* top: 0%; */
+}
+
+.timeline ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline ul li {
+  list-style-type: none;
+  position: relative;
+  width: 2px;
+  margin: 0 auto;
+  background: var(--txt-color);
+  /* display: flex; */
+  /* justify-content: space-around; */
+}
+
+.timeline ul li div {
+  position: relative;
+  height: 70vh;
+  visibility: hidden;
+  opacity: 0;
+  transition: all .5s ease-in-out;
+  /* width: 100vw; */
+}
+
+.timeline ul li div::before {
+  content: '';
+  position: absolute;
+  width: 20vw;
+  height: 2px;
+  background: var(--txt-color);
+}
+
+.timeline ul li .right {
+  /* right: -5%; */
+  right: 8vw;
+  transform: translate3d(200px, 0, 0);
+  /* width: 100vw;
+  position: relative; */
+}
+
+.timeline ul li .left {
+  /* right: -5%; */
+  right: 12vw;
+  transform: translate3d(-200px, 0, 0);
+  /* width: 100vw;
+  position: relative; */
+}
+
+.timeline ul li .right::before {
+  /* position: absolute; */
+  /* right: 70%; */
+}
+
+.timeline ul li .right time {
+  position: absolute;
+  left: 22vw;
+  top: -4.5%;
+  color: var(--h1-color);
+  font-family: "IBM Plex Sans";
+  font-size: 36px;
+  line-height: 47px;
+  letter-spacing: -0.4px;
+}
+
+.timeline ul li .left time {
+  position: absolute;
+  top: -4.5%;
+  right: 2vw;
+  /* left: 20vw; */
+  /* left: -10%;
+  top: -6%; */
+  color: var(--h1-color);
+  font-family: "IBM Plex Sans";
+  font-size: 36px;
+  line-height: 47px;
+  letter-spacing: -0.4px;
+}
+
+.timeline ul li .right img {
+  /* margin-right: 500%; */
+}
+
+
+
+.timeline ul li .left p {
+  position: absolute;
+  right: -2vw;
+  text-align: left;
+  width: 10vw;
+  top: 5%;
+}
+
+.timeline ul li .right p {
+  position: absolute;
+  left: 22vw;
+  text-align: left;
+  width: 10vw;
+  top: 5%;
+}
+
+.timeline ul li.in-view div {
+  transform: none;
+  visibility: visible;
+  opacity: 1;
+}
+
+.timeline ul li.in-view .img-right {
+  transform: none;
+  visibility: visible;
+  opacity: 1;
+}
+
+.timeline ul li.in-view .img-left {
+  transform: none;
+  visibility: visible;
+  opacity: 1;
+}
