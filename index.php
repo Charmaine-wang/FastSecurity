@@ -88,7 +88,7 @@ require __DIR__.'/header.php';
     <hr class="hr1">
   </div>
 <div class="further">
-<h1 class="further-head">Go further <br> with Fast Security</h1>
+<h1 class="further-head"><?php echo $header['goFurther']; ?></h1>
 </div>
 </section>
 
@@ -96,9 +96,9 @@ require __DIR__.'/header.php';
 <!-- Accessories VeraWang page -->
 <section class="page-2-mobile">
   <div class="wera-wang">
-    <h2 class="h2-wera-wang"><?php echo $header['veraHeader'] ?><br> Vera Wang</h2>
+    <h2 class="h2-wera-wang"><?php echo $header['veraHeader']; ?><br> Vera Wang</h2>
   </div>
-  <p>Exclusive first rider augmented reality <br>glasses from our partner.</p>
+  <p><?php echo $content['accWang']; ?></p>
     <button class="wera-wang-button" type="button"><?php echo $btn['btn']; ?></button>
 </section> <!-- end of accessories veraWang page -->
 
@@ -109,7 +109,7 @@ require __DIR__.'/header.php';
     <hr class="hr1">
   </div>
 
-<h1 class="sustaineble-head">Sustaineble for<br>the future</h1>
+<h1 class="sustaineble-head"><?php echo $header['substain']; ?></h1>
 
 </section>
 
@@ -128,14 +128,14 @@ require __DIR__.'/header.php';
 
       <div class="navigator">
         <ul class="feature-nav">
-          <li><a href="exterior.php">Exterior</a></li>
-          <li><a href="interior.php">Interior</a></li>
-          <li><a href="color.php">Color</a></li>
+          <li><a href="exterior.php"><?php echo $navbar['exterior']; ?></a></li>
+          <li><a href="interior.php"><?php echo $navbar['exterior'];?> </a></li>
+          <li><a href="color.php"><?php echo $navbar['color'];?> </a></li>
         </ul>
       </div>
 
       <div class="exterior-text">
-          <h3>Feeling special<br>with personalized features</h3>
+          <h3><?php echo $header['featuresHeader'] ?></h3>
           <h2><?php echo $header['exteriorHeader']; ?></h2>
           <p><?php echo $content['exterior'] ?></p>
           <a href="contact.php"><button class="feature-button" type="button"><?php echo $btn['btn'] ?></button></a>
@@ -171,7 +171,7 @@ require __DIR__.'/header.php';
           <hr class="hr1">
         </div>
         <div class="color-text">
-          <h2>choose your<br>own color.</h2>
+          <h2><?php echo $header['featureColor'] ?></h2>
         </div>
       </section>
 <!-- end choose your own colorPage -->
