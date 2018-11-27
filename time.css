@@ -6,7 +6,6 @@
   width: 30vw;
   height: 30vh;
   position: absolute;
-  /* right: 100  %; */
 }
 
 .img-right {
@@ -15,8 +14,6 @@
   visibility: hidden;
   opacity: 0;
   transition: all 1s ease-in-out;
-  /* z-index: 1; */
-  /* top: 0%; */
 }
 
 .img-left {
@@ -25,8 +22,6 @@
   visibility: hidden;
   opacity: 0;
   transition: all 1s ease-in-out;
-  /* z-index: 1; */
-  /* top: 0%; */
 }
 
 .timeline ul {
@@ -40,8 +35,6 @@
   width: 2px;
   margin: 0 auto;
   background: var(--txt-color);
-  /* display: flex; */
-  /* justify-content: space-around; */
 }
 
 .timeline ul li div {
@@ -50,7 +43,6 @@
   visibility: hidden;
   opacity: 0;
   transition: all 1s ease-in-out;
-  /* width: 100vw; */
 }
 
 .timeline ul li div::before {
@@ -62,24 +54,13 @@
 }
 
 .timeline ul li .right {
-  /* right: -5%; */
   right: 8vw;
   transform: translate3d(200px, 0, 0);
-  /* width: 100vw;
-  position: relative; */
 }
 
 .timeline ul li .left {
-  /* right: -5%; */
   right: 12vw;
   transform: translate3d(-200px, 0, 0);
-  /* width: 100vw;
-  position: relative; */
-}
-
-.timeline ul li .right::before {
-  /* position: absolute; */
-  /* right: 70%; */
 }
 
 .timeline ul li .right time {
@@ -97,21 +78,12 @@
   position: absolute;
   top: -4.5%;
   right: 2vw;
-  /* left: 20vw; */
-  /* left: -10%;
-  top: -6%; */
   color: var(--h1-color);
   font-family: "IBM Plex Sans";
   font-size: 36px;
   line-height: 47px;
   letter-spacing: -0.4px;
 }
-
-.timeline ul li .right img {
-  /* margin-right: 500%; */
-}
-
-
 
 .timeline ul li .left p {
   position: absolute;
@@ -154,12 +126,7 @@
 @media screen and (max-width: 600px) {
 
   .timeline ul li div {
-    /* position: relative; */
     height: 30vh;
-    /* visibility: hidden;
-    opacity: 0;
-    transition: all 1s ease-in-out; */
-    /* width: 100vw; */
   }
 
   .timeline ul li div::before {
@@ -168,36 +135,19 @@
 
   .timeline ul li .left::before {
     left: -10vw;
-    /* position: absolute; */
-    /* right: 70%; */
   }
 
   .img-right {
     right: 8vw;
-    /* transform: translate3d(-200px, 0, 0);
-    visibility: hidden;
-    opacity: 0;
-    transition: all 1s ease-in-out; */
-    /* z-index: 1; */
-    /* top: 0%; */
   }
 
   .img-left {
     left: 8vw;
-    /* transform: translate3d(200px, 0, 0);
-    visibility: hidden;
-    opacity: 0;
-    transition: all 1s ease-in-out; */
-    /* z-index: 1; */
-    /* top: 0%; */
   }
 
   .timeline ul li img {
     width: 42vw;
     height: 15vh;
-    /* top: 1%; */
-    /* position: absolute; */
-    /* right: 100  %; */
   }
 
   .timeline h2 {
@@ -235,5 +185,4 @@
     width: 35vw;
     top: 15%;
   }
-
 }

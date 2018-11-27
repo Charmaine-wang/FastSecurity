@@ -14,3 +14,13 @@
   text-align: right;
   color: var(--txt-color);
 }
+
+.sustaineble-page .all-page-button p {
+  color: var(--bg-color);
+}
+
+@media screen and (max-width: 600px) {
+  .sustaineble-page {
+    display: none;
+  }
+}

@@ -15,7 +15,6 @@ require __DIR__.'/header.php';
        <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
      </div>
 
-
     <img class="saab" src="images/saablogo.png" alt="Logo">
 
 <div class="language-links">
@@ -78,7 +77,7 @@ require __DIR__.'/header.php';
 <!-- GO FURTHER PAGE -->
 <section class="go-further-page">
 
-  <div class="all-page-button1">
+  <div class="all-page-button">
     <p><?php echo $btn['reserve']; ?></p>
     <hr class="hr1">
   </div>
@@ -99,7 +98,7 @@ require __DIR__.'/header.php';
 
 <!-- Sustaineble page -->
 <section class="sustaineble-page">
-  <div class="all-page-button1">
+  <div class="all-page-button">
     <p><?php echo $btn['reserve']; ?></p>
     <hr class="hr1">
   </div>
@@ -112,28 +111,14 @@ require __DIR__.'/header.php';
 
 <section class="feature-page">
     <div class="exterior">
-      <div class="all-page-button1">
+      <div class="all-page-button">
         <p><?php echo $btn['reserve']; ?></p>
         <hr class="hr1">
       </div>
 
-      <div class="exterior-mobile">
-        <img class="exterior-mobile" src="./images/gw.jpeg" alt="" width="100%">
-      </div>
-
-      <div class="navigator">
-        <ul class="feature-nav">
-          <li><a href="exterior.php"><?php echo $navbar['exterior']; ?></a></li>
-          <li><a href="interior.php"><?php echo $navbar['exterior'];?> </a></li>
-          <li><a href="color.php"><?php echo $navbar['color'];?> </a></li>
-        </ul>
-      </div>
-
       <div class="exterior-text">
-          <h3><?php echo $header['featuresHeader'] ?></h3>
           <h2><?php echo $header['exteriorHeader']; ?></h2>
           <p><?php echo $content['exterior'] ?></p>
-          <a href="contact.php"><button class="feature-button" type="button"><?php echo $btn['btn'] ?></button></a>
       </div>
 
 
@@ -141,6 +126,80 @@ require __DIR__.'/header.php';
       </div>
   </div>
 
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="feature-slide">
+        <img src="images/gw.jpeg" alt="">
+        <div class="navigator">
+          <ul class="feature-nav">
+            <li><a href="exterior.php">Exterior</a></li>
+            <li><a href="interior.php">Interior</a></li>
+            <li><a href="color.php">Color</a></li>
+          </ul>
+        </div>
+          <h3><?php echo $header['featuresHeader'] ?></h3>
+          <a href="contact.php">
+            <button class="feature-button" type="button">
+              <?php echo $btn['btn'] ?>
+            </button>
+          </a>
+      </div>
+    </div>
+    <div class="swiper-wrapper">
+      <div class="exterior-slide">
+        <img src="images/backgroundmoving.jpg" alt="">
+        <div class="navigator">
+          <ul class="feature-nav">
+            <li class="in-focus"><a href="exterior.php">Exterior</a></li>
+            <li><a href="interior.php">Interior</a></li>
+            <li><a href="color.php">Color</a></li>
+          </ul>
+        </div>
+          <p><?php echo $content['exterior'] ?></p>
+          <a href="contact.php">
+            <button class="feature-button" type="button">
+              <?php echo $btn['btn'] ?>
+            </button>
+          </a>
+      </div>
+    </div>
+    <div class="swiper-wrapper">
+        <div class="interior-slide">
+          <img src="images/interior.jpg" alt="">
+          <div class="navigator">
+            <ul class="feature-nav">
+              <li><a href="exterior.php">Exterior</a></li>
+              <li class="in-focus"><a href="interior.php">Interior</a></li>
+              <li><a href="color.php">Color</a></li>
+            </ul>
+          </div>
+            <p><?php echo $content['interior'] ?></p>
+            <a href="contact.php">
+              <button class="feature-button" type="button">
+                <?php echo $btn['btn'] ?>
+              </button>
+            </a>
+        </div>
+    </div>
+    <div class="swiper-wrapper">
+        <div class="color-slide">
+          <img src="images/colours.jpg" alt="">
+          <div class="navigator">
+            <ul class="feature-nav">
+              <li><a href="exterior.php">Exterior</a></li>
+              <li><a href="interior.php">Interior</a></li>
+              <li class="in-focus"><a href="color.php">Color</a></li>
+            </ul>
+          </div>
+            <h1><?php echo $header['featureColor'] ?></h1>
+            <a href="contact.php">
+              <button class="feature-button" type="button">
+                <?php echo $btn['btn'] ?>
+              </button>
+            </a>
+        </div>
+    </div>
+  </div>
 
   <div class="vertical-line">
   </div>
@@ -155,6 +214,7 @@ require __DIR__.'/header.php';
           <p><?php echo $content['interior']; ?></p>
         </div>
       </div>
+
 </section>
 
 <!-- FEATURE PAGES END-->

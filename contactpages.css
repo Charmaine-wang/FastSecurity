@@ -189,6 +189,10 @@ a {
 
 .confirmation h2 {
   margin-bottom: 5%;
+  font-size: 42px;
+  line-height: 48px;
+  font-family: "Bold";
+  margin: 0;
 }
 
 .hr-confirmation {

@@ -5,6 +5,7 @@
   background-color: #34322E;
   display: flex;
   flex-direction: column;
+  /* margin-bottom: 5%; */
   }
 
   .saablogo-footer {
@@ -17,18 +18,18 @@
   .logo-footer {
     height: 170px;
     width: 340px;
-    padding-top: 5%;
+    margin-top: 3%;
   }
 
   .saab-footer {
     height: 60px;
     width: 180px;
-    padding-top: 3%;
+    margin-top: 3%;
     }
 
 
   .footer-button {
-    margin-top: 8%;
+    margin-top: 5%;
     background-color: #34322E;
     color: var(--h1-color);
     border: 1px solid var(--txt-color);
@@ -39,21 +40,23 @@
     border-radius: 3px;
   }
 
-  .hr {
+  /* .hr {
     height: 35%;
     margin-top: 5%;
-      }
+      } */
 
 .footer-hr {
   color: #fffff;
   border-style: inset;
   border-width: 1px;
-  margin: 10% auto;
+  margin: 15% auto 0 auto;
+
+  /* margin-top: 2%; */
   width: 85%;
 }
 
 .ul-footer {
-  height: 5%;
+  margin-top: 5%;
 }
 
 .ul-footer ul {

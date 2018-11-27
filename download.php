@@ -7,7 +7,7 @@ require __DIR__.'/header.php';
 <section class="leave-email">
 
   <div class="contactsheet-background">
-    <img src="./images/contactsheet-background.png" alt="">
+    <img src="./images/konverteringssida.jpg" alt="">
   </div>
 
   <div class="download">

@@ -23,3 +23,9 @@
   text-align: right;
   color: var(--txt-color);
 }
+
+@media screen and (max-width: 600px) {
+  .go-further-page {
+    display: none;
+  }
+}
