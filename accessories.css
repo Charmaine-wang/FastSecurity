@@ -1,6 +1,6 @@
 .page-2-mobile {
   display: flex;
-  background-image: url("images/overlay-glasses.png");
+  background-image: url("images/wang.png");
   background-size: cover;
   width: 100vw;
   height: 100vh;
@@ -25,7 +25,7 @@
   display: flex;
   margin: 0 9% 9% 0;
   font-family: "Light";
-  background-color: rgba(0,0,0,0);
+  background-color: rgba(0, 0, 0, 0);
   color: var(--bg-color);
   justify-content: center;
   width: 474px;
