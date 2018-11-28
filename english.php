@@ -31,7 +31,11 @@ $language = [
              'interior' => 'The high-end technology inside of the FastSecurity puts you In front of a robust titanium steering system and on smooth alcantara seating. The integrated AR-glasses lets you experience the world in a new way - all connected to your FastSecurity motorcycle.',
              'register' => 'To recieve more info about FastSecurity™ and local event invites enter your info below',
              'brochure' => 'Download our brouchure below to learn more about Fast Security',
-             'downCont' => 'Thank you for registrating.'. '<br>'. 'Download our brochure below to'. '<br>'. 'learn more about Fast Security'],
+             'downCont' => 'Thank you for registrating.'. '<br>'. 'Download our brochure below to'. '<br>'. 'learn more about Fast Security',
+             'further' => 'AT THE FOREFRONT OF MODERN'. '<br>'. 'TECHNOLOGY,',
+             'furtherContent' => 'The Fast security motorcycle is using<br>'. 'state-of the art lithium-ion cell and'. '<br>'. 'advanced battery management'. '<br>'. 'systems. each motorcycle is able to '. '<br>'.'travel farther, faster and last longer.',
+             'sustaineble' => 'A HIGH-END DESIGN FORM',
+             'sustainebleCont' => 'The SAAB Fast Security motorcycle is'. '<br>'. 'of the future and will truly be the most'. '<br>'. 'efficient machine on two wheels, with'. '<br>'. 'it’s lightweight aerodynamic body, rider'. '<br>'. 'centric AR-interface and high-powered'. '<br>'. 'electric motor the future will know no'. '<br>'. 'other motorcycle as capable as the'. '<br>'. 'Fast Security.'],
 'button' =>
             ['btn' => 'Start your journey',
              'reserve' => 'Reserve My Fast Security',

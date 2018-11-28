@@ -27,7 +27,7 @@
   font-size: 110px;
   color: var(--h1-color);
   text-align: right;
-  }
+}
 
 .firstpage-h2 {
   line-height: 100px;
@@ -200,7 +200,7 @@ header {
   }
 
   .nav-ist__hidden {
-    transform: translateX(-100%);
+    transform: translateX(100%);
   }
 
   .nav-ist__visible {
@@ -260,6 +260,7 @@ header {
   .header-logo {
     display: flex;
     width: 100%;
+    flex-direction: row-reverse;
     margin-left: 3%;
   }
 
