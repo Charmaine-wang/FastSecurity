@@ -91,7 +91,7 @@ require __DIR__.'/header.php';
 <div class="opacity-content">
 
   <p>AT THE FOREFRONT OF MODERN<br>TECHNOLOGY,<p>
-<!-- <div class="border"><div> -->
+<hr class="border-line">
   <p>The Fast security motorcycle is using<br>state-of the art lithium-ion cell and<br>advanced battery management<br>systems. each motorcycle is able to <br>travel farther, faster and last longer.
 </p>
 </div>
@@ -123,7 +123,7 @@ require __DIR__.'/header.php';
 <div class="opacity-content">
 
   <p>A HIGH-END DESIGN FORM<p>
-<!-- <div class="border"><div> -->
+<hr class="border-line">
   <p>The SAAB Fast Security motorcycle is<br>of the future and will truly be the most<br>efficient machine on two wheels, with<br>it’s lightweight aerodynamic body, rider<br>centric AR-interface and high-powered<br>electric motor the future will know no<br>other motorcycle as capable as the<br>Fast Security.
 
 </p>
