@@ -1,4 +1,7 @@
 # FastSecurity
+
+<img src="https://media.giphy.com/media/fR9agVJaVmFoI/giphy.gif" width="100%">
+
 This is a school project, the assignment was to create a landing page for a new product FastSecurity, FS1.0. The project is collaboration
 with student from Digitial Designer, Computer Graphics Design and Web Developers. 
 
