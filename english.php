@@ -48,26 +48,29 @@ $language = [
   [
     [
       'rightyear' => '1937',
-      'rightcontent' => 'SAAB started in Trollhättan, Sweden',
+      'rightcontent' => 'Saab started in Trollhättan, Sweden. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
       'rightimage' => './images/trollhattan.jpg',
       'leftyear' => '1946',
-      'leftcontent' => 'The first SAAB car is born. The SAAB 92',
+      'leftcontent' => 'The first SAAB car is born. Comfortable, stylish and aerodynamic. The SAAB 92 was revolutionary.',
       'leftimage' => './images/history1.jpg',
     ],
     [
       'rightyear' => '1978',
-      'rightcontent' => 'The SAAB 900 marks a new form factor and power.',
+      'rightcontent' => 'The SAAB 900 marks a new form factor and power. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore',
       'rightimage' => './images/history2.jpg',
       'leftyear' => '1997',
-      'leftcontent' => 'The SAAB 9-5 is unveiled. A car for a new era.',
+      'leftcontent' => 'The SAAB 9-5 is unveiled.
+A car for a new era. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ',
       'leftimage' => './images/history3.jpg',
     ],
     [
       'rightyear' => '2010',
-      'rightcontent' => 'Second generation SAAB 9-5 is made a reality.',
+      'rightcontent' => 'Second generation
+SAAB 9-5 is made a reality. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore',
       'rightimage' => './images/history4.jpg',
       'leftyear' => '2019',
-      'leftcontent' => 'SAAB enters the future with the FastSecurity',
+      'leftcontent' => 'SAAB enters the
+future with the FastSecurity. Duis aute irure dolor in reprehenderit in voluptate.',
       'leftimage' => './images/history5.jpg',
     ],
   ],

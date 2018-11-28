@@ -299,7 +299,7 @@ input:focus::-webkit-input-placeholder {
   }
 
   .download h2 {
-    margin-top: -100%;
+    margin-top: -20%;
     text-align: left;
     font-size: 42px;
     line-height: 48px;
@@ -311,14 +311,8 @@ input:focus::-webkit-input-placeholder {
     margin: 9%;
   }
 
-  .download a {
-    margin-top: 50px;
-  }
-
   .fs-logo2 {
-    z-index: -1;
-    margin-top: 40%;
-    opacity: 0.5;
+    display: none;
   }
 
   .download-button {
@@ -338,7 +332,21 @@ input:focus::-webkit-input-placeholder {
   /* CONFIRMATION PAGE STYLE */
 
   .confirmation {
+    height: 100%;
+    justify-content: space-around;
+  }
+
+  .confirmation-h2 {
+    text-align: center
+  }
+
+  .confirmation img {
     display: none;
   }
+
+  .hr-confirmation {
+    margin-top: 35%;
+  }
+
   /* CONFIRMATION PAGE STYLE END */
 }
