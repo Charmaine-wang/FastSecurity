@@ -77,12 +77,24 @@ require __DIR__.'/header.php';
 <!-- GO FURTHER PAGE -->
 <section class="go-further-page">
 
+
   <div class="all-page-button">
     <p><?php echo $btn['reserve']; ?></p>
     <hr class="hr1">
   </div>
+
 <div class="further">
 <h1 class="further-head"><?php echo $header['goFurther']; ?></h1>
+</div>
+<div class="opacity-box">
+
+<div class="opacity-content">
+
+  <p>AT THE FOREFRONT OF MODERN<br>TECHNOLOGY,<p>
+<!-- <div class="border"><div> -->
+  <p>The Fast security motorcycle is using<br>state-of the art lithium-ion cell and<br>advanced battery management<br>systems. each motorcycle is able to <br>travel farther, faster and last longer.
+</p>
+</div>
 </div>
 </section>
 
@@ -99,13 +111,24 @@ require __DIR__.'/header.php';
 
 <!-- Sustaineble page -->
 <section class="sustaineble-page">
+
   <div class="all-page-button">
     <p><?php echo $btn['reserve']; ?></p>
     <hr class="hr1">
   </div>
 
 <h1 class="sustaineble-head"><?php echo $header['substain']; ?></h1>
+<div class="opacity-box">
 
+<div class="opacity-content">
+
+  <p>A HIGH-END DESIGN FORM<p>
+<!-- <div class="border"><div> -->
+  <p>The SAAB Fast Security motorcycle is<br>of the future and will truly be the most<br>efficient machine on two wheels, with<br>it’s lightweight aerodynamic body, rider<br>centric AR-interface and high-powered<br>electric motor the future will know no<br>other motorcycle as capable as the<br>Fast Security.
+
+</p>
+</div>
+</div>
 </section>
 
 <!-- FEATURE PAGES -->
