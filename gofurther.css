@@ -22,8 +22,48 @@
   line-height: 60px;
   text-align: right;
   color: var(--txt-color);
+  z-index: 1;
+  align-self: flex-start;
+  margin-right: 6%;
 }
 
+.opacity-box {
+  display: flex;
+  width: 28%;
+  height: 100vh;
+  background-color: rgba(52, 50, 46, 0.7);
+  margin: -9%;
+  align-content: flex-end;
+  position: absolute;
+  right: 20vw;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.opacity-content {
+  display: flex;
+  align-items: center;
+  height: 30%;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: left;
+}
+
+.opacity-content p {
+  font-family: "Light";
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.7px;
+  color: var(--h1-color);
+}
+
+/* .border {
+  border: 0;
+  border-top: 7px solid var(--txt-color);
+  width: 40px;
+  margin: 40%;
+} */
 @media screen and (max-width: 600px) {
   .go-further-page {
     display: none;
