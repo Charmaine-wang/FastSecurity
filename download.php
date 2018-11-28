@@ -36,7 +36,7 @@ require __DIR__.'/header.php';
     <!-- </button> -->
     </a>
     <hr class="hr-download">
-    <a href="#">
+    <a href="index.php">
       <button class="back-button" type="button" name="button">
         <i class="fas fa-angle-left"></i><?php echo $btn['back'] ?>
       </button>

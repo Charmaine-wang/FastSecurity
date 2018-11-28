@@ -218,10 +218,11 @@
   .productfolder h2 {
     font-size: 36px;
     line-height: 38px;
-    margin: 5% 5% 0 0;
+    margin: 10% 5% 0 0;
   }
 
   .productfolder a {
+    margin-bottom: 20%;
     align-self: center;
   }
 }
