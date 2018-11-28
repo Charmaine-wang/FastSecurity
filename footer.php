@@ -2,7 +2,9 @@
   <div class="saablogo-footer">
     <img class="saab-footer" src="images/saablogo.png" alt="">
     <img  class="logo-footer" src="images/FASTSECURITY_FS_logo.png" alt="">
-  <a href="contact.php"><button type="button" class="footer-button">Start your journey</button></a>
+  <a href="contact.php"><button type="button" class="footer-button">
+    <?php echo $btn['btn']; ?>
+  </button></a>
   </div>
 
 <!-- <div class="hr"> -->

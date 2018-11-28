@@ -95,7 +95,7 @@
 
 .vertical-line {
   border-left: 2px solid var(--txt-color);
-  height: 707px;
+  height: 87%;
   align-self: center;
   justify-content: center;
   margin-right: 5%;
@@ -129,7 +129,6 @@
 .progressbar-side {
   display: none;
 }
-
 
 @media screen and (max-width: 600px) {
   .journey {
@@ -228,7 +227,7 @@
   }
 
   .feature-button {
-    margin: 20% 0 0 28% ;
+    margin: 20% 0 0 28%;
   }
 
   .color-page {
@@ -271,7 +270,7 @@
     margin-top: 9%;
   }
 
-  .in-focus a  {
+  .in-focus a {
     color: var(--txt-color);
     font-family: "Bold"
   }
