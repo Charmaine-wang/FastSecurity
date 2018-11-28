@@ -1,0 +1,199 @@
+/* INTRO SECTION TO TIMELINE
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.timeline-page {
+  padding: 0 0 100px 0;
+}
+
+/* .journey {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 0px;
+} */
+
+.journey p {
+  /* margin-bottom: 7px; */
+  font-family: "Light";
+  font-size: 14px;
+  line-height: 14px;
+  /* padding: 5px; */
+  color: var(--h1-color);
+}
+
+.hr1 {
+  border: 0;
+  border-top: 7px solid var(--txt-color);
+  width: 40px;
+  margin: 5px;
+}
+
+.journey:hover {
+  cursor: pointer;
+}
+
+.hr1:hover {
+  transition: .5s;
+  width: 150px;
+}
+
+p:hover+.hr1 {
+  cursor: pointer;
+  transition: .5s;
+  width: 150px;
+}
+
+/* INTRO SECTION TO TIMELINE END*/
+/* TIMELINE STYLE */
+time {
+  color: var(--h1-color);
+  font-family: "IBM Plex Sans";
+  font-size: 23px;
+  position: absolute;
+}
+
+.timeline p {
+  color: var(--txt-color);
+  width: 20vw;
+  font-family: "Light";
+  font-size: 16px;
+  margin-top: 35px;
+  position: relative;
+}
+
+.timeline ul li {
+  list-style-type: none;
+  position: relative;
+  width: 1px;
+  margin: 0 auto;
+  background: #FFFFFF;
+  /* display: flex; */
+}
+
+.timeline ul li div {
+  visibility: hidden;
+  opacity: 0;
+  transition: all .5s ease-in-out;
+  position: relative;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline ul li div::before {
+  content: '';
+  position: absolute;
+  top: 30px;
+  width: 100px;
+  height: 1px;
+  background: #FFFFFF;
+}
+
+.timeline ul li .right {
+  text-align: right;
+  transform: translate3d(200px, 0, 0);
+}
+
+.timeline ul li .right::before {
+  left: 0px;
+}
+
+.timeline ul li .right time {
+  margin-left: 115px;
+}
+
+.timeline ul li .left time {
+  margin-left: -200px;
+}
+
+.timeline ul li .left {
+  text-align: left;
+  transform: translate3d(-200px, 0, 0);
+}
+
+.timeline ul li .left::before {
+  left: -100px;
+}
+
+.timeline ul li .left p {
+  margin-left: -25vw;
+}
+
+.timeline ul li .right p {
+  margin-left: 3vw;
+}
+
+.timeline ul li.in-view div {
+  transform: none;
+  visibility: visible;
+  opacity: 1;
+}
+
+/* TIMELINE STYLE END*/
+@media screen and (max-width: 900px) {
+  .intro {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .container {
+    margin: 20px;
+  }
+
+  .journey {
+    display: none;
+  }
+
+  .timeline ul li .left::before {
+    left: -100px;
+  }
+
+  .timeline ul li .right p {
+    margin-left: 5vw;
+  }
+
+  .timeline ul li .left p {
+    margin-left: -30vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .journey {
+    display: none;
+  }
+
+  .container h2 {
+    font-size: 44px;
+    line-height: 48px;
+  }
+
+  /* TIMELINE STYLE */
+  .timeline p {
+    width: 30vw;
+  }
+
+  .timeline ul li .right::before {
+    left: 0px;
+  }
+
+  .timeline ul li .left::before {
+    left: -100px;
+  }
+
+  .timeline ul li .left time {
+    margin-left: -180px;
+  }
+
+  .timeline ul li .left p {
+    margin-left: -180px;
+  }
+
+  .timeline ul li .right time {
+    margin-left: 100px;
+  }
+
+  .timeline ul li .right p {
+    margin-left: 40px;
+  }
+
+  /* TIMELINE STYLE END*/
+}
