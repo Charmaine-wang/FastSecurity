@@ -1,12 +1,18 @@
 .page-2-mobile {
   display: flex;
-  background-image: url("images/vwglasses.jpg");
+  background-image: url("images/AR_glasses_by-VeraWang.jpg");
   background-position: center;
   background-size: cover;
   width: 100vw;
   height: 100vh;
   justify-content: flex-end;
   align-items: flex-end;
+}
+
+.wera-wang img {
+  width: 10%;
+  height: 20%;
+  margin: 0 15% 5% 0;
 }
 
 .h2-wera-wang {
@@ -43,6 +49,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    filter: opacity(0.8);
   }
 
   .wera-wang {
@@ -51,6 +58,10 @@
   }
 
   .page-2-mobile p {
+    display: none;
+  }
+
+  .wera-wang img {
     display: none;
   }
 

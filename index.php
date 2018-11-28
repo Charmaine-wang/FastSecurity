@@ -90,6 +90,7 @@ require __DIR__.'/header.php';
 <!-- Accessories VeraWang page -->
 <section class="page-2-mobile">
   <div class="wera-wang">
+    <img src="images/SAAB_X_VeraWang.png" alt="">
     <h2 class="h2-wera-wang"><?php echo $header['veraHeader']; ?><br> Vera Wang</h2>
   </div>
   <p><?php echo $content['accWang']; ?></p>
