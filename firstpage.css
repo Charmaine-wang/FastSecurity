@@ -16,7 +16,7 @@
 }
 
 .text-header {
-  /* width: 38%; */
+  width: 55%;
   text-align: right;
   margin-right: 9%;
 }
@@ -70,7 +70,7 @@ header {
   width: 100%;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 20px;
+  margin: 2% 1% 0 0;
 }
 
 .hamburger-icon {

@@ -22,7 +22,7 @@ require __DIR__.'/header.php';
       <input class="name" type="name" name="name" id="name" placeholder="Full name">
     	<input type="email" name="email" id="email" placeholder="E-mail">
     </form>
-    <a href="confirmation.php">
+    <a href="download.php">
       <button class="register-button" type="button">
         <?php echo $btn['register'] ?>
       </button>

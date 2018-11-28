@@ -16,9 +16,11 @@ require __DIR__.'/header.php';
     <h2><?php echo $header['downHeader']; ?></h2>
     <p><?php echo $content['downCont']; ?>
     </p>
+    <a href="confirmation.php">
     <button class="download-button" type="submit"><?php echo $btn['btnDown'] ?>
       <i class="fas fa-download"></i>
     </button>
+    </a>
     <hr class="hr-download">
     <a href="#">
       <button class="back-button" type="button" name="button">

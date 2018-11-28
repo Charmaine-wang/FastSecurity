@@ -12,21 +12,21 @@
 
 @font-face {
   font-family: "Bold";
-  src: url(fonts/AktivGrotesk-Bold.otf);
+  src: url(fonts/AktivGrotesk-Bold.woff);
 }
 
 @font-face {
   font-family: "Light";
-  src: url(fonts/AktivGrotesk-Light.otf);
+  src: url(fonts/AktivGrotesk-Light.woff);
 }
 @font-face {
   font-family: "Medium";
-  src: url(fonts/AktivGrotesk-Medium.otf);
+  src: url(fonts/AktivGrotesk-Medium.woff);
 }
 
 @font-face {
   font-family: "Regular";
-  src: url(fonts/AktivGrotesk-Regular.otf);
+  src: url(fonts/AktivGrotesk-Regular.woff);
 }
 
 @font-face {
