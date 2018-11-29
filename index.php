@@ -30,32 +30,37 @@ require __DIR__.'/header.php';
           <?php endif; ?>
         </div>
       </div>
+      <img class="saab" src="images/saablogo.png" alt="Logo">
+      <div class="language-links">
+        <a class="lang-link-eng" href="?language=En">ENG</a>
+        <a class="lang-link-swe" href="?language=Sv">SWE</a>
+      </div>
+    </div>
 
-      <!-- NAVBAR START -->
-      <ul class="nav-ist nav-ist__hidden">
-        <li class="nav-item">
-          <a href="index.php" class="nav-link-start"><?php echo $navbar['home'];?></a>
-          <hr class="nav-hr">
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link"><?php echo $navbar['exterior'];?></a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link"><?php echo $navbar['interior'];?></a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link"><?php echo $navbar['performance'];?></a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link"><?php echo $navbar['accessories'];?></a>
-        </li>
-        <div class="language-links-nav">
-          <a class="lang-link-eng" href="?language=En">ENG</a>
-          <a class="lang-link-swe" href="?language=Sv">SWE</a>
-        </div>
-      </ul>
-    </nav>
-  </header>
+    <!-- NAVBAR START -->
+    <ul class="nav-ist nav-ist__hidden">
+      <li class="nav-item">
+        <a href="index.php" class="nav-link-start"><?php echo $navbar['home'];?></a>
+        <hr class="nav-hr">
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link"><?php echo $navbar['exterior'];?></a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link"><?php echo $navbar['interior'];?></a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link"><?php echo $navbar['performance'];?></a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link"><?php echo $navbar['accessories'];?></a>
+      </li>
+      <div class="language-links-nav">
+        <a class="lang-link-eng" href="?language=En">ENG</a>
+        <a class="lang-link-swe" href="?language=Sv">SWE</a>
+      </div>
+    </ul>
+  </nav>
 
   <article class="main-text">
     <div class="text-header">
@@ -78,9 +83,7 @@ require __DIR__.'/header.php';
     <p><?php echo $btn['reserve'];?></p>
     <hr class="hr1">
   </div>
-  <div class="further">
-    <h1 class="further-head"><?php echo $header['goFurther'];?></h1>
-  </div>
+  <h1 class="further-head"><?php echo $header['goFurther'];?></h1>
   <div class="opacity-box">
     <div class="opacity-content">
       <p><?php echo $content['further'];?><p>
@@ -92,7 +95,7 @@ require __DIR__.'/header.php';
 <!-- GO FURTHER PAGE END-->
 
 <!-- ACCESSORIES PAGE START -->
-<section class="page-2-mobile">
+<section class="accessories-page">
   <div class="wera-wang">
     <img src="images/SAAB_X_VeraWang.png" alt="">
     <h2 class="h2-wera-wang"><?php echo $header['veraHeader'];?><br> Vera Wang</h2>

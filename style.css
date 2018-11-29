@@ -1,6 +1,7 @@
 body {
-  background: var(--bg-color);
+  /* background: var(--bg-color); */
   color: var(--txt-color);
+   background: linear-gradient(#1F1F1F 0%,#000000 100%);
 }
 
 section {
