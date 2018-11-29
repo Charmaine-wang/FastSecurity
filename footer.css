@@ -1,11 +1,8 @@
 /* FOOTER STYLE*/
 .footer {
-  height: 100vh;
+  height: 80vh;
   width: 100%;
   background-color: #34322E;
-  display: flex;
-  flex-direction: column;
-  /* margin-bottom: 5%; */
 }
 
 .saablogo-footer {
@@ -16,14 +13,12 @@
 }
 
 .logo-footer {
-  height: 170px;
   width: 340px;
   margin-top: 3%;
 }
 
 .saab-footer {
-  height: 60px;
-  width: 180px;
+  height: 40px;
   margin-top: 3%;
 }
 
@@ -39,16 +34,9 @@
   border-radius: 3px;
 }
 
-/* .hr {
-height: 35%;
-margin-top: 5%;
-} */
 .footer-hr {
-  color: #fffff;
-  border-style: inset;
   border-width: 1px;
   margin: 15% auto 0 auto;
-  /* margin-top: 2%; */
   width: 85%;
 }
 
@@ -58,9 +46,7 @@ margin-top: 5%;
 
 .ul-footer ul {
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
-  align-items: center;
 }
 
 .ul-footer ul li {
@@ -74,20 +60,11 @@ margin-top: 5%;
   display: none;
 }
 
-@media screen and (max-width: 900px) {
-  .footer-hr {
-    display: none;
-  }
-}
+/* FOOTER END*/
 
 @media screen and (max-width: 600px) {
-  .footer {
-    height: 20vh;
-    width: 100%;
-    background-color: #34322E;
-    display: flex;
-    flex-direction: column;
-  }
+
+  /* FOOTER START*/
 
   .p-footer {
     display: flex;
@@ -95,39 +72,19 @@ margin-top: 5%;
     justify-content: center;
   }
 
-  .saablogo-footer, .width-button, .only-desktop {
+  .saablogo-footer, .copyright {
     display: none;
   }
 
-  .hr {
-    height: 25%;
-    margin-top: 10%;
-  }
-
   .footer-hr {
-    display: flex;
-    color: #fffff;
-    border-style: inset;
-    border-width: 1px;
     margin: 5% auto;
-    width: 85%;
-  }
-
-  .ul-footer {
-    height: 10%;
   }
 
   .ul-footer ul {
-    display: flex;
-    flex-direction: row;
     justify-content: center;
   }
 
   .ul-footer ul li {
-    list-style: none;
-    color: var(--txt-color);
-    font-family: "Light";
-    font: 24px;
     margin-right: 55px;
     margin-top: 30px;
   }

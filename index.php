@@ -30,21 +30,21 @@ require __DIR__.'/header.php';
       <!-- NAVBAR -->
       <ul class="nav-ist nav-ist__hidden">
         <li class="nav-item">
-          <a href="#1" class="nav-link-start"><?php echo $navbar['home'];?></a>
+          <a href="index.php" class="nav-link-start"><?php echo $navbar['home'];?></a>
           <hr class="nav-hr">
         </li>
 
         <li class="nav-item">
-          <a href="#2" class="nav-link"><?php echo $navbar['exterior'];?></a>
+          <a href="#" class="nav-link"><?php echo $navbar['exterior'];?></a>
         </li>
         <li class="nav-item">
-          <a href="#3" class="nav-link"><?php echo $navbar['interior'];?></a>
+          <a href="#" class="nav-link"><?php echo $navbar['interior'];?></a>
         </li>
         <li class="nav-item">
-          <a href="#4" class="nav-link"><?php echo $navbar['performance'];?></a>
+          <a href="#" class="nav-link"><?php echo $navbar['performance'];?></a>
         </li>
         <li class="nav-item">
-          <a href="#5" class="nav-link"><?php echo $navbar['accessories'];?></a>
+          <a href="#" class="nav-link"><?php echo $navbar['accessories'];?></a>
         </li>
 
         <div class="language-links-nav">
@@ -268,7 +268,6 @@ require __DIR__.'/header.php';
       </div>
     </section>
 
-
     <?php foreach ($language['timeline'] as $timeline): ?>
       <section class="timeline">
         <ul>
@@ -294,9 +293,14 @@ require __DIR__.'/header.php';
 
     <!-- productfolder -->
     <section class="productfolder">
-
+      <div class="productfolder-header">
+        <div class="all-page-button">
+          <p><?php echo $btn['reserve']; ?></p>
+          <hr class="hr1">
+        </div>
+        <h2><?php echo $header['folder'] ?></h2>
+    </div>
       <!-- <div class="productfolder"> -->
-      <h2><?php echo $header['folder'] ?></h2>
       <a href="download.php">
         <svg width="385" height="59" viewBox="0 0 385 59" fill="none" xmlns="http://www.w3.org/2000/svg">
           <rect opacity="0.7848" width="385" height="59" rx="3" fill="#C3A57E"/>

@@ -1,11 +1,17 @@
 'use strict';
 
+/* NAVBAR START */
+
 const hamburgerIcon = document.querySelector('.hamburger-icon');
 const hamburgerMenu = document.querySelector('.nav-ist');
 
 hamburgerIcon.addEventListener('click', () => {
   hamburgerMenu.classList.toggle('nav-ist__visible');
-})
+});
+
+/* NAVBAR END */
+
+/* TIMELINE START */
 
 function isElementInViewport(el) {
   let rect = el.getBoundingClientRect();
@@ -19,8 +25,6 @@ function isElementInViewport(el) {
 
 let items = document.querySelectorAll(".timeline li");
 
-// code for the isElementInViewport function
-
 function callbackFunc() {
   for (let i = 0; i < items.length; i++) {
     if (isElementInViewport(items[i])) {
@@ -32,3 +36,5 @@ function callbackFunc() {
 
 window.addEventListener("load", callbackFunc);
 window.addEventListener("scroll", callbackFunc);
+
+/* TIMELINE END */

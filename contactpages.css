@@ -1,12 +1,5 @@
-form {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-}
-
 input {
   background-color: rgba(0, 0, 0, 0);
-  color: var(--h1-color);
   height: 57px;
   width: 385px;
   margin-bottom: 10%;
@@ -19,23 +12,19 @@ a {
 }
 
 /* CONTACT PAGE STYLE END */
+
 /* LEAVE EMAIL PAGE STYLE */
 .leave-email {
-  position: relative;
-  width: 100vw;
   height: 100vh;
-  display: flex;
-  flex-direction: column;
   align-items: center;
 }
 
 .contactsheet-background {
   position: absolute;
-  opacity: 0.7;
+  opacity: 0.75;
 }
 
 .contactsheet-background img {
-  width: 100vw;
   height: 100vh;
 }
 
@@ -44,7 +33,6 @@ a {
   flex-direction: column;
   align-items: center;
   margin-top: 5%;
-  justify-content: space-around;
   z-index: 1;
 }
 
@@ -60,7 +48,6 @@ a {
 
 .saab-big {
   margin-bottom: 7%;
-  width: 281px;
   height: 64px;
 }
 
@@ -69,7 +56,6 @@ a {
 }
 
 .fs-logo {
-  width: 210px;
   height: 105px;
   margin-bottom: 7%;
 }
@@ -84,18 +70,6 @@ a {
 
 input:focus::-webkit-input-placeholder {
   opacity: 0;
-}
-
-.register-button {
-  color: var(--h1-color);
-  text-align: center;
-  font-family: "Regular";
-  font-size: 16px;
-  line-height: 19px;
-  background-color: rgba(0, 0, 0, 0);
-  border: 2px solid var(--txt-color);
-  height: 61px;
-  width: 230px;
 }
 
 .hr-email {
@@ -115,6 +89,7 @@ input:focus::-webkit-input-placeholder {
 }
 
 /* LEAVE EMAIL PAGE STYLE */
+
 /* DOWNLOAD PAGE STYLE */
 .download {
   display: flex;
@@ -147,23 +122,7 @@ input:focus::-webkit-input-placeholder {
   margin: 15% 0 7% 0;
 }
 
-.download-button {
-  color: var(--h1-color);
-  text-align: center;
-  font-family: "Regular";
-  font-size: 18px;
-  line-height: 21px;
-  letter-spacing: -0.75;
-  background-color: rgba(190, 166, 131, 0.7);
-  border: none;
-  align-self: center;
-  height: 57px;
-  width: 385px;
-  margin-bottom: 25%;
-}
-
 .fs-logo2 {
-  width: 210px;
   height: 105px;
   margin: 5% 0 7% 0;
 }
@@ -175,6 +134,7 @@ input:focus::-webkit-input-placeholder {
 }
 
 /* DOWNLOAD PAGE STYLE END */
+
 /* CONFIRMATION PAGE STYLE */
 .confirmation {
   display: flex;
@@ -187,13 +147,11 @@ input:focus::-webkit-input-placeholder {
 }
 
 .fs-logo3 {
-  width: 210px;
   height: 105px;
   margin: -4% 0 15% 0;
 }
 
 .confirmation h2 {
-  margin-bottom: 5%;
   font-size: 42px;
   line-height: 48px;
   font-family: "Bold";
@@ -211,12 +169,12 @@ input:focus::-webkit-input-placeholder {
 }
 
 /* CONFIRMATION PAGE STYLE END */
+
 @media screen and (max-width: 600px) {
 
   /* LEAVE EMAIL PAGE STYLE */
   .contactsheet {
     height: 100%;
-    width: 100%;
     justify-content: center;
     margin: 0;
   }
@@ -238,7 +196,6 @@ input:focus::-webkit-input-placeholder {
   }
 
   .contactsheet p {
-    /* display: block; */
     align-self: flex-start;
     font-size: 16px;
     line-height: 23px;
@@ -258,15 +215,10 @@ input:focus::-webkit-input-placeholder {
   }
 
   .contactsheet input {
-    background-color: inherit;
     border-radius: 3px;
     border: 1px solid var(--txt-color);
     width: 332px;
     height: 43px;
-  }
-
-  form {
-    margin: 6%;
   }
 
   ::-webkit-input-placeholder {
@@ -274,27 +226,18 @@ input:focus::-webkit-input-placeholder {
     padding-left: 5%
   }
 
-  .register-button {
-    background-color: inherit;
-    border-radius: 3px;
-    border: 1px solid var(--txt-color);
-    height: 44px;
-    width: 168px;
-    margin-bottom: 20%;
-  }
-
   .hr-email {
     display: none;
   }
 
   /* LEAVE EMAIL PAGE STYLE END */
+
   /* DOWNLOAD PAGE STYLE */
   .download {
-    margin-top: 50%;
+    margin-top: 20%;
   }
 
   .download h2 {
-    margin-top: -20%;
     text-align: left;
     font-size: 42px;
     line-height: 48px;
@@ -310,19 +253,12 @@ input:focus::-webkit-input-placeholder {
     display: none;
   }
 
-  .download-button {
-    width: 288px;
-    height: 75px;
-    border-radius: 3px;
-    background-color: rgba(190, 166, 131, 0.8);
-    margin-top: 100px;
-  }
-
   .hr-download {
     display: none;
   }
 
   /* DOWNLOAD PAGE STYLE END */
+
   /* CONFIRMATION PAGE STYLE */
   .confirmation {
     height: 100%;

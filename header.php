@@ -9,9 +9,9 @@ if (isset($_GET['language'])) {
   elseif ($language == 'Sv') {
     require __DIR__.'/swedish.php';
   }
-}
-else {
-  require __DIR__.'/english.php';
+
+} else {
+    require __DIR__.'/english.php';
 }
 
 ?>
@@ -30,6 +30,7 @@ else {
   <link rel="stylesheet" href="accessories.css">
   <link rel="stylesheet" href="sustaineble.css">
   <link rel="stylesheet" href="time.css">
+  <!-- <link rel="stylesheet" href="timeline.css"> -->
   <link rel="stylesheet" href="feature.css">
   <link rel="stylesheet" href="firstpage.css">
   <link rel="stylesheet" href="gofurther.css">
