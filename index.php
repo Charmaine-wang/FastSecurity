@@ -18,8 +18,16 @@ require __DIR__.'/header.php';
         </div>
         <img class="saab" src="images/saablogo.png" alt="Logo">
         <div class="language-links">
-          <a class="lang-link-eng" href="?language=En">ENG</a>
-          <a class="lang-link-swe" href="?language=Sv">SWE</a>
+
+          <?php if($_GET['language'] === 'Sv'): ?>
+            <a class="lang-link-eng not-active" href="?language=En">ENG</a>
+            <a class="lang-link-swe" href="?language=Sv">SWE</a>
+          <?php elseif($_GET['language'] === 'En'): ?>
+            <a class="lang-link-eng" href="?language=En">ENG</a>
+            <a class="lang-link-swe not-active" href="?language=Sv">SWE</a>
+          <?php else: ?>
+            wtf
+          <?php endif; ?>
         </div>
       </div>
 

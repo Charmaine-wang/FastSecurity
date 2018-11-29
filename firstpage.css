@@ -138,6 +138,9 @@ margin-top: -20px;
   font-family: "Medium";
   padding-left: 20px;
 }
+.not-active {
+  color: rgba(217, 217, 217, 0.37) !important;
+}
 
 @media screen and (max-width: 900px) {}
 
