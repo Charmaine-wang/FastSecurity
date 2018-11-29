@@ -1,6 +1,6 @@
 'use strict';
 
-/* NAVBAR START */
+
 
 const hamburgerIcon = document.querySelector('.hamburger-icon');
 const hamburgerMenu = document.querySelector('.nav-ist');
@@ -9,9 +9,9 @@ hamburgerIcon.addEventListener('click', () => {
   hamburgerMenu.classList.toggle('nav-ist__visible');
 });
 
-/* NAVBAR END */
 
-/* TIMELINE START */
+
+
 
 function isElementInViewport(el) {
   let rect = el.getBoundingClientRect();
@@ -36,5 +36,3 @@ function callbackFunc() {
 
 window.addEventListener("load", callbackFunc);
 window.addEventListener("scroll", callbackFunc);
-
-/* TIMELINE END */

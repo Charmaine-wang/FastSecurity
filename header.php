@@ -12,7 +12,7 @@ if (isset($_GET['language'])) {
 
 } else {
     require __DIR__.'/english.php';
-}
+};
 
 ?>
 

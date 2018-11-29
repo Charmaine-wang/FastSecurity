@@ -49,7 +49,7 @@ $language = [
     'btnBack' => 'Take me back',
     'btnDown' => 'Download your brouchure here',
     'back' => 'Take me back'
-],
+  ],
 
   'timeline' => [
     [

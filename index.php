@@ -299,7 +299,7 @@ require __DIR__.'/header.php';
           <hr class="hr1">
         </div>
         <h2><?php echo $header['folder'] ?></h2>
-    </div>
+      </div>
       <!-- <div class="productfolder"> -->
       <a href="download.php">
         <svg width="385" height="59" viewBox="0 0 385 59" fill="none" xmlns="http://www.w3.org/2000/svg">
