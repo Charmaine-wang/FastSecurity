@@ -107,8 +107,8 @@ header {
 }
 
 /* .nav-ist__visible {
-  transform: translateX(0);
-  margin-top: -20px;
+transform: translateX(0);
+margin-top: -20px;
 } */
 .nav-ist {
   display: none;

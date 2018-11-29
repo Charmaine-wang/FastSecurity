@@ -144,7 +144,6 @@
 }
 
 @media screen and (max-width: 600px) {
-
   .timeline ul li div {
     height: 30vh;
   }

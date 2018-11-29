@@ -1,9 +1,9 @@
 :root {
-   --bg-color: #000000;
-   --h1-color: #FFFFFF;
-   --txt-color: #BEA683;
-   --input-color: #9A8467;
-/* --padding: 2vh;
+  --bg-color: #000000;
+  --h1-color: #FFFFFF;
+  --txt-color: #BEA683;
+  --input-color: #9A8467;
+  /* --padding: 2vh;
   --text-header: 4vh;
   --text-info: 2vh;
   --text-box: 30vh;
@@ -19,6 +19,7 @@
   font-family: "Light";
   src: url(fonts/AktivGrotesk-Light.woff);
 }
+
 @font-face {
   font-family: "Medium";
   src: url(fonts/AktivGrotesk-Medium.woff);

@@ -2,7 +2,7 @@
 
 require __DIR__.'/header.php';
 
- ?>
+?>
 
 <section class="leave-email">
 
@@ -19,7 +19,7 @@ require __DIR__.'/header.php';
       <button class="back-button" type="button" name="button">
         <i class="fas fa-angle-left"></i> <?php echo $btn['back']; ?>
       </button>
-      </a>
+    </a>
   </div>
 
 </section>

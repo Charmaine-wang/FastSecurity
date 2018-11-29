@@ -11,7 +11,6 @@ body {
   color: var(--txt-color);
   margin: 0;
   padding: 0;
-  /* padding-bottom: 50px; */
   display: flex;
   height: 100%;
   width: 100%;
@@ -83,13 +82,12 @@ button:hover {
 }
 
 /* .all-page-button1 p {
-  color: var(--h1-color);
-  font-family: "Light";
-  font-size: 16px;
-  line-height: 19px;
-  letter-spacing: 0.5px;
+color: var(--h1-color);
+font-family: "Light";
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.5px;
 } */
-
 .all-page-button p {
   color: var(--h1-color);
   font-family: "Light";
@@ -109,10 +107,6 @@ button:hover {
   cursor: pointer;
 }
 
-/* .all-page-button1:hover {
-  cursor: pointer;
-} */
-
 .hr1:hover {
   transition: .5s;
   width: 150px;
@@ -124,12 +118,12 @@ p:hover+.hr1 {
   width: 150px;
 }
 
-  @media screen and (max-width: 600px) {
-    h1 {
-      font-size: 44px;
-    }
-
-    .all-page-button {
-      display: none;
-    }
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 44px;
   }
+
+  .all-page-button {
+    display: none;
+  }
+}

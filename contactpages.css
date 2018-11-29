@@ -115,7 +115,6 @@ input:focus::-webkit-input-placeholder {
 }
 
 /* LEAVE EMAIL PAGE STYLE */
-
 /* DOWNLOAD PAGE STYLE */
 .download {
   display: flex;
@@ -176,9 +175,7 @@ input:focus::-webkit-input-placeholder {
 }
 
 /* DOWNLOAD PAGE STYLE END */
-
 /* CONFIRMATION PAGE STYLE */
-
 .confirmation {
   display: flex;
   flex-direction: column;
@@ -190,9 +187,9 @@ input:focus::-webkit-input-placeholder {
 }
 
 .fs-logo3 {
-    width: 210px;
-    height: 105px;
-    margin: -4% 0 15% 0;
+  width: 210px;
+  height: 105px;
+  margin: -4% 0 15% 0;
 }
 
 .confirmation h2 {
@@ -214,10 +211,9 @@ input:focus::-webkit-input-placeholder {
 }
 
 /* CONFIRMATION PAGE STYLE END */
-
 @media screen and (max-width: 600px) {
-  /* LEAVE EMAIL PAGE STYLE */
 
+  /* LEAVE EMAIL PAGE STYLE */
   .contactsheet {
     height: 100%;
     width: 100%;
@@ -293,7 +289,6 @@ input:focus::-webkit-input-placeholder {
 
   /* LEAVE EMAIL PAGE STYLE END */
   /* DOWNLOAD PAGE STYLE */
-
   .download {
     margin-top: 50%;
   }
@@ -328,9 +323,7 @@ input:focus::-webkit-input-placeholder {
   }
 
   /* DOWNLOAD PAGE STYLE END */
-
   /* CONFIRMATION PAGE STYLE */
-
   .confirmation {
     height: 100%;
     justify-content: space-around;

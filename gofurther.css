@@ -64,12 +64,6 @@
   margin: 5% 0 5% 0;
 }
 
-/* .border-line {
-  border: 0;
-  border-top: 7px solid var(--txt-color);
-  width: 40px;
-  margin: 40%;
-} */
 @media screen and (max-width: 600px) {
   .go-further-page {
     display: none;
