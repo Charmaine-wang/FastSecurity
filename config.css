@@ -1,7 +1,12 @@
 :root {
-  --bg-color: #1F1F1F;
+  --bg-color: #000000;
   --h1-color: #FFFFFF;
   --txt-color: #BEA683;
+  /* --padding: 2vh;
+  --text-header: 4vh;
+  --text-info: 2vh;
+  --text-box: 30vh;
+  --image-width: 100%; */
 }
 
 @font-face {

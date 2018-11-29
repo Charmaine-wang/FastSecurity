@@ -1,7 +1,9 @@
-.accessories-page {
+.page-2-mobile {
+  display: flex;
   background-image: url("images/AR_glasses_by-VeraWang.jpg");
   background-position: center;
   background-size: cover;
+  width: 100vw;
   height: 100vh;
   justify-content: flex-end;
   align-items: flex-end;
@@ -16,7 +18,7 @@
   display: none;
 }
 
-.accessories-page p {
+.page-2-mobile p {
   color: #1F1F1F;
   font-size: 24px;
   line-height: 38px;
@@ -42,16 +44,21 @@
 }
 
 @media screen and (max-width: 600px) {
-  .accessories-page {
+  .page-2-mobile {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     filter: opacity(0.8);
   }
 
   .wera-wang {
+    display: flex;
     margin: 90% 5% 20% 0;
   }
 
-  .accessories-page p {
+  .page-2-mobile p {
     display: none;
   }
 
@@ -61,14 +68,18 @@
 
   .h2-wera-wang {
     display: inherit;
+    /* align-self: center; */
     padding-top: 20%;
     margin: auto;
     text-align: right;
+    color: var(--txt-color);
     font-size: 36px;
     line-height: 48px;
+    font-family: "Bold";
   }
 
   .wera-wang-button {
+    display: flex;
     width: 168px;
     height: 44px;
     font-size: 16px;

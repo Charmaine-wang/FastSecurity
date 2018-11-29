@@ -66,6 +66,10 @@
 
   /* FOOTER START*/
   .footer {
+    height: 30vh;
+  }
+
+  .footer {
     height: 20vh;
   }
 
