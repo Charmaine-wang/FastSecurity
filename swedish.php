@@ -37,9 +37,9 @@ $language = [
     'brochure' => 'Ladda ner vår brouchure nedan för att lära dig mer om Fast Security',
     'downCont' => 'Tack för registreringen.'. '<br>'. 'Ladda ner vår broschyr nedan till'. '<br>'. 'lära dig mer om snabb säkerhet',
     'further' => 'I FOREFRONT AV MODERNA'. '<br>' . 'TEKNIK,',
-    'furtherContent' => 'Den snabba säkerhetsmotorcykeln använder'. '<br>'. 'state-of-the-art litiumjoncellen och'. '<br>'. 'avancerad batteristyrning'. '<br>'. 'system. varje motorcykel kan'. '<br>'. 'Gå längre, snabbare och varar längre.',
+    'furtherContent' => 'Den snabba säkerhetsmotorcykeln använder'. '<br>'. 'state-of-the-art litiumjoncellen och'. '<br>'. 'avancerad batteristyrning'. '<br>'. 'system. varje motorcykel kan'. '<br>'. 'resa längre, snabbare och vara längre.',
     'sustaineble' => 'EN AVANCERAD DESIGNFORM',
-    'sustainebleCont' => 'SAAB Fast Security motorcykel är'. '<br>'. 'i framtiden och kommer verkligen att bli den mest'. '<br>'. 'effektiv maskin på två hjul, med'. '<br>'. 'det är lätt aerodynamisk kropp, ryttare'. '<br>'. 'centric AR-interface och high-powered'. '<br>'. 'elmotor framtiden kommer att känna nej'. '<br>'. 'annan motorcykel så kapabel som'. '<br>'. 'Snabb säkerhet.'
+    'sustainebleCont' => 'SAAB Fast Security motorcykel är'. '<br>'. 'i framtiden och kommer verkligen att bli den mest'. '<br>'. 'effektiv maskin på två hjul, med'. '<br>'. 'det är lätt aerodynamisk kropp, ryttare'. '<br>'. 'centric AR-interface och high-powered'. '<br>'. 'elmotor framtiden kommer att känna nej'. '<br>'. 'annan motorcykel så kapabel som'. '<br>'. 'Fast Security.'
   ],
 
   'button' => [
