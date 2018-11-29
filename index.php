@@ -19,14 +19,19 @@ require __DIR__.'/header.php';
         <img class="saab" src="images/saablogo.png" alt="Logo">
         <div class="language-links">
 
-          <?php if($_GET['language'] === 'Sv'): ?>
-            <a class="lang-link-eng not-active" href="?language=En">ENG</a>
-            <a class="lang-link-swe" href="?language=Sv">SWE</a>
-          <?php elseif($_GET['language'] === 'En'): ?>
+          <?php if(isset($_GET['language'])): ?>
+
+            <?php if($_GET['language'] === 'Sv'): ?>
+              <a class="lang-link-eng not-active" href="?language=En">ENG</a>
+              <a class="lang-link-swe" href="?language=Sv">SWE</a>
+            <?php elseif($_GET['language'] === 'En'): ?>
+              <a class="lang-link-eng" href="?language=En">ENG</a>
+              <a class="lang-link-swe not-active" href="?language=Sv">SWE</a>
+            <?php endif; ?>
+
+          <?php else: ?>
             <a class="lang-link-eng" href="?language=En">ENG</a>
             <a class="lang-link-swe not-active" href="?language=Sv">SWE</a>
-          <?php else: ?>
-            wtf
           <?php endif; ?>
         </div>
       </div>
@@ -50,8 +55,20 @@ require __DIR__.'/header.php';
           <a href="#" class="nav-link"><?php echo $navbar['accessories'];?></a>
         </li>
         <div class="language-links-nav">
-          <a class="lang-link-eng" href="?language=En">ENG</a>
-          <a class="lang-link-swe" href="?language=Sv">SWE</a>
+          <?php if(isset($_GET['language'])): ?>
+
+            <?php if($_GET['language'] === 'Sv'): ?>
+              <a class="lang-link-eng not-active-mobile" href="?language=En">ENG</a>
+              <a class="lang-link-swe" href="?language=Sv">SWE</a>
+            <?php elseif($_GET['language'] === 'En'): ?>
+              <a class="lang-link-eng" href="?language=En">ENG</a>
+              <a class="lang-link-swe not-active-mobile" href="?language=Sv">SWE</a>
+            <?php endif; ?>
+
+          <?php else: ?>
+            <a class="lang-link-eng" href="?language=En">ENG</a>
+            <a class="lang-link-swe not-active-mobile" href="?language=Sv">SWE</a>
+          <?php endif; ?>
         </div>
       </ul>
     </nav>
