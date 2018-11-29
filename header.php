@@ -30,7 +30,6 @@ if (isset($_GET['language'])) {
   <link rel="stylesheet" href="accessories.css">
   <link rel="stylesheet" href="sustaineble.css">
   <link rel="stylesheet" href="time.css">
-  <!-- <link rel="stylesheet" href="timeline.css"> -->
   <link rel="stylesheet" href="feature.css">
   <link rel="stylesheet" href="firstpage.css">
   <link rel="stylesheet" href="gofurther.css">

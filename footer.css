@@ -66,6 +66,10 @@
 
   /* FOOTER START*/
 
+  .footer {
+    height: 20vh;
+  }
+
   .p-footer {
     display: flex;
     color: #BEA683;

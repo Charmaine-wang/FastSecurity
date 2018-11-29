@@ -55,7 +55,7 @@ $language = [
   'timeline' => [
     [
       'rightyear' => '1937',
-      'rightcontent' => 'SAAB started in Trollhättan, Sweden',
+      'rightcontent' => 'SAAB started in Trollhättan, Sweden.',
       'rightimage' => './images/trollhattan.jpg',
       'leftyear' => '1946',
       'leftcontent' => 'The first SAAB car is born. The SAAB 92',

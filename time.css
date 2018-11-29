@@ -134,7 +134,7 @@
   background-size: cover;
 }
 
-.productfolder h2 {
+.productfolder-header {
   margin-top: 9%;
 }
 
@@ -206,15 +206,7 @@
     top: 15%;
   }
 
-  .productfolder {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
-  .productfolder h2 {
+  .productfolder-header h2 {
     font-size: 36px;
     line-height: 38px;
     margin: 10% 5% 0 0;
@@ -222,6 +214,5 @@
 
   .productfolder a {
     margin-bottom: 20%;
-    align-self: center;
   }
 }

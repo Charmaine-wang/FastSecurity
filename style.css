@@ -1,21 +1,11 @@
 body {
   background: var(--bg-color);
   color: var(--txt-color);
-  margin: 0;
-  padding: 0;
-  display: flex;
-  height: 100%;
-  width: 100%;
-  flex-direction: column;
-  align-items: center;
 }
 
 section {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  margin: 0;
-  padding: 0;
 }
 
 h1 {
@@ -41,28 +31,8 @@ p {
   font-size: 16px;
 }
 
-button {
-  background-color: var(--bg-color);
-  color: var(--h1-color);
-  border: 1px solid var(--txt-color);
-  height: 44px;
-  width: 168px;
-  font-family: "Regular";
-  font-size: 16px;
-  border-radius: 3px;
-  line-height: 19px;
-}
-
 button:hover {
   cursor: pointer;
-}
-
-.all-page-button1 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 0px;
-  margin-left: -65%;
 }
 
 .all-page-button {
@@ -73,13 +43,6 @@ button:hover {
   margin-left: -69%;
 }
 
-/* .all-page-button1 p {
-color: var(--h1-color);
-font-family: "Light";
-font-size: 16px;
-line-height: 19px;
-letter-spacing: 0.5px;
-} */
 .all-page-button p {
   color: var(--h1-color);
   font-family: "Light";
@@ -111,10 +74,6 @@ p:hover+.hr1 {
 }
 
 @media screen and (max-width: 600px) {
-  h1 {
-    font-size: 44px;
-  }
-
   .all-page-button {
     display: none;
   }

@@ -65,8 +65,7 @@ $language = [
       'rightcontent' => 'The SAAB 900 marks a new form factor and power. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore',
       'rightimage' => './images/history2.jpg',
       'leftyear' => '1997',
-      'leftcontent' => 'The SAAB 9-5 is unveiled.
-      A car for a new era. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ',
+      'leftcontent' => 'The SAAB 9-5 is unveiled. A car for a new era. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ',
       'leftimage' => './images/history3.jpg',
     ],
     [
@@ -74,8 +73,7 @@ $language = [
       'rightcontent' => 'Second generation SAAB 9-5 is made a reality. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore',
       'rightimage' => './images/history4.jpg',
       'leftyear' => '2019',
-      'leftcontent' => 'SAAB enters the
-      future with the FastSecurity. Duis aute irure dolor in reprehenderit in voluptate.',
+      'leftcontent' => 'SAAB enters the future with the FastSecurity. Duis aute irure dolor in reprehenderit in voluptate.',
       'leftimage' => './images/history5.jpg',
     ],
   ],

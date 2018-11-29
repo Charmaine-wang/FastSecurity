@@ -252,7 +252,8 @@
     line-height: 38px;
     text-align: right;
     letter-spacing: 0.1px;
-    margin: 10% 5% 30% 0;
+    margin: 10% 0% 5% 10%;
+    width: 85vw;
   }
 
   .feature-slide img, .exterior-slide img, .interior-slide img, .color-slide img {
