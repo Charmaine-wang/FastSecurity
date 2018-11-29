@@ -187,6 +187,14 @@
     width: 271px;
   }
 
+  .active-mobile {
+    border-bottom: 4px solid #9E9E9E;
+  }
+
+  .not-active-mobile {
+    color: rgba(52, 50, 46, 0.37) !important;
+  }
+
   .header-logo {
     flex-direction: row-reverse;
     margin-left: 3%;
@@ -205,15 +213,19 @@
     margin-left: 5%;
   }
 
+  .language-links-nav a {
+    margin: 2%;
+  }
+
   .lang-link-eng {
     border-right: none;
-    border-bottom: 4px solid #9E9E9E;
-    padding: 0 0 2% 0;
     color: #34322E;
+    padding: 0;
   }
 
   .lang-link-swe {
     color: #34322E;
+    padding: 0;
   }
 
   .hamburger-icon {

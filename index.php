@@ -35,14 +35,8 @@ require __DIR__.'/header.php';
           <?php endif; ?>
         </div>
       </div>
-      <img class="saab" src="images/saablogo.png" alt="Logo">
-      <div class="language-links">
-        <a class="lang-link-eng" href="?language=En">ENG</a>
-        <a class="lang-link-swe" href="?language=Sv">SWE</a>
-      </div>
     </div>
 
-<<<<<<< HEAD
       <!-- NAVBAR START -->
       <ul class="nav-ist nav-ist__hidden">
         <li class="nav-item">
@@ -66,21 +60,21 @@ require __DIR__.'/header.php';
 
             <?php if($_GET['language'] === 'Sv'): ?>
               <a class="lang-link-eng not-active-mobile" href="?language=En">ENG</a>
-              <a class="lang-link-swe" href="?language=Sv">SWE</a>
+              <a class="lang-link-swe active-mobile" href="?language=Sv">SWE</a>
             <?php elseif($_GET['language'] === 'En'): ?>
-              <a class="lang-link-eng" href="?language=En">ENG</a>
+              <a class="lang-link-eng active-mobile" href="?language=En">ENG</a>
               <a class="lang-link-swe not-active-mobile" href="?language=Sv">SWE</a>
             <?php endif; ?>
 
           <?php else: ?>
-            <a class="lang-link-eng" href="?language=En">ENG</a>
+            <a class="lang-link-eng active-mobile" href="?language=En">ENG</a>
             <a class="lang-link-swe not-active-mobile" href="?language=Sv">SWE</a>
           <?php endif; ?>
         </div>
       </ul>
     </nav>
   </header>
-=======
+
     <!-- NAVBAR START -->
     <ul class="nav-ist nav-ist__hidden">
       <li class="nav-item">
@@ -105,7 +99,6 @@ require __DIR__.'/header.php';
       </div>
     </ul>
   </nav>
->>>>>>> parent of ccff542... Revert "add grey color not active lang"
 
   <article class="main-text">
     <div class="text-header">
