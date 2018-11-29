@@ -95,7 +95,7 @@
 }
 
 .not-active {
-  color: rgba(217, 217, 217, 0.37) !important;
+  color: rgba(217, 217, 217, 0.37);
 }
 
 @media screen and (max-width: 600px) {

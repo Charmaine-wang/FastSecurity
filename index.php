@@ -196,7 +196,7 @@ require __DIR__.'/header.php';
         </div>
         <h3><?php echo $header['featuresHeader'];?></h3>
         <a href="contact.php">
-          <button class="feature-button" type="button">
+          <button class="feature-button one-button" type="button">
             <?php echo $btn['btn'];?>
           </button>
         </a>

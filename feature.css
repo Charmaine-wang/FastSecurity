@@ -198,15 +198,9 @@
     display: none;
   }
 
-  .feature-button {
-    display: block;
-    /* margin-top: -15%; */
-    position: sticky;
-  }
-
   .navigator {
     display: block;
-    position: sticky;
+    /* position: sticky; */
     /* flex-direction: row; */
   }
 
@@ -225,10 +219,6 @@
   .feature-nav a {
     color: var(--h1-color);
     text-decoration: none;
-  }
-
-  .feature-button {
-    margin: 20% 0 0 28%;
   }
 
   .color-page {
@@ -286,4 +276,22 @@
     width: 70vw;
     margin: 10% 0 35% 5%;
   }
+
+  .feature-button {
+     display: flex;
+     background-color: rgba(0, 0, 0, 0);
+     color: var(--h1-color);
+     border: 1px solid var(--txt-color);
+     height: 44px;
+     width: 168px;
+     font-family: "Regular";
+     font-size: 16px;
+     border-radius: 3px;
+     justify-content: center;
+     margin: 20% 0 0 28%;
+   }
+
+  .one-button {
+    margin: 30.5% 0 0 28%;
+   }
 }
