@@ -3,7 +3,6 @@
   height: 100vh;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
 }
 
 .exterior {
@@ -11,7 +10,7 @@
   display: flex;
   justify-content: space-around;
   flex-direction: column;
-  margin-left: 9%;
+  margin: 0 0 2% 9%;
 }
 
 .exterior-image {
@@ -24,7 +23,6 @@
 
 .exterior-text {
   width: 513px;
-  text-align: left;
   font-family: "Regular";
   letter-spacing: 1px;
   line-height: 30px;
@@ -45,12 +43,6 @@
 .exterior-text p {
   font-size: 16px;
   color: #CBCBCB;
-}
-
-.exterior-text {
-  width: 513px;
-  text-align: left;
-  font-size: 16px;
 }
 
 .exterior-mobile {
@@ -117,7 +109,7 @@
   background-position: bottom;
   padding: 9% 0% 0% 0;
   box-shadow: inset 0px -150px 300px 0px rgba(0, 0, 0, 0.9),
-              inset 0px 100px 300px 0px rgba(0, 0, 0, 0.9);
+    inset 0px 100px 300px 0px rgba(0, 0, 0, 0.9);
 }
 
 .swiper-container {
@@ -125,11 +117,6 @@
 }
 
 @media screen and (max-width: 600px) {
-
-  .feature-page {
-    flex-direction: row;
-  }
-
   .exterior {
     margin: 0;
     width: 0;
@@ -143,11 +130,6 @@
     display: none;
   }
 
-  .exterior-text {
-    height: 70%;
-    width: 100vw;
-  }
-
   .exterior-text h2 {
     display: none;
   }
@@ -157,30 +139,13 @@
   }
 
   .exterior-text h3 {
-    display: block;
     font-size: 36px;
     font-family: "Bold";
     text-align: right;
     line-height: 48px;
-    margin: 0 5% 30% 0;
   }
 
-  .exterior-mobile {
-    width: 100vw;
-    height: 40vh;
-    display: block;
-    margin: 0;
-  }
-
-  .interior-image {
-    display: none;
-  }
-
-  .interior-text {
-    display: none;
-  }
-
-  .vertical-line {
+  .interior-image, .interior-text, .vertical-line {
     display: none;
   }
 
@@ -190,7 +155,6 @@
 
   .feature-nav {
     display: flex;
-    flex-direction: row;
     list-style: none;
     justify-content: space-between;
     font-family: "Light";
@@ -217,10 +181,6 @@
     overflow-x: scroll;
   }
 
-  .swiper-wrapper {
-    width: 100vw;
-  }
-
   .feature-slide h3 {
     font-family: "Bold";
     font-size: 36px;
@@ -234,7 +194,6 @@
   .feature-slide img, .exterior-slide img, .interior-slide img, .color-slide img {
     width: 100vw;
     height: 40vh;
-    position:
   }
 
   .exterior-slide p, .interior-slide p {
@@ -258,25 +217,24 @@
     line-height: 48px;
     text-align: left;
     letter-spacing: 0.2px;
-    width: 70vw;
     margin: 10% 0 35% 5%;
   }
 
   .feature-button {
-     display: flex;
-     background-color: rgba(0, 0, 0, 0);
-     color: var(--h1-color);
-     border: 1px solid var(--txt-color);
-     height: 44px;
-     width: 168px;
-     font-family: "Regular";
-     font-size: 16px;
-     border-radius: 3px;
-     justify-content: center;
-     margin: 20% 0 0 28%;
-   }
+    display: flex;
+    background-color: rgba(0, 0, 0, 0);
+    color: var(--h1-color);
+    border: 1px solid var(--txt-color);
+    height: 44px;
+    width: 168px;
+    font-family: "Regular";
+    font-size: 16px;
+    border-radius: 3px;
+    justify-content: center;
+    margin: 20% 0 0 28%;
+  }
 
   .one-button {
     margin: 30.5% 0 0 28%;
-   }
+  }
 }

@@ -184,13 +184,13 @@ require __DIR__.'/header.php';
         <div class="navigator">
           <ul class="feature-nav">
             <li>
-              <a href="exterior.php">Exterior</a>
+              <a href="">Exterior</a>
             </li>
             <li>
-              <a href="interior.php">Interior</a>
+              <a href="">Interior</a>
             </li>
             <li>
-              <a href="color.php">Color</a>
+              <a href="">Color</a>
             </li>
           </ul>
         </div>
@@ -208,13 +208,13 @@ require __DIR__.'/header.php';
         <div class="navigator">
           <ul class="feature-nav">
             <li class="in-focus">
-              <a href="exterior.php">Exterior</a>
+              <a href="">Exterior</a>
             </li>
             <li>
-              <a href="interior.php">Interior</a>
+              <a href="">Interior</a>
             </li>
             <li>
-              <a href="color.php">Color</a>
+              <a href="">Color</a>
             </li>
           </ul>
         </div>
@@ -232,13 +232,13 @@ require __DIR__.'/header.php';
         <div class="navigator">
           <ul class="feature-nav">
             <li>
-              <a href="exterior.php">Exterior</a>
+              <a href="">Exterior</a>
             </li>
             <li class="in-focus">
-              <a href="interior.php">Interior</a>
+              <a href="">Interior</a>
             </li>
             <li>
-              <a href="color.php">Color</a>
+              <a href="">Color</a>
             </li>
           </ul>
         </div>
@@ -256,13 +256,13 @@ require __DIR__.'/header.php';
         <div class="navigator">
           <ul class="feature-nav">
             <li>
-              <a href="exterior.php">Exterior</a>
+              <a href="">Exterior</a>
             </li>
             <li>
-              <a href="interior.php">Interior</a>
+              <a href="">Interior</a>
             </li>
             <li class="in-focus">
-              <a href="color.php">Color</a>
+              <a href="">Color</a>
             </li>
           </ul>
         </div>
