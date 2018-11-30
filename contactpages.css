@@ -16,6 +16,7 @@ a {
 /* LEAVE EMAIL PAGE STYLE */
 .leave-email {
   height: 100vh;
+  width: 100vw;
   align-items: center;
 }
 
@@ -86,6 +87,9 @@ input:focus::-webkit-input-placeholder {
 .back-button {
   display: contents;
   letter-spacing: 1px;
+  color: var(--h1-color);
+  font-size: 16px;
+  font-family: "Regular";
 }
 
 /* LEAVE EMAIL PAGE STYLE */
